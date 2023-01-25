@@ -1,5 +1,5 @@
 {
-    "name": "/",
+    "name": "Delta Core VoIP API",
     "description": "",
     "keywords": [
         "swagger",
@@ -7,12 +7,16 @@
         "sdk",
         "api"
     ],
-    "homepage": "http://swagger.io",
+    "homepage": "https://delta-core.fr",
     "license": "proprietary",
     "authors": [
         {
             "name": "Swagger and contributors",
             "homepage": "https://github.com/swagger-api/swagger-codegen"
+        },
+         {
+            "name": "Damien Benedetti",
+            "homepage": "https://delta-core.fr"
         }
     ],
     "require": {
