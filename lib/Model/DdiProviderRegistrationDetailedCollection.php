@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DdiProviderRegistrationDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class DdiProviderRegistrationDetailedCollection implements ModelInterface, Array
         'id' => 'int',
         'username' => 'string',
         'domain' => 'string',
-        'status' => '\Swagger\Client\Model\DdiProviderRegistrationStatus'
+        'status' => '\Delta/Voip\Model\DdiProviderRegistrationStatus'
     ];
 
     /**
@@ -319,7 +319,7 @@ class DdiProviderRegistrationDetailedCollection implements ModelInterface, Array
     /**
      * Gets status
      *
-     * @return \Swagger\Client\Model\DdiProviderRegistrationStatus
+     * @return \Delta/Voip\Model\DdiProviderRegistrationStatus
      */
     public function getStatus()
     {
@@ -329,7 +329,7 @@ class DdiProviderRegistrationDetailedCollection implements ModelInterface, Array
     /**
      * Sets status
      *
-     * @param \Swagger\Client\Model\DdiProviderRegistrationStatus $status status
+     * @param \Delta/Voip\Model\DdiProviderRegistrationStatus $status status
      *
      * @return $this
      */

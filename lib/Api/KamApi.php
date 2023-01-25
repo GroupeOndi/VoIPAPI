@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta/Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta/Voip\ApiException;
+use Delta/Voip\Configuration;
+use Delta/Voip\HeaderSelector;
+use Delta/Voip\ObjectSerializer;
 
 /**
  * KamApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,7 +94,7 @@ class KamApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -110,7 +110,7 @@ class KamApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -350,9 +350,9 @@ class KamApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties _properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersAddressCollection[]
+     * @return \Delta/Voip\Model\UsersAddressCollection[]
      */
     public function getUsersAddressCollection($company = null, $company2 = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $source_address = null, $source_address_end = null, $source_address_exact = null, $source_address_partial = null, $source_address_start = null, $_order_description = null, $_order_id = null, $_order_source_address = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
@@ -386,13 +386,13 @@ class KamApi
      * @param  int $_page The collection page number (optional)
      * @param  string $_properties (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersAddressCollection[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\UsersAddressCollection[], HTTP status code, HTTP response headers (array of strings)
      */
     public function getUsersAddressCollectionWithHttpInfo($company = null, $company2 = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $source_address = null, $source_address_end = null, $source_address_exact = null, $source_address_partial = null, $source_address_start = null, $_order_description = null, $_order_id = null, $_order_source_address = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddressCollection[]';
+        $returnType = '\Delta/Voip\Model\UsersAddressCollection[]';
         $request = $this->getUsersAddressCollectionRequest($company, $company2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $source_address, $source_address_end, $source_address_exact, $source_address_partial, $source_address_start, $_order_description, $_order_id, $_order_source_address, $_items_per_page, $_page, $_properties);
 
         try {
@@ -444,7 +444,7 @@ class KamApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersAddressCollection[]',
+                        '\Delta/Voip\Model\UsersAddressCollection[]',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -524,7 +524,7 @@ class KamApi
      */
     public function getUsersAddressCollectionAsyncWithHttpInfo($company = null, $company2 = null, $description = null, $description_end = null, $description_exact = null, $description_exists = null, $description_partial = null, $description_start = null, $id_exact = null, $source_address = null, $source_address_end = null, $source_address_exact = null, $source_address_partial = null, $source_address_start = null, $_order_description = null, $_order_id = null, $_order_source_address = null, $_items_per_page = null, $_page = null, $_properties = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddressCollection[]';
+        $returnType = '\Delta/Voip\Model\UsersAddressCollection[]';
         $request = $this->getUsersAddressCollectionRequest($company, $company2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $source_address, $source_address_end, $source_address_exact, $source_address_partial, $source_address_start, $_order_description, $_order_id, $_order_source_address, $_items_per_page, $_page, $_properties);
 
         return $this->client
@@ -766,9 +766,9 @@ class KamApi
      *
      * @param  string $id id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersAddressDetailed
+     * @return \Delta/Voip\Model\UsersAddressDetailed
      */
     public function getUsersAddressItem($id)
     {
@@ -783,13 +783,13 @@ class KamApi
      *
      * @param  string $id (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersAddressDetailed, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\UsersAddressDetailed, HTTP status code, HTTP response headers (array of strings)
      */
     public function getUsersAddressItemWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddressDetailed';
+        $returnType = '\Delta/Voip\Model\UsersAddressDetailed';
         $request = $this->getUsersAddressItemRequest($id);
 
         try {
@@ -841,7 +841,7 @@ class KamApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersAddressDetailed',
+                        '\Delta/Voip\Model\UsersAddressDetailed',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -883,7 +883,7 @@ class KamApi
      */
     public function getUsersAddressItemAsyncWithHttpInfo($id)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddressDetailed';
+        $returnType = '\Delta/Voip\Model\UsersAddressDetailed';
         $request = $this->getUsersAddressItemRequest($id);
 
         return $this->client
@@ -1038,11 +1038,11 @@ class KamApi
      *
      * Creates a UsersAddress resource.
      *
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The new UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The new UsersAddress resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersAddress
+     * @return \Delta/Voip\Model\UsersAddress
      */
     public function postUsersAddressCollection($users_address = null)
     {
@@ -1055,15 +1055,15 @@ class KamApi
      *
      * Creates a UsersAddress resource.
      *
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The new UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The new UsersAddress resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersAddress, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\UsersAddress, HTTP status code, HTTP response headers (array of strings)
      */
     public function postUsersAddressCollectionWithHttpInfo($users_address = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddress';
+        $returnType = '\Delta/Voip\Model\UsersAddress';
         $request = $this->postUsersAddressCollectionRequest($users_address);
 
         try {
@@ -1115,7 +1115,7 @@ class KamApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersAddress',
+                        '\Delta/Voip\Model\UsersAddress',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1130,7 +1130,7 @@ class KamApi
      *
      * Creates a UsersAddress resource.
      *
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The new UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The new UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1150,14 +1150,14 @@ class KamApi
      *
      * Creates a UsersAddress resource.
      *
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The new UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The new UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function postUsersAddressCollectionAsyncWithHttpInfo($users_address = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddress';
+        $returnType = '\Delta/Voip\Model\UsersAddress';
         $request = $this->postUsersAddressCollectionRequest($users_address);
 
         return $this->client
@@ -1200,7 +1200,7 @@ class KamApi
     /**
      * Create request for operation 'postUsersAddressCollection'
      *
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The new UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The new UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request
@@ -1302,11 +1302,11 @@ class KamApi
      * Replaces the UsersAddress resource.
      *
      * @param  string $id id (required)
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\UsersAddress
+     * @return \Delta/Voip\Model\UsersAddress
      */
     public function putUsersAddressItem($id, $users_address = null)
     {
@@ -1320,15 +1320,15 @@ class KamApi
      * Replaces the UsersAddress resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\UsersAddress, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\UsersAddress, HTTP status code, HTTP response headers (array of strings)
      */
     public function putUsersAddressItemWithHttpInfo($id, $users_address = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddress';
+        $returnType = '\Delta/Voip\Model\UsersAddress';
         $request = $this->putUsersAddressItemRequest($id, $users_address);
 
         try {
@@ -1380,7 +1380,7 @@ class KamApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\UsersAddress',
+                        '\Delta/Voip\Model\UsersAddress',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -1396,7 +1396,7 @@ class KamApi
      * Replaces the UsersAddress resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
@@ -1417,14 +1417,14 @@ class KamApi
      * Replaces the UsersAddress resource.
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Promise\PromiseInterface
      */
     public function putUsersAddressItemAsyncWithHttpInfo($id, $users_address = null)
     {
-        $returnType = '\Swagger\Client\Model\UsersAddress';
+        $returnType = '\Delta/Voip\Model\UsersAddress';
         $request = $this->putUsersAddressItemRequest($id, $users_address);
 
         return $this->client
@@ -1468,7 +1468,7 @@ class KamApi
      * Create request for operation 'putUsersAddressItem'
      *
      * @param  string $id (required)
-     * @param  \Swagger\Client\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
+     * @param  \Delta/Voip\Model\UsersAddress $users_address The updated UsersAddress resource (optional)
      *
      * @throws \InvalidArgumentException
      * @return \GuzzleHttp\Psr7\Request

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * RoutingPatternGroupsRelPatternDetailedCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class RoutingPatternGroupsRelPatternDetailedCollection implements ModelInterface
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'routing_pattern' => '\Swagger\Client\Model\RoutingPattern',
-        'routing_pattern_group' => '\Swagger\Client\Model\RoutingPatternGroup'
+        'routing_pattern' => '\Delta/Voip\Model\RoutingPattern',
+        'routing_pattern_group' => '\Delta/Voip\Model\RoutingPatternGroup'
     ];
 
     /**
@@ -249,7 +249,7 @@ class RoutingPatternGroupsRelPatternDetailedCollection implements ModelInterface
     /**
      * Gets routing_pattern
      *
-     * @return \Swagger\Client\Model\RoutingPattern
+     * @return \Delta/Voip\Model\RoutingPattern
      */
     public function getRoutingPattern()
     {
@@ -259,7 +259,7 @@ class RoutingPatternGroupsRelPatternDetailedCollection implements ModelInterface
     /**
      * Sets routing_pattern
      *
-     * @param \Swagger\Client\Model\RoutingPattern $routing_pattern routing_pattern
+     * @param \Delta/Voip\Model\RoutingPattern $routing_pattern routing_pattern
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class RoutingPatternGroupsRelPatternDetailedCollection implements ModelInterface
     /**
      * Gets routing_pattern_group
      *
-     * @return \Swagger\Client\Model\RoutingPatternGroup
+     * @return \Delta/Voip\Model\RoutingPatternGroup
      */
     public function getRoutingPatternGroup()
     {
@@ -283,7 +283,7 @@ class RoutingPatternGroupsRelPatternDetailedCollection implements ModelInterface
     /**
      * Sets routing_pattern_group
      *
-     * @param \Swagger\Client\Model\RoutingPatternGroup $routing_pattern_group routing_pattern_group
+     * @param \Delta/Voip\Model\RoutingPatternGroup $routing_pattern_group routing_pattern_group
      *
      * @return $this
      */

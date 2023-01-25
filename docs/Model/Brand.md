@@ -5,8 +5,8 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | **string** |  | 
 **id** | **int** |  | [optional] 
-**logo** | [**\Swagger\Client\Model\BrandLogo**](BrandLogo.md) |  | [optional] 
-**invoice** | [**\Swagger\Client\Model\BrandInvoice**](BrandInvoice.md) |  | [optional] 
+**logo** | [**\Delta/Voip\Model\BrandLogo**](BrandLogo.md) |  | [optional] 
+**invoice** | [**\Delta/Voip\Model\BrandInvoice**](BrandInvoice.md) |  | [optional] 
 **language** | **int** |  | [optional] 
 **default_timezone** | **int** |  | 
 **currency** | **int** |  | [optional] 

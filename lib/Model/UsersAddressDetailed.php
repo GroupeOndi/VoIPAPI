@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * UsersAddressDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class UsersAddressDetailed implements ModelInterface, ArrayAccess
         'source_address' => 'string',
         'description' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company'
+        'company' => '\Delta/Voip\Model\Company'
     ];
 
     /**
@@ -319,7 +319,7 @@ class UsersAddressDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -329,7 +329,7 @@ class UsersAddressDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */

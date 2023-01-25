@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * BrandCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class BrandCollection implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'name' => 'string',
-        'invoice' => '\Swagger\Client\Model\BrandInvoice',
-        'logo' => '\Swagger\Client\Model\BrandLogo'
+        'invoice' => '\Delta/Voip\Model\BrandInvoice',
+        'logo' => '\Delta/Voip\Model\BrandLogo'
     ];
 
     /**
@@ -284,7 +284,7 @@ class BrandCollection implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \Swagger\Client\Model\BrandInvoice
+     * @return \Delta/Voip\Model\BrandInvoice
      */
     public function getInvoice()
     {
@@ -294,7 +294,7 @@ class BrandCollection implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \Swagger\Client\Model\BrandInvoice $invoice invoice
+     * @param \Delta/Voip\Model\BrandInvoice $invoice invoice
      *
      * @return $this
      */
@@ -308,7 +308,7 @@ class BrandCollection implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\BrandLogo
+     * @return \Delta/Voip\Model\BrandLogo
      */
     public function getLogo()
     {
@@ -318,7 +318,7 @@ class BrandCollection implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\BrandLogo $logo logo
+     * @param \Delta/Voip\Model\BrandLogo $logo logo
      *
      * @return $this
      */

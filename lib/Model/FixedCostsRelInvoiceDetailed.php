@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * FixedCostsRelInvoiceDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class FixedCostsRelInvoiceDetailed implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'quantity' => 'int',
         'id' => 'int',
-        'fixed_cost' => '\Swagger\Client\Model\FixedCost',
-        'invoice' => '\Swagger\Client\Model\Invoice'
+        'fixed_cost' => '\Delta/Voip\Model\FixedCost',
+        'invoice' => '\Delta/Voip\Model\Invoice'
     ];
 
     /**
@@ -288,7 +288,7 @@ class FixedCostsRelInvoiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fixed_cost
      *
-     * @return \Swagger\Client\Model\FixedCost
+     * @return \Delta/Voip\Model\FixedCost
      */
     public function getFixedCost()
     {
@@ -298,7 +298,7 @@ class FixedCostsRelInvoiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fixed_cost
      *
-     * @param \Swagger\Client\Model\FixedCost $fixed_cost fixed_cost
+     * @param \Delta/Voip\Model\FixedCost $fixed_cost fixed_cost
      *
      * @return $this
      */
@@ -312,7 +312,7 @@ class FixedCostsRelInvoiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \Swagger\Client\Model\Invoice
+     * @return \Delta/Voip\Model\Invoice
      */
     public function getInvoice()
     {
@@ -322,7 +322,7 @@ class FixedCostsRelInvoiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \Swagger\Client\Model\Invoice $invoice invoice
+     * @param \Delta/Voip\Model\Invoice $invoice invoice
      *
      * @return $this
      */

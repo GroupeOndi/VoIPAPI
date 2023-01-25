@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DestinationRateDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class DestinationRateDetailed implements ModelInterface, ArrayAccess
         'rate_increment' => 'string',
         'group_interval_start' => 'string',
         'id' => 'int',
-        'destination_rate_group' => '\Swagger\Client\Model\DestinationRateGroup',
-        'destination' => '\Swagger\Client\Model\Destination'
+        'destination_rate_group' => '\Delta/Voip\Model\DestinationRateGroup',
+        'destination' => '\Delta/Voip\Model\Destination'
     ];
 
     /**
@@ -397,7 +397,7 @@ class DestinationRateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets destination_rate_group
      *
-     * @return \Swagger\Client\Model\DestinationRateGroup
+     * @return \Delta/Voip\Model\DestinationRateGroup
      */
     public function getDestinationRateGroup()
     {
@@ -407,7 +407,7 @@ class DestinationRateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets destination_rate_group
      *
-     * @param \Swagger\Client\Model\DestinationRateGroup $destination_rate_group destination_rate_group
+     * @param \Delta/Voip\Model\DestinationRateGroup $destination_rate_group destination_rate_group
      *
      * @return $this
      */
@@ -421,7 +421,7 @@ class DestinationRateDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets destination
      *
-     * @return \Swagger\Client\Model\Destination
+     * @return \Delta/Voip\Model\Destination
      */
     public function getDestination()
     {
@@ -431,7 +431,7 @@ class DestinationRateDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets destination
      *
-     * @param \Swagger\Client\Model\Destination $destination destination
+     * @param \Delta/Voip\Model\Destination $destination destination
      *
      * @return $this
      */

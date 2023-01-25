@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * AdministratorDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -65,8 +65,8 @@ class AdministratorDetailed implements ModelInterface, ArrayAccess
         'name' => 'string',
         'lastname' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'timezone' => '\Swagger\Client\Model\Timezone'
+        'company' => '\Delta/Voip\Model\Company',
+        'timezone' => '\Delta/Voip\Model\Timezone'
     ];
 
     /**
@@ -511,7 +511,7 @@ class AdministratorDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -521,7 +521,7 @@ class AdministratorDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -535,7 +535,7 @@ class AdministratorDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta/Voip\Model\Timezone
      */
     public function getTimezone()
     {
@@ -545,7 +545,7 @@ class AdministratorDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets timezone
      *
-     * @param \Swagger\Client\Model\Timezone $timezone timezone
+     * @param \Delta/Voip\Model\Timezone $timezone timezone
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * CompanyDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -77,16 +77,16 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
         'balance' => 'float',
         'show_invoices' => 'bool',
         'id' => 'int',
-        'language' => '\Swagger\Client\Model\Language',
-        'default_timezone' => '\Swagger\Client\Model\Timezone',
-        'country' => '\Swagger\Client\Model\Country',
-        'currency' => '\Swagger\Client\Model\Currency',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi',
-        'voicemail_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'fax_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'invoice_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'call_csv_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
+        'language' => '\Delta/Voip\Model\Language',
+        'default_timezone' => '\Delta/Voip\Model\Timezone',
+        'country' => '\Delta/Voip\Model\Country',
+        'currency' => '\Delta/Voip\Model\Currency',
+        'transformation_rule_set' => '\Delta/Voip\Model\TransformationRuleSet',
+        'outgoing_ddi' => '\Delta/Voip\Model\Ddi',
+        'voicemail_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'fax_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'invoice_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'call_csv_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
         'feature_ids' => 'int[]'
     ];
 
@@ -1098,7 +1098,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta/Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -1108,7 +1108,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta/Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -1122,7 +1122,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets default_timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta/Voip\Model\Timezone
      */
     public function getDefaultTimezone()
     {
@@ -1132,7 +1132,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets default_timezone
      *
-     * @param \Swagger\Client\Model\Timezone $default_timezone default_timezone
+     * @param \Delta/Voip\Model\Timezone $default_timezone default_timezone
      *
      * @return $this
      */
@@ -1146,7 +1146,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta/Voip\Model\Country
      */
     public function getCountry()
     {
@@ -1156,7 +1156,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\Country $country country
+     * @param \Delta/Voip\Model\Country $country country
      *
      * @return $this
      */
@@ -1170,7 +1170,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\Currency
+     * @return \Delta/Voip\Model\Currency
      */
     public function getCurrency()
     {
@@ -1180,7 +1180,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\Currency $currency currency
+     * @param \Delta/Voip\Model\Currency $currency currency
      *
      * @return $this
      */
@@ -1194,7 +1194,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta/Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -1204,7 +1204,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta/Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -1218,7 +1218,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta/Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -1228,7 +1228,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta/Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */
@@ -1242,7 +1242,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voicemail_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getVoicemailNotificationTemplate()
     {
@@ -1252,7 +1252,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voicemail_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $voicemail_notification_template voicemail_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $voicemail_notification_template voicemail_notification_template
      *
      * @return $this
      */
@@ -1266,7 +1266,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fax_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getFaxNotificationTemplate()
     {
@@ -1276,7 +1276,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fax_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $fax_notification_template fax_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $fax_notification_template fax_notification_template
      *
      * @return $this
      */
@@ -1290,7 +1290,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getInvoiceNotificationTemplate()
     {
@@ -1300,7 +1300,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $invoice_notification_template invoice_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $invoice_notification_template invoice_notification_template
      *
      * @return $this
      */
@@ -1314,7 +1314,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_csv_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getCallCsvNotificationTemplate()
     {
@@ -1324,7 +1324,7 @@ class CompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_csv_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
      *
      * @return $this
      */

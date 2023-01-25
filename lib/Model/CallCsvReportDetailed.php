@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * CallCsvReportDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class CallCsvReportDetailed implements ModelInterface, ArrayAccess
         'created_on' => '\DateTime',
         'id' => 'int',
         'csv' => 'string',
-        'brand' => '\Swagger\Client\Model\Brand',
-        'call_csv_scheduler' => '\Swagger\Client\Model\CallCsvScheduler'
+        'brand' => '\Delta/Voip\Model\Brand',
+        'call_csv_scheduler' => '\Delta/Voip\Model\CallCsvScheduler'
     ];
 
     /**
@@ -416,7 +416,7 @@ class CallCsvReportDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets brand
      *
-     * @return \Swagger\Client\Model\Brand
+     * @return \Delta/Voip\Model\Brand
      */
     public function getBrand()
     {
@@ -426,7 +426,7 @@ class CallCsvReportDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets brand
      *
-     * @param \Swagger\Client\Model\Brand $brand brand
+     * @param \Delta/Voip\Model\Brand $brand brand
      *
      * @return $this
      */
@@ -440,7 +440,7 @@ class CallCsvReportDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_csv_scheduler
      *
-     * @return \Swagger\Client\Model\CallCsvScheduler
+     * @return \Delta/Voip\Model\CallCsvScheduler
      */
     public function getCallCsvScheduler()
     {
@@ -450,7 +450,7 @@ class CallCsvReportDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_csv_scheduler
      *
-     * @param \Swagger\Client\Model\CallCsvScheduler $call_csv_scheduler call_csv_scheduler
+     * @param \Delta/Voip\Model\CallCsvScheduler $call_csv_scheduler call_csv_scheduler
      *
      * @return $this
      */

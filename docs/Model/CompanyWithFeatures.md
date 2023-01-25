@@ -23,16 +23,16 @@ Name | Type | Description | Notes
 **balance** | **float** |  | [optional] [default to 0.0]
 **show_invoices** | **bool** |  | [optional] [default to false]
 **id** | **int** |  | [optional] 
-**language** | [**\Swagger\Client\Model\Language**](Language.md) |  | [optional] 
-**default_timezone** | [**\Swagger\Client\Model\Timezone**](Timezone.md) |  | [optional] 
-**country** | [**\Swagger\Client\Model\Country**](Country.md) |  | 
-**currency** | [**\Swagger\Client\Model\Currency**](Currency.md) |  | [optional] 
-**transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
-**outgoing_ddi** | [**\Swagger\Client\Model\Ddi**](Ddi.md) |  | [optional] 
-**voicemail_notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
-**fax_notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
-**invoice_notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
-**call_csv_notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
+**language** | [**\Delta/Voip\Model\Language**](Language.md) |  | [optional] 
+**default_timezone** | [**\Delta/Voip\Model\Timezone**](Timezone.md) |  | [optional] 
+**country** | [**\Delta/Voip\Model\Country**](Country.md) |  | 
+**currency** | [**\Delta/Voip\Model\Currency**](Currency.md) |  | [optional] 
+**transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
+**outgoing_ddi** | [**\Delta/Voip\Model\Ddi**](Ddi.md) |  | [optional] 
+**voicemail_notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
+**fax_notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
+**invoice_notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
+**call_csv_notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](NotificationTemplate.md) |  | [optional] 
 **feature_ids** | **int[]** | Active feature ids | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

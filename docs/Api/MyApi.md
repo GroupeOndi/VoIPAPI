@@ -1,4 +1,4 @@
-# Swagger\Client\MyApi
+# Delta/Voip\MyApi
 
 All URIs are relative to *https://localhost/api/brand/*
 
@@ -9,7 +9,7 @@ Method | HTTP request | Description
 
 
 # **getMyActiveCallsActiveCallsItem**
-> \Swagger\Client\Model\ActiveCalls getMyActiveCallsActiveCallsItem($company)
+> \Delta/Voip\Model\ActiveCalls getMyActiveCallsActiveCallsItem($company)
 
 Retrieves a ActiveCalls resource.
 
@@ -19,11 +19,11 @@ Retrieves a ActiveCalls resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MyApi(
+$apiInstance = new Delta/Voip\Api\MyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -48,7 +48,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ActiveCalls**](../Model/ActiveCalls.md)
+[**\Delta/Voip\Model\ActiveCalls**](../Model/ActiveCalls.md)
 
 ### Authorization
 
@@ -62,7 +62,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getMyRegistrationSummaryRegistrationSummaryItem**
-> \Swagger\Client\Model\RegistrationSummary getMyRegistrationSummaryRegistrationSummaryItem($company)
+> \Delta/Voip\Model\RegistrationSummary getMyRegistrationSummaryRegistrationSummaryItem($company)
 
 Retrieves a RegistrationSummary resource.
 
@@ -72,11 +72,11 @@ Retrieves a RegistrationSummary resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\MyApi(
+$apiInstance = new Delta/Voip\Api\MyApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -101,7 +101,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RegistrationSummary**](../Model/RegistrationSummary.md)
+[**\Delta/Voip\Model\RegistrationSummary**](../Model/RegistrationSummary.md)
 
 ### Authorization
 

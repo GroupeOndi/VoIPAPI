@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * RatingPlanGroupCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class RatingPlanGroupCollection implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\RatingPlanGroupName',
+        'name' => '\Delta/Voip\Model\RatingPlanGroupName',
         'currency' => 'int'
     ];
 
@@ -243,7 +243,7 @@ class RatingPlanGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\RatingPlanGroupName
+     * @return \Delta/Voip\Model\RatingPlanGroupName
      */
     public function getName()
     {
@@ -253,7 +253,7 @@ class RatingPlanGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\RatingPlanGroupName $name name
+     * @param \Delta/Voip\Model\RatingPlanGroupName $name name
      *
      * @return $this
      */

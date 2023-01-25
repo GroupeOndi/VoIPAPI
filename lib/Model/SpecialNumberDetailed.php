@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * SpecialNumberDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class SpecialNumberDetailed implements ModelInterface, ArrayAccess
         'number' => 'string',
         'disable_cdr' => 'int',
         'id' => 'int',
-        'country' => '\Swagger\Client\Model\Country',
+        'country' => '\Delta/Voip\Model\Country',
         'global' => 'bool'
     ];
 
@@ -329,7 +329,7 @@ class SpecialNumberDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta/Voip\Model\Country
      */
     public function getCountry()
     {
@@ -339,7 +339,7 @@ class SpecialNumberDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\Country $country country
+     * @param \Delta/Voip\Model\Country $country country
      *
      * @return $this
      */

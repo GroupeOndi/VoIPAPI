@@ -14,8 +14,8 @@ Name | Type | Description | Notes
 **saturday** | **bool** |  | [optional] [default to false]
 **sunday** | **bool** |  | [optional] [default to false]
 **id** | **int** |  | [optional] 
-**rating_plan_group** | [**\Swagger\Client\Model\RatingPlanGroup**](RatingPlanGroup.md) |  | 
-**destination_rate_group** | [**\Swagger\Client\Model\DestinationRateGroup**](DestinationRateGroup.md) |  | 
+**rating_plan_group** | [**\Delta/Voip\Model\RatingPlanGroup**](RatingPlanGroup.md) |  | 
+**destination_rate_group** | [**\Delta/Voip\Model\DestinationRateGroup**](DestinationRateGroup.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

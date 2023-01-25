@@ -1,4 +1,4 @@
-# Swagger\Client\ProviderApi
+# Delta/Voip\ProviderApi
 
 All URIs are relative to *https://localhost/api/brand/*
 
@@ -255,11 +255,11 @@ Retrieves a Brand resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -307,11 +307,11 @@ Retrieves a CallCsvReport resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -359,11 +359,11 @@ Removes the Administrator resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -411,11 +411,11 @@ Removes the BalanceNotification resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -463,11 +463,11 @@ Removes the BannedAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -515,11 +515,11 @@ Removes the BrandService resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -567,11 +567,11 @@ Removes the CallCsvScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -619,11 +619,11 @@ Removes the Carrier resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -671,11 +671,11 @@ Removes the CarrierServer resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -723,11 +723,11 @@ Removes the Company resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -775,11 +775,11 @@ Removes the Ddi resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -827,11 +827,11 @@ Removes the DdiProviderAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -879,11 +879,11 @@ Removes the DdiProvider resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -931,11 +931,11 @@ Removes the DdiProviderRegistration resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -983,11 +983,11 @@ Removes the Destination resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1035,11 +1035,11 @@ Removes the DestinationRateGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1087,11 +1087,11 @@ Removes the DestinationRate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1139,11 +1139,11 @@ Removes the FeaturesRelCompany resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1191,11 +1191,11 @@ Removes the FixedCost resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1243,11 +1243,11 @@ Removes the FixedCostsRelInvoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1295,11 +1295,11 @@ Removes the FixedCostsRelInvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1347,11 +1347,11 @@ Removes the Friend resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1399,11 +1399,11 @@ Removes the Invoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1451,11 +1451,11 @@ Removes the InvoiceNumberSequence resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1503,11 +1503,11 @@ Removes the InvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1555,11 +1555,11 @@ Removes the InvoiceTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1607,11 +1607,11 @@ Removes the NotificationTemplateContent resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1659,11 +1659,11 @@ Removes the NotificationTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1711,11 +1711,11 @@ Removes the OutgoingRouting resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1763,11 +1763,11 @@ Removes the RatingPlanGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1815,11 +1815,11 @@ Removes the RatingPlan resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1867,11 +1867,11 @@ Removes the RatingProfile resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1919,11 +1919,11 @@ Removes the ResidentialDevice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -1971,11 +1971,11 @@ Removes the RetailAccount resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2023,11 +2023,11 @@ Removes the RoutingPatternGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2075,11 +2075,11 @@ Removes the RoutingPatternGroupsRelPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2127,11 +2127,11 @@ Removes the RoutingPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2179,11 +2179,11 @@ Removes the RoutingTag resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2231,11 +2231,11 @@ Removes the SpecialNumber resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2283,11 +2283,11 @@ Removes the TransformationRule resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2335,11 +2335,11 @@ Removes the TransformationRuleSet resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2387,11 +2387,11 @@ Removes the WebPortal resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2439,11 +2439,11 @@ Retrieves a DestinationRateGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2481,7 +2481,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAdministratorCollection**
-> \Swagger\Client\Model\AdministratorCollection[] getAdministratorCollection($active, $company, $company2, $company_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $id_exact, $lastname, $lastname_end, $lastname_exact, $lastname_exists, $lastname_partial, $lastname_start, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $restricted, $timezone, $timezone2, $timezone_exists, $username, $username_end, $username_exact, $username_partial, $username_start, $_order_active, $_order_email, $_order_id, $_order_lastname, $_order_name, $_order_restricted, $_order_username, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\AdministratorCollection[] getAdministratorCollection($active, $company, $company2, $company_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $id_exact, $lastname, $lastname_end, $lastname_exact, $lastname_exists, $lastname_partial, $lastname_start, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $restricted, $timezone, $timezone2, $timezone_exists, $username, $username_end, $username_exact, $username_partial, $username_start, $_order_active, $_order_email, $_order_id, $_order_lastname, $_order_name, $_order_restricted, $_order_username, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Administrator resources.
 
@@ -2491,11 +2491,11 @@ Retrieves the collection of Administrator resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2600,7 +2600,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AdministratorCollection[]**](../Model/AdministratorCollection.md)
+[**\Delta/Voip\Model\AdministratorCollection[]**](../Model/AdministratorCollection.md)
 
 ### Authorization
 
@@ -2614,7 +2614,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAdministratorItem**
-> \Swagger\Client\Model\AdministratorDetailed getAdministratorItem($id)
+> \Delta/Voip\Model\AdministratorDetailed getAdministratorItem($id)
 
 Retrieves a Administrator resource.
 
@@ -2624,11 +2624,11 @@ Retrieves a Administrator resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2653,7 +2653,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AdministratorDetailed**](../Model/AdministratorDetailed.md)
+[**\Delta/Voip\Model\AdministratorDetailed**](../Model/AdministratorDetailed.md)
 
 ### Authorization
 
@@ -2667,7 +2667,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAdministratorRelPublicEntityCollection**
-> \Swagger\Client\Model\AdministratorRelPublicEntityCollection[] getAdministratorRelPublicEntityCollection($administrator, $administrator2, $create, $delete, $id_exact, $public_entity, $public_entity2, $read, $update, $_order_create, $_order_delete, $_order_id, $_order_read, $_order_update, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\AdministratorRelPublicEntityCollection[] getAdministratorRelPublicEntityCollection($administrator, $administrator2, $create, $delete, $id_exact, $public_entity, $public_entity2, $read, $update, $_order_create, $_order_delete, $_order_id, $_order_read, $_order_update, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of AdministratorRelPublicEntity resources.
 
@@ -2677,11 +2677,11 @@ Retrieves the collection of AdministratorRelPublicEntity resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2738,7 +2738,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AdministratorRelPublicEntityCollection[]**](../Model/AdministratorRelPublicEntityCollection.md)
+[**\Delta/Voip\Model\AdministratorRelPublicEntityCollection[]**](../Model/AdministratorRelPublicEntityCollection.md)
 
 ### Authorization
 
@@ -2752,7 +2752,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getAdministratorRelPublicEntityItem**
-> \Swagger\Client\Model\AdministratorRelPublicEntityDetailed getAdministratorRelPublicEntityItem($id)
+> \Delta/Voip\Model\AdministratorRelPublicEntityDetailed getAdministratorRelPublicEntityItem($id)
 
 Retrieves a AdministratorRelPublicEntity resource.
 
@@ -2762,11 +2762,11 @@ Retrieves a AdministratorRelPublicEntity resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2791,7 +2791,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\AdministratorRelPublicEntityDetailed**](../Model/AdministratorRelPublicEntityDetailed.md)
+[**\Delta/Voip\Model\AdministratorRelPublicEntityDetailed**](../Model/AdministratorRelPublicEntityDetailed.md)
 
 ### Authorization
 
@@ -2805,7 +2805,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBalanceNotificationCollection**
-> \Swagger\Client\Model\BalanceNotificationCollection[] getBalanceNotificationCollection($company, $company2, $company_exists, $id_exact, $notification_template, $notification_template2, $notification_template_exists, $threshold, $threshold_between, $threshold_exists, $threshold_gt, $threshold_gte, $threshold_lt, $threshold_lte, $to_address, $to_address_end, $to_address_exact, $to_address_exists, $to_address_partial, $to_address_start, $_order_id, $_order_threshold, $_order_to_address, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\BalanceNotificationCollection[] getBalanceNotificationCollection($company, $company2, $company_exists, $id_exact, $notification_template, $notification_template2, $notification_template_exists, $threshold, $threshold_between, $threshold_exists, $threshold_gt, $threshold_gte, $threshold_lt, $threshold_lte, $to_address, $to_address_end, $to_address_exact, $to_address_exists, $to_address_partial, $to_address_start, $_order_id, $_order_threshold, $_order_to_address, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of BalanceNotification resources.
 
@@ -2815,11 +2815,11 @@ Retrieves the collection of BalanceNotification resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2894,7 +2894,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BalanceNotificationCollection[]**](../Model/BalanceNotificationCollection.md)
+[**\Delta/Voip\Model\BalanceNotificationCollection[]**](../Model/BalanceNotificationCollection.md)
 
 ### Authorization
 
@@ -2908,7 +2908,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBalanceNotificationItem**
-> \Swagger\Client\Model\BalanceNotificationDetailed getBalanceNotificationItem($id, $_timezone)
+> \Delta/Voip\Model\BalanceNotificationDetailed getBalanceNotificationItem($id, $_timezone)
 
 Retrieves a BalanceNotification resource.
 
@@ -2918,11 +2918,11 @@ Retrieves a BalanceNotification resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -2949,7 +2949,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BalanceNotificationDetailed**](../Model/BalanceNotificationDetailed.md)
+[**\Delta/Voip\Model\BalanceNotificationDetailed**](../Model/BalanceNotificationDetailed.md)
 
 ### Authorization
 
@@ -2963,7 +2963,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBannedAddressCollection**
-> \Swagger\Client\Model\BannedAddressCollection[] getBannedAddressCollection($aor, $aor_end, $aor_exact, $aor_exists, $aor_partial, $aor_start, $blocker, $blocker_end, $blocker_exact, $blocker_exists, $blocker_partial, $blocker_start, $company, $company2, $company_exists, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $last_time_banned, $last_time_banned_after, $last_time_banned_before, $last_time_banned_exists, $last_time_banned_start, $last_time_banned_strictly_after, $last_time_banned_strictly_before, $_order_aor, $_order_blocker, $_order_id, $_order_ip, $_order_last_time_banned, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\BannedAddressCollection[] getBannedAddressCollection($aor, $aor_end, $aor_exact, $aor_exists, $aor_partial, $aor_start, $blocker, $blocker_end, $blocker_exact, $blocker_exists, $blocker_partial, $blocker_start, $company, $company2, $company_exists, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $last_time_banned, $last_time_banned_after, $last_time_banned_before, $last_time_banned_exists, $last_time_banned_start, $last_time_banned_strictly_after, $last_time_banned_strictly_before, $_order_aor, $_order_blocker, $_order_id, $_order_ip, $_order_last_time_banned, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of BannedAddress resources.
 
@@ -2973,11 +2973,11 @@ Retrieves the collection of BannedAddress resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3076,7 +3076,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BannedAddressCollection[]**](../Model/BannedAddressCollection.md)
+[**\Delta/Voip\Model\BannedAddressCollection[]**](../Model/BannedAddressCollection.md)
 
 ### Authorization
 
@@ -3090,7 +3090,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBannedAddressItem**
-> \Swagger\Client\Model\BannedAddressDetailed getBannedAddressItem($id, $_timezone)
+> \Delta/Voip\Model\BannedAddressDetailed getBannedAddressItem($id, $_timezone)
 
 Retrieves a BannedAddress resource.
 
@@ -3100,11 +3100,11 @@ Retrieves a BannedAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3131,7 +3131,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BannedAddressDetailed**](../Model/BannedAddressDetailed.md)
+[**\Delta/Voip\Model\BannedAddressDetailed**](../Model/BannedAddressDetailed.md)
 
 ### Authorization
 
@@ -3145,7 +3145,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBillableCallCollection**
-> \Swagger\Client\Model\BillableCallCollection[] getBillableCallCollection($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $cost, $cost_between, $cost_exists, $cost_gt, $cost_gte, $cost_lt, $cost_lte, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi2, $ddi_exists, $destination, $destination2, $destination_exists, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $endpoint_id, $endpoint_id_between, $endpoint_id_exists, $endpoint_id_gt, $endpoint_id_gte, $endpoint_id_lt, $endpoint_id_lte, $endpoint_name, $endpoint_name_end, $endpoint_name_exact, $endpoint_name_exists, $endpoint_name_partial, $endpoint_name_start, $endpoint_type, $endpoint_type_end, $endpoint_type_exact, $endpoint_type_exists, $endpoint_type_partial, $endpoint_type_start, $id_exact, $invoice, $invoice2, $invoice_exists, $price, $price_between, $price_exists, $price_gt, $price_gte, $price_lt, $price_lte, $rating_plan_group, $rating_plan_group2, $rating_plan_group_exists, $start_time, $start_time_after, $start_time_before, $start_time_exists, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $_order_callee, $_order_caller, $_order_callid, $_order_cost, $_order_direction, $_order_duration, $_order_endpoint_id, $_order_endpoint_name, $_order_endpoint_type, $_order_id, $_order_price, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone)
+> \Delta/Voip\Model\BillableCallCollection[] getBillableCallCollection($callee, $callee_end, $callee_exact, $callee_exists, $callee_partial, $callee_start, $caller, $caller_end, $caller_exact, $caller_exists, $caller_partial, $caller_start, $callid, $callid_end, $callid_exact, $callid_exists, $callid_partial, $callid_start, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $cost, $cost_between, $cost_exists, $cost_gt, $cost_gte, $cost_lt, $cost_lte, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi2, $ddi_exists, $destination, $destination2, $destination_exists, $direction, $direction_end, $direction_exact, $direction_exists, $direction_partial, $direction_start, $duration, $duration_between, $duration_gt, $duration_gte, $duration_lt, $duration_lte, $endpoint_id, $endpoint_id_between, $endpoint_id_exists, $endpoint_id_gt, $endpoint_id_gte, $endpoint_id_lt, $endpoint_id_lte, $endpoint_name, $endpoint_name_end, $endpoint_name_exact, $endpoint_name_exists, $endpoint_name_partial, $endpoint_name_start, $endpoint_type, $endpoint_type_end, $endpoint_type_exact, $endpoint_type_exists, $endpoint_type_partial, $endpoint_type_start, $id_exact, $invoice, $invoice2, $invoice_exists, $price, $price_between, $price_exists, $price_gt, $price_gte, $price_lt, $price_lte, $rating_plan_group, $rating_plan_group2, $rating_plan_group_exists, $start_time, $start_time_after, $start_time_before, $start_time_exists, $start_time_start, $start_time_strictly_after, $start_time_strictly_before, $_order_callee, $_order_caller, $_order_callid, $_order_cost, $_order_direction, $_order_duration, $_order_endpoint_id, $_order_endpoint_name, $_order_endpoint_type, $_order_id, $_order_price, $_order_start_time, $_items_per_page, $_page, $_properties, $_pagination, $_timezone)
 
 Retrieves the collection of BillableCall resources.
 
@@ -3155,11 +3155,11 @@ Retrieves the collection of BillableCall resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3400,7 +3400,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BillableCallCollection[]**](../Model/BillableCallCollection.md)
+[**\Delta/Voip\Model\BillableCallCollection[]**](../Model/BillableCallCollection.md)
 
 ### Authorization
 
@@ -3414,7 +3414,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBillableCallItem**
-> \Swagger\Client\Model\BillableCallDetailed getBillableCallItem($id, $_timezone)
+> \Delta/Voip\Model\BillableCallDetailed getBillableCallItem($id, $_timezone)
 
 Retrieves a BillableCall resource.
 
@@ -3424,11 +3424,11 @@ Retrieves a BillableCall resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3455,7 +3455,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BillableCallDetailed**](../Model/BillableCallDetailed.md)
+[**\Delta/Voip\Model\BillableCallDetailed**](../Model/BillableCallDetailed.md)
 
 ### Authorization
 
@@ -3469,7 +3469,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBrandCollection**
-> \Swagger\Client\Model\BrandCollection[] getBrandCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $currency, $currency2, $currency_exists, $default_timezone, $default_timezone2, $fax_notification_template, $fax_notification_template2, $fax_notification_template_exists, $id_exact, $invoice_country, $invoice_country_end, $invoice_country_exact, $invoice_country_partial, $invoice_country_start, $invoice_nif, $invoice_nif_end, $invoice_nif_exact, $invoice_nif_partial, $invoice_nif_start, $invoice_postal_address, $invoice_postal_address_end, $invoice_postal_address_exact, $invoice_postal_address_partial, $invoice_postal_address_start, $invoice_postal_code, $invoice_postal_code_end, $invoice_postal_code_exact, $invoice_postal_code_partial, $invoice_postal_code_start, $invoice_province, $invoice_province_end, $invoice_province_exact, $invoice_province_partial, $invoice_province_start, $invoice_registry_data, $invoice_registry_data_end, $invoice_registry_data_exact, $invoice_registry_data_exists, $invoice_registry_data_partial, $invoice_registry_data_start, $invoice_town, $invoice_town_end, $invoice_town_exact, $invoice_town_partial, $invoice_town_start, $invoice_notification_template, $invoice_notification_template2, $invoice_notification_template_exists, $language, $language2, $language_exists, $logo_base_name, $logo_base_name_end, $logo_base_name_exact, $logo_base_name_exists, $logo_base_name_partial, $logo_base_name_start, $logo_file_size, $logo_file_size_between, $logo_file_size_exists, $logo_file_size_gt, $logo_file_size_gte, $logo_file_size_lt, $logo_file_size_lte, $logo_mime_type, $logo_mime_type_end, $logo_mime_type_exact, $logo_mime_type_exists, $logo_mime_type_partial, $logo_mime_type_start, $max_daily_usage_notification_template, $max_daily_usage_notification_template2, $max_daily_usage_notification_template_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $voicemail_notification_template, $voicemail_notification_template2, $voicemail_notification_template_exists, $_order_id, $_order_invoice_country, $_order_invoice_nif, $_order_invoice_postal_address, $_order_invoice_postal_code, $_order_invoice_province, $_order_invoice_registry_data, $_order_invoice_town, $_order_logo_base_name, $_order_logo_file_size, $_order_logo_mime_type, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\BrandCollection[] getBrandCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $currency, $currency2, $currency_exists, $default_timezone, $default_timezone2, $fax_notification_template, $fax_notification_template2, $fax_notification_template_exists, $id_exact, $invoice_country, $invoice_country_end, $invoice_country_exact, $invoice_country_partial, $invoice_country_start, $invoice_nif, $invoice_nif_end, $invoice_nif_exact, $invoice_nif_partial, $invoice_nif_start, $invoice_postal_address, $invoice_postal_address_end, $invoice_postal_address_exact, $invoice_postal_address_partial, $invoice_postal_address_start, $invoice_postal_code, $invoice_postal_code_end, $invoice_postal_code_exact, $invoice_postal_code_partial, $invoice_postal_code_start, $invoice_province, $invoice_province_end, $invoice_province_exact, $invoice_province_partial, $invoice_province_start, $invoice_registry_data, $invoice_registry_data_end, $invoice_registry_data_exact, $invoice_registry_data_exists, $invoice_registry_data_partial, $invoice_registry_data_start, $invoice_town, $invoice_town_end, $invoice_town_exact, $invoice_town_partial, $invoice_town_start, $invoice_notification_template, $invoice_notification_template2, $invoice_notification_template_exists, $language, $language2, $language_exists, $logo_base_name, $logo_base_name_end, $logo_base_name_exact, $logo_base_name_exists, $logo_base_name_partial, $logo_base_name_start, $logo_file_size, $logo_file_size_between, $logo_file_size_exists, $logo_file_size_gt, $logo_file_size_gte, $logo_file_size_lt, $logo_file_size_lte, $logo_mime_type, $logo_mime_type_end, $logo_mime_type_exact, $logo_mime_type_exists, $logo_mime_type_partial, $logo_mime_type_start, $max_daily_usage_notification_template, $max_daily_usage_notification_template2, $max_daily_usage_notification_template_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $voicemail_notification_template, $voicemail_notification_template2, $voicemail_notification_template_exists, $_order_id, $_order_invoice_country, $_order_invoice_nif, $_order_invoice_postal_address, $_order_invoice_postal_code, $_order_invoice_province, $_order_invoice_registry_data, $_order_invoice_town, $_order_logo_base_name, $_order_logo_file_size, $_order_logo_mime_type, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Brand resources.
 
@@ -3479,11 +3479,11 @@ Retrieves the collection of Brand resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3704,7 +3704,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandCollection[]**](../Model/BrandCollection.md)
+[**\Delta/Voip\Model\BrandCollection[]**](../Model/BrandCollection.md)
 
 ### Authorization
 
@@ -3718,7 +3718,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBrandItem**
-> \Swagger\Client\Model\BrandDetailed getBrandItem($id)
+> \Delta/Voip\Model\BrandDetailed getBrandItem($id)
 
 Retrieves a Brand resource.
 
@@ -3728,11 +3728,11 @@ Retrieves a Brand resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3757,7 +3757,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandDetailed**](../Model/BrandDetailed.md)
+[**\Delta/Voip\Model\BrandDetailed**](../Model/BrandDetailed.md)
 
 ### Authorization
 
@@ -3771,7 +3771,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBrandServiceCollection**
-> \Swagger\Client\Model\BrandServiceCollection[] getBrandServiceCollection($code, $code_end, $code_exact, $code_partial, $code_start, $id_exact, $service, $service2, $_order_code, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\BrandServiceCollection[] getBrandServiceCollection($code, $code_end, $code_exact, $code_partial, $code_start, $id_exact, $service, $service2, $_order_code, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of BrandService resources.
 
@@ -3781,11 +3781,11 @@ Retrieves the collection of BrandService resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3834,7 +3834,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandServiceCollection[]**](../Model/BrandServiceCollection.md)
+[**\Delta/Voip\Model\BrandServiceCollection[]**](../Model/BrandServiceCollection.md)
 
 ### Authorization
 
@@ -3848,7 +3848,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getBrandServiceItem**
-> \Swagger\Client\Model\BrandServiceDetailed getBrandServiceItem($id)
+> \Delta/Voip\Model\BrandServiceDetailed getBrandServiceItem($id)
 
 Retrieves a BrandService resource.
 
@@ -3858,11 +3858,11 @@ Retrieves a BrandService resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3887,7 +3887,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandServiceDetailed**](../Model/BrandServiceDetailed.md)
+[**\Delta/Voip\Model\BrandServiceDetailed**](../Model/BrandServiceDetailed.md)
 
 ### Authorization
 
@@ -3901,7 +3901,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCallCsvReportCollection**
-> \Swagger\Client\Model\CallCsvReportCollection[] getCallCsvReportCollection($brand, $brand2, $brand_exists, $call_csv_scheduler, $call_csv_scheduler2, $call_csv_scheduler_exists, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $out_date, $out_date_after, $out_date_before, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $_order_id, $_order_in_date, $_order_out_date, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\CallCsvReportCollection[] getCallCsvReportCollection($brand, $brand2, $brand_exists, $call_csv_scheduler, $call_csv_scheduler2, $call_csv_scheduler_exists, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $out_date, $out_date_after, $out_date_before, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $_order_id, $_order_in_date, $_order_out_date, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of CallCsvReport resources.
 
@@ -3911,11 +3911,11 @@ Retrieves the collection of CallCsvReport resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -3990,7 +3990,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvReportCollection[]**](../Model/CallCsvReportCollection.md)
+[**\Delta/Voip\Model\CallCsvReportCollection[]**](../Model/CallCsvReportCollection.md)
 
 ### Authorization
 
@@ -4004,7 +4004,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCallCsvReportItem**
-> \Swagger\Client\Model\CallCsvReportDetailed getCallCsvReportItem($id, $_timezone)
+> \Delta/Voip\Model\CallCsvReportDetailed getCallCsvReportItem($id, $_timezone)
 
 Retrieves a CallCsvReport resource.
 
@@ -4014,11 +4014,11 @@ Retrieves a CallCsvReport resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4045,7 +4045,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvReportDetailed**](../Model/CallCsvReportDetailed.md)
+[**\Delta/Voip\Model\CallCsvReportDetailed**](../Model/CallCsvReportDetailed.md)
 
 ### Authorization
 
@@ -4059,7 +4059,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCallCsvSchedulerCollection**
-> \Swagger\Client\Model\CallCsvSchedulerCollection[] getCallCsvSchedulerCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $call_direction, $call_direction_end, $call_direction_exact, $call_direction_exists, $call_direction_partial, $call_direction_start, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi2, $ddi_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $fax, $fax2, $fax_exists, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $friend, $friend2, $friend_exists, $id_exact, $last_execution, $last_execution_error, $last_execution_error_end, $last_execution_error_exact, $last_execution_error_exists, $last_execution_error_partial, $last_execution_error_start, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $user, $user2, $user_exists, $_order_call_direction, $_order_email, $_order_frequency, $_order_id, $_order_last_execution_error, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\CallCsvSchedulerCollection[] getCallCsvSchedulerCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $call_direction, $call_direction_end, $call_direction_exact, $call_direction_exists, $call_direction_partial, $call_direction_start, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi2, $ddi_exists, $email, $email_end, $email_exact, $email_partial, $email_start, $fax, $fax2, $fax_exists, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $friend, $friend2, $friend_exists, $id_exact, $last_execution, $last_execution_error, $last_execution_error_end, $last_execution_error_exact, $last_execution_error_exists, $last_execution_error_partial, $last_execution_error_start, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $residential_device, $residential_device2, $residential_device_exists, $retail_account, $retail_account2, $retail_account_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $user, $user2, $user_exists, $_order_call_direction, $_order_email, $_order_frequency, $_order_id, $_order_last_execution_error, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of CallCsvScheduler resources.
 
@@ -4069,11 +4069,11 @@ Retrieves the collection of CallCsvScheduler resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4278,7 +4278,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvSchedulerCollection[]**](../Model/CallCsvSchedulerCollection.md)
+[**\Delta/Voip\Model\CallCsvSchedulerCollection[]**](../Model/CallCsvSchedulerCollection.md)
 
 ### Authorization
 
@@ -4292,7 +4292,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCallCsvSchedulerItem**
-> \Swagger\Client\Model\CallCsvSchedulerDetailed getCallCsvSchedulerItem($id, $_timezone)
+> \Delta/Voip\Model\CallCsvSchedulerDetailed getCallCsvSchedulerItem($id, $_timezone)
 
 Retrieves a CallCsvScheduler resource.
 
@@ -4302,11 +4302,11 @@ Retrieves a CallCsvScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4333,7 +4333,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvSchedulerDetailed**](../Model/CallCsvSchedulerDetailed.md)
+[**\Delta/Voip\Model\CallCsvSchedulerDetailed**](../Model/CallCsvSchedulerDetailed.md)
 
 ### Authorization
 
@@ -4347,7 +4347,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCarrierCollection**
-> \Swagger\Client\Model\CarrierCollection[] getCarrierCollection($currency, $currency2, $currency_exists, $description, $description_end, $description_exact, $description_partial, $description_start, $externally_rated, $externally_rated_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $proxy_trunk, $proxy_trunk2, $proxy_trunk_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_externally_rated, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\CarrierCollection[] getCarrierCollection($currency, $currency2, $currency_exists, $description, $description_end, $description_exact, $description_partial, $description_start, $externally_rated, $externally_rated_exists, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $proxy_trunk, $proxy_trunk2, $proxy_trunk_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_externally_rated, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Carrier resources.
 
@@ -4357,11 +4357,11 @@ Retrieves the collection of Carrier resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4442,7 +4442,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierCollection[]**](../Model/CarrierCollection.md)
+[**\Delta/Voip\Model\CarrierCollection[]**](../Model/CarrierCollection.md)
 
 ### Authorization
 
@@ -4456,7 +4456,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCarrierItem**
-> \Swagger\Client\Model\CarrierDetailed getCarrierItem($id)
+> \Delta/Voip\Model\CarrierDetailed getCarrierItem($id)
 
 Retrieves a Carrier resource.
 
@@ -4466,11 +4466,11 @@ Retrieves a Carrier resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4495,7 +4495,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierDetailed**](../Model/CarrierDetailed.md)
+[**\Delta/Voip\Model\CarrierDetailed**](../Model/CarrierDetailed.md)
 
 ### Authorization
 
@@ -4509,7 +4509,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCarrierServerCollection**
-> \Swagger\Client\Model\CarrierServerCollection[] getCarrierServerCollection($auth_needed, $auth_needed_end, $auth_needed_exact, $auth_needed_partial, $auth_needed_start, $carrier, $carrier2, $hostname, $hostname_end, $hostname_exact, $hostname_exists, $hostname_partial, $hostname_start, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $sip_proxy, $sip_proxy_end, $sip_proxy_exact, $sip_proxy_exists, $sip_proxy_partial, $sip_proxy_start, $_order_auth_needed, $_order_hostname, $_order_id, $_order_ip, $_order_sip_proxy, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\CarrierServerCollection[] getCarrierServerCollection($auth_needed, $auth_needed_end, $auth_needed_exact, $auth_needed_partial, $auth_needed_start, $carrier, $carrier2, $hostname, $hostname_end, $hostname_exact, $hostname_exists, $hostname_partial, $hostname_start, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $sip_proxy, $sip_proxy_end, $sip_proxy_exact, $sip_proxy_exists, $sip_proxy_partial, $sip_proxy_start, $_order_auth_needed, $_order_hostname, $_order_id, $_order_ip, $_order_sip_proxy, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of CarrierServer resources.
 
@@ -4519,11 +4519,11 @@ Retrieves the collection of CarrierServer resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4614,7 +4614,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierServerCollection[]**](../Model/CarrierServerCollection.md)
+[**\Delta/Voip\Model\CarrierServerCollection[]**](../Model/CarrierServerCollection.md)
 
 ### Authorization
 
@@ -4628,7 +4628,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCarrierServerItem**
-> \Swagger\Client\Model\CarrierServerDetailed getCarrierServerItem($id)
+> \Delta/Voip\Model\CarrierServerDetailed getCarrierServerItem($id)
 
 Retrieves a CarrierServer resource.
 
@@ -4638,11 +4638,11 @@ Retrieves a CarrierServer resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4667,7 +4667,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierServerDetailed**](../Model/CarrierServerDetailed.md)
+[**\Delta/Voip\Model\CarrierServerDetailed**](../Model/CarrierServerDetailed.md)
 
 ### Authorization
 
@@ -4681,7 +4681,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCompanyCollection**
-> \Swagger\Client\Model\CompanyCollection[] getCompanyCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $country, $country2, $currency, $currency2, $currency_exists, $default_timezone, $default_timezone2, $default_timezone_exists, $fax_notification_template, $fax_notification_template2, $fax_notification_template_exists, $id_exact, $invoice_notification_template, $invoice_notification_template2, $invoice_notification_template_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $nif, $nif_end, $nif_exact, $nif_partial, $nif_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $voicemail_notification_template, $voicemail_notification_template2, $voicemail_notification_template_exists, $_order_id, $_order_name, $_order_nif, $_order_type, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\CompanyCollection[] getCompanyCollection($call_csv_notification_template, $call_csv_notification_template2, $call_csv_notification_template_exists, $country, $country2, $currency, $currency2, $currency_exists, $default_timezone, $default_timezone2, $default_timezone_exists, $fax_notification_template, $fax_notification_template2, $fax_notification_template_exists, $id_exact, $invoice_notification_template, $invoice_notification_template2, $invoice_notification_template_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $nif, $nif_end, $nif_exact, $nif_partial, $nif_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $voicemail_notification_template, $voicemail_notification_template2, $voicemail_notification_template_exists, $_order_id, $_order_name, $_order_nif, $_order_type, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Company resources.
 
@@ -4691,11 +4691,11 @@ Retrieves the collection of Company resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4822,7 +4822,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CompanyCollection[]**](../Model/CompanyCollection.md)
+[**\Delta/Voip\Model\CompanyCollection[]**](../Model/CompanyCollection.md)
 
 ### Authorization
 
@@ -4836,7 +4836,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCompanyItem**
-> \Swagger\Client\Model\CompanyDetailed getCompanyItem($id)
+> \Delta/Voip\Model\CompanyDetailed getCompanyItem($id)
 
 Retrieves a Company resource.
 
@@ -4846,11 +4846,11 @@ Retrieves a Company resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -4875,7 +4875,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CompanyDetailed**](../Model/CompanyDetailed.md)
+[**\Delta/Voip\Model\CompanyDetailed**](../Model/CompanyDetailed.md)
 
 ### Authorization
 
@@ -4889,7 +4889,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountryCollection**
-> \Swagger\Client\Model\CountryCollection[] getCountryCollection($code, $code_end, $code_exact, $code_partial, $code_start, $country_code, $country_code_end, $country_code_exact, $country_code_exists, $country_code_partial, $country_code_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_code, $_order_country_code, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\CountryCollection[] getCountryCollection($code, $code_end, $code_exact, $code_partial, $code_start, $country_code, $country_code_end, $country_code_exact, $country_code_exists, $country_code_partial, $country_code_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_code, $_order_country_code, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of Country resources.
 
@@ -4899,11 +4899,11 @@ Retrieves the collection of Country resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5020,7 +5020,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CountryCollection[]**](../Model/CountryCollection.md)
+[**\Delta/Voip\Model\CountryCollection[]**](../Model/CountryCollection.md)
 
 ### Authorization
 
@@ -5034,7 +5034,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCountryItem**
-> \Swagger\Client\Model\CountryDetailed getCountryItem($id)
+> \Delta/Voip\Model\CountryDetailed getCountryItem($id)
 
 Retrieves a Country resource.
 
@@ -5044,11 +5044,11 @@ Retrieves a Country resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5073,7 +5073,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CountryDetailed**](../Model/CountryDetailed.md)
+[**\Delta/Voip\Model\CountryDetailed**](../Model/CountryDetailed.md)
 
 ### Authorization
 
@@ -5087,7 +5087,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCurrencyCollection**
-> \Swagger\Client\Model\CurrencyCollection[] getCurrencyCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $symbol, $symbol_end, $symbol_exact, $symbol_partial, $symbol_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_symbol, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\CurrencyCollection[] getCurrencyCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $symbol, $symbol_end, $symbol_exact, $symbol_partial, $symbol_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_symbol, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Currency resources.
 
@@ -5097,11 +5097,11 @@ Retrieves the collection of Currency resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5208,7 +5208,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CurrencyCollection[]**](../Model/CurrencyCollection.md)
+[**\Delta/Voip\Model\CurrencyCollection[]**](../Model/CurrencyCollection.md)
 
 ### Authorization
 
@@ -5222,7 +5222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getCurrencyItem**
-> \Swagger\Client\Model\CurrencyDetailed getCurrencyItem($id)
+> \Delta/Voip\Model\CurrencyDetailed getCurrencyItem($id)
 
 Retrieves a Currency resource.
 
@@ -5232,11 +5232,11 @@ Retrieves a Currency resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5261,7 +5261,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\CurrencyDetailed**](../Model/CurrencyDetailed.md)
+[**\Delta/Voip\Model\CurrencyDetailed**](../Model/CurrencyDetailed.md)
 
 ### Authorization
 
@@ -5275,7 +5275,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiCollection**
-> \Swagger\Client\Model\DdiCollection[] getDdiCollection($company, $company2, $country, $country2, $country_exists, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi_end, $ddi_exact, $ddi_partial, $ddi_start, $ddie164, $ddie164_end, $ddie164_exact, $ddie164_exists, $ddie164_partial, $ddie164_start, $id_exact, $_order_ddi, $_order_ddie164, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DdiCollection[] getDdiCollection($company, $company2, $country, $country2, $country_exists, $ddi, $ddi_provider, $ddi_provider2, $ddi_provider_exists, $ddi_end, $ddi_exact, $ddi_partial, $ddi_start, $ddie164, $ddie164_end, $ddie164_exact, $ddie164_exists, $ddie164_partial, $ddie164_start, $id_exact, $_order_ddi, $_order_ddie164, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Ddi resources.
 
@@ -5285,11 +5285,11 @@ Retrieves the collection of Ddi resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5364,7 +5364,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiCollection[]**](../Model/DdiCollection.md)
+[**\Delta/Voip\Model\DdiCollection[]**](../Model/DdiCollection.md)
 
 ### Authorization
 
@@ -5378,7 +5378,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiItem**
-> \Swagger\Client\Model\DdiDetailed getDdiItem($id)
+> \Delta/Voip\Model\DdiDetailed getDdiItem($id)
 
 Retrieves a Ddi resource.
 
@@ -5388,11 +5388,11 @@ Retrieves a Ddi resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5417,7 +5417,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiDetailed**](../Model/DdiDetailed.md)
+[**\Delta/Voip\Model\DdiDetailed**](../Model/DdiDetailed.md)
 
 ### Authorization
 
@@ -5431,7 +5431,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderAddressCollection**
-> \Swagger\Client\Model\DdiProviderAddressCollection[] getDdiProviderAddressCollection($ddi_provider, $ddi_provider2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $_order_description, $_order_id, $_order_ip, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DdiProviderAddressCollection[] getDdiProviderAddressCollection($ddi_provider, $ddi_provider2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $ip, $ip_end, $ip_exact, $ip_exists, $ip_partial, $ip_start, $_order_description, $_order_id, $_order_ip, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of DdiProviderAddress resources.
 
@@ -5441,11 +5441,11 @@ Retrieves the collection of DdiProviderAddress resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5510,7 +5510,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderAddressCollection[]**](../Model/DdiProviderAddressCollection.md)
+[**\Delta/Voip\Model\DdiProviderAddressCollection[]**](../Model/DdiProviderAddressCollection.md)
 
 ### Authorization
 
@@ -5524,7 +5524,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderAddressItem**
-> \Swagger\Client\Model\DdiProviderAddressDetailed getDdiProviderAddressItem($id)
+> \Delta/Voip\Model\DdiProviderAddressDetailed getDdiProviderAddressItem($id)
 
 Retrieves a DdiProviderAddress resource.
 
@@ -5534,11 +5534,11 @@ Retrieves a DdiProviderAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5563,7 +5563,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderAddressDetailed**](../Model/DdiProviderAddressDetailed.md)
+[**\Delta/Voip\Model\DdiProviderAddressDetailed**](../Model/DdiProviderAddressDetailed.md)
 
 ### Authorization
 
@@ -5577,7 +5577,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderCollection**
-> \Swagger\Client\Model\DdiProviderCollection[] getDdiProviderCollection($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $proxy_trunk, $proxy_trunk2, $proxy_trunk_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DdiProviderCollection[] getDdiProviderCollection($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $proxy_trunk, $proxy_trunk2, $proxy_trunk_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of DdiProvider resources.
 
@@ -5587,11 +5587,11 @@ Retrieves the collection of DdiProvider resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5660,7 +5660,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderCollection[]**](../Model/DdiProviderCollection.md)
+[**\Delta/Voip\Model\DdiProviderCollection[]**](../Model/DdiProviderCollection.md)
 
 ### Authorization
 
@@ -5674,7 +5674,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderItem**
-> \Swagger\Client\Model\DdiProviderDetailed getDdiProviderItem($id)
+> \Delta/Voip\Model\DdiProviderDetailed getDdiProviderItem($id)
 
 Retrieves a DdiProvider resource.
 
@@ -5684,11 +5684,11 @@ Retrieves a DdiProvider resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5713,7 +5713,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderDetailed**](../Model/DdiProviderDetailed.md)
+[**\Delta/Voip\Model\DdiProviderDetailed**](../Model/DdiProviderDetailed.md)
 
 ### Authorization
 
@@ -5727,7 +5727,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderRegistrationCollection**
-> \Swagger\Client\Model\DdiProviderRegistrationDetailedCollection[] getDdiProviderRegistrationCollection($ddi_provider, $ddi_provider2, $domain, $domain_end, $domain_exact, $domain_partial, $domain_start, $id_exact, $status_expires, $status_in_progress, $status_registered, $username, $username_end, $username_exact, $username_partial, $username_start, $_order_domain, $_order_id, $_order_username, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DdiProviderRegistrationDetailedCollection[] getDdiProviderRegistrationCollection($ddi_provider, $ddi_provider2, $domain, $domain_end, $domain_exact, $domain_partial, $domain_start, $id_exact, $status_expires, $status_in_progress, $status_registered, $username, $username_end, $username_exact, $username_partial, $username_start, $_order_domain, $_order_id, $_order_username, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of DdiProviderRegistration resources.
 
@@ -5737,11 +5737,11 @@ Retrieves the collection of DdiProviderRegistration resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5808,7 +5808,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderRegistrationDetailedCollection[]**](../Model/DdiProviderRegistrationDetailedCollection.md)
+[**\Delta/Voip\Model\DdiProviderRegistrationDetailedCollection[]**](../Model/DdiProviderRegistrationDetailedCollection.md)
 
 ### Authorization
 
@@ -5822,7 +5822,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDdiProviderRegistrationItem**
-> \Swagger\Client\Model\DdiProviderRegistrationDetailed getDdiProviderRegistrationItem($id)
+> \Delta/Voip\Model\DdiProviderRegistrationDetailed getDdiProviderRegistrationItem($id)
 
 Retrieves a DdiProviderRegistration resource.
 
@@ -5832,11 +5832,11 @@ Retrieves a DdiProviderRegistration resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5861,7 +5861,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderRegistrationDetailed**](../Model/DdiProviderRegistrationDetailed.md)
+[**\Delta/Voip\Model\DdiProviderRegistrationDetailed**](../Model/DdiProviderRegistrationDetailed.md)
 
 ### Authorization
 
@@ -5875,7 +5875,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationCollection**
-> \Swagger\Client\Model\DestinationCollection[] getDestinationCollection($id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $prefix, $prefix_end, $prefix_exact, $prefix_partial, $prefix_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_prefix, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DestinationCollection[] getDestinationCollection($id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $prefix, $prefix_end, $prefix_exact, $prefix_partial, $prefix_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_prefix, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Destination resources.
 
@@ -5885,11 +5885,11 @@ Retrieves the collection of Destination resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -5990,7 +5990,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationCollection[]**](../Model/DestinationCollection.md)
+[**\Delta/Voip\Model\DestinationCollection[]**](../Model/DestinationCollection.md)
 
 ### Authorization
 
@@ -6004,7 +6004,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationItem**
-> \Swagger\Client\Model\DestinationDetailed getDestinationItem($id)
+> \Delta/Voip\Model\DestinationDetailed getDestinationItem($id)
 
 Retrieves a Destination resource.
 
@@ -6014,11 +6014,11 @@ Retrieves a Destination resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6043,7 +6043,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationDetailed**](../Model/DestinationDetailed.md)
+[**\Delta/Voip\Model\DestinationDetailed**](../Model/DestinationDetailed.md)
 
 ### Authorization
 
@@ -6057,7 +6057,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationRateCollection**
-> \Swagger\Client\Model\DestinationRateCollection[] getDestinationRateCollection($connect_fee, $connect_fee_between, $connect_fee_gt, $connect_fee_gte, $connect_fee_lt, $connect_fee_lte, $cost, $cost_between, $cost_gt, $cost_gte, $cost_lt, $cost_lte, $destination, $destination_rate_group, $destination_rate_group2, $destination2, $group_interval_start, $group_interval_start_end, $group_interval_start_exact, $group_interval_start_partial, $group_interval_start_start, $id_exact, $rate_increment, $rate_increment_end, $rate_increment_exact, $rate_increment_partial, $rate_increment_start, $_order_connect_fee, $_order_cost, $_order_group_interval_start, $_order_id, $_order_rate_increment, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DestinationRateCollection[] getDestinationRateCollection($connect_fee, $connect_fee_between, $connect_fee_gt, $connect_fee_gte, $connect_fee_lt, $connect_fee_lte, $cost, $cost_between, $cost_gt, $cost_gte, $cost_lt, $cost_lte, $destination, $destination_rate_group, $destination_rate_group2, $destination2, $group_interval_start, $group_interval_start_end, $group_interval_start_exact, $group_interval_start_partial, $group_interval_start_start, $id_exact, $rate_increment, $rate_increment_end, $rate_increment_exact, $rate_increment_partial, $rate_increment_start, $_order_connect_fee, $_order_cost, $_order_group_interval_start, $_order_id, $_order_rate_increment, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of DestinationRate resources.
 
@@ -6067,11 +6067,11 @@ Retrieves the collection of DestinationRate resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6164,7 +6164,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateCollection[]**](../Model/DestinationRateCollection.md)
+[**\Delta/Voip\Model\DestinationRateCollection[]**](../Model/DestinationRateCollection.md)
 
 ### Authorization
 
@@ -6178,7 +6178,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationRateGroupCollection**
-> \Swagger\Client\Model\DestinationRateGroupCollection[] getDestinationRateGroupCollection($currency, $currency2, $currency_exists, $file_base_name, $file_base_name_end, $file_base_name_exact, $file_base_name_exists, $file_base_name_partial, $file_base_name_start, $file_file_size, $file_file_size_between, $file_file_size_exists, $file_file_size_gt, $file_file_size_gte, $file_file_size_lt, $file_file_size_lte, $file_mime_type, $file_mime_type_end, $file_mime_type_exact, $file_mime_type_exists, $file_mime_type_partial, $file_mime_type_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_file_base_name, $_order_file_file_size, $_order_file_importer_arguments, $_order_file_mime_type, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_status, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\DestinationRateGroupCollection[] getDestinationRateGroupCollection($currency, $currency2, $currency_exists, $file_base_name, $file_base_name_end, $file_base_name_exact, $file_base_name_exists, $file_base_name_partial, $file_base_name_start, $file_file_size, $file_file_size_between, $file_file_size_exists, $file_file_size_gt, $file_file_size_gte, $file_file_size_lt, $file_file_size_lte, $file_mime_type, $file_mime_type_end, $file_mime_type_exact, $file_mime_type_exists, $file_mime_type_partial, $file_mime_type_start, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $_order_file_base_name, $_order_file_file_size, $_order_file_importer_arguments, $_order_file_mime_type, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_status, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of DestinationRateGroup resources.
 
@@ -6188,11 +6188,11 @@ Retrieves the collection of DestinationRateGroup resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6339,7 +6339,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateGroupCollection[]**](../Model/DestinationRateGroupCollection.md)
+[**\Delta/Voip\Model\DestinationRateGroupCollection[]**](../Model/DestinationRateGroupCollection.md)
 
 ### Authorization
 
@@ -6353,7 +6353,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationRateGroupItem**
-> \Swagger\Client\Model\DestinationRateGroupDetailed getDestinationRateGroupItem($id)
+> \Delta/Voip\Model\DestinationRateGroupDetailed getDestinationRateGroupItem($id)
 
 Retrieves a DestinationRateGroup resource.
 
@@ -6363,11 +6363,11 @@ Retrieves a DestinationRateGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6392,7 +6392,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateGroupDetailed**](../Model/DestinationRateGroupDetailed.md)
+[**\Delta/Voip\Model\DestinationRateGroupDetailed**](../Model/DestinationRateGroupDetailed.md)
 
 ### Authorization
 
@@ -6406,7 +6406,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getDestinationRateItem**
-> \Swagger\Client\Model\DestinationRateDetailed getDestinationRateItem($id)
+> \Delta/Voip\Model\DestinationRateDetailed getDestinationRateItem($id)
 
 Retrieves a DestinationRate resource.
 
@@ -6416,11 +6416,11 @@ Retrieves a DestinationRate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6445,7 +6445,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateDetailed**](../Model/DestinationRateDetailed.md)
+[**\Delta/Voip\Model\DestinationRateDetailed**](../Model/DestinationRateDetailed.md)
 
 ### Authorization
 
@@ -6459,7 +6459,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFaxCollection**
-> \Swagger\Client\Model\FaxCollection[] getFaxCollection($company, $company2, $email, $email_end, $email_exact, $email_exists, $email_partial, $email_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $send_by_email, $_order_email, $_order_id, $_order_name, $_order_send_by_email, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FaxCollection[] getFaxCollection($company, $company2, $email, $email_end, $email_exact, $email_exists, $email_partial, $email_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $send_by_email, $_order_email, $_order_id, $_order_name, $_order_send_by_email, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Fax resources.
 
@@ -6469,11 +6469,11 @@ Retrieves the collection of Fax resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6546,7 +6546,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FaxCollection[]**](../Model/FaxCollection.md)
+[**\Delta/Voip\Model\FaxCollection[]**](../Model/FaxCollection.md)
 
 ### Authorization
 
@@ -6560,7 +6560,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeatureCollection**
-> \Swagger\Client\Model\FeatureCollection[] getFeatureCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $_order_id, $_order_iden, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FeatureCollection[] getFeatureCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $_order_id, $_order_iden, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Feature resources.
 
@@ -6570,11 +6570,11 @@ Retrieves the collection of Feature resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6619,7 +6619,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeatureCollection[]**](../Model/FeatureCollection.md)
+[**\Delta/Voip\Model\FeatureCollection[]**](../Model/FeatureCollection.md)
 
 ### Authorization
 
@@ -6633,7 +6633,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeatureItem**
-> \Swagger\Client\Model\FeatureDetailed getFeatureItem($id)
+> \Delta/Voip\Model\FeatureDetailed getFeatureItem($id)
 
 Retrieves a Feature resource.
 
@@ -6643,11 +6643,11 @@ Retrieves a Feature resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6672,7 +6672,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeatureDetailed**](../Model/FeatureDetailed.md)
+[**\Delta/Voip\Model\FeatureDetailed**](../Model/FeatureDetailed.md)
 
 ### Authorization
 
@@ -6686,7 +6686,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeaturesRelBrandCollection**
-> \Swagger\Client\Model\FeaturesRelBrandCollection[] getFeaturesRelBrandCollection($feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FeaturesRelBrandCollection[] getFeaturesRelBrandCollection($feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of FeaturesRelBrand resources.
 
@@ -6696,11 +6696,11 @@ Retrieves the collection of FeaturesRelBrand resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6737,7 +6737,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeaturesRelBrandCollection[]**](../Model/FeaturesRelBrandCollection.md)
+[**\Delta/Voip\Model\FeaturesRelBrandCollection[]**](../Model/FeaturesRelBrandCollection.md)
 
 ### Authorization
 
@@ -6751,7 +6751,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeaturesRelBrandItem**
-> \Swagger\Client\Model\FeaturesRelBrandDetailed getFeaturesRelBrandItem($id)
+> \Delta/Voip\Model\FeaturesRelBrandDetailed getFeaturesRelBrandItem($id)
 
 Retrieves a FeaturesRelBrand resource.
 
@@ -6761,11 +6761,11 @@ Retrieves a FeaturesRelBrand resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6790,7 +6790,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeaturesRelBrandDetailed**](../Model/FeaturesRelBrandDetailed.md)
+[**\Delta/Voip\Model\FeaturesRelBrandDetailed**](../Model/FeaturesRelBrandDetailed.md)
 
 ### Authorization
 
@@ -6804,7 +6804,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeaturesRelCompanyCollection**
-> \Swagger\Client\Model\FeaturesRelCompanyCollection[] getFeaturesRelCompanyCollection($company, $company2, $feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FeaturesRelCompanyCollection[] getFeaturesRelCompanyCollection($company, $company2, $feature, $feature2, $id_exact, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of FeaturesRelCompany resources.
 
@@ -6814,11 +6814,11 @@ Retrieves the collection of FeaturesRelCompany resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6859,7 +6859,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeaturesRelCompanyCollection[]**](../Model/FeaturesRelCompanyCollection.md)
+[**\Delta/Voip\Model\FeaturesRelCompanyCollection[]**](../Model/FeaturesRelCompanyCollection.md)
 
 ### Authorization
 
@@ -6873,7 +6873,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFeaturesRelCompanyItem**
-> \Swagger\Client\Model\FeaturesRelCompanyDetailed getFeaturesRelCompanyItem($id)
+> \Delta/Voip\Model\FeaturesRelCompanyDetailed getFeaturesRelCompanyItem($id)
 
 Retrieves a FeaturesRelCompany resource.
 
@@ -6883,11 +6883,11 @@ Retrieves a FeaturesRelCompany resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6912,7 +6912,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FeaturesRelCompanyDetailed**](../Model/FeaturesRelCompanyDetailed.md)
+[**\Delta/Voip\Model\FeaturesRelCompanyDetailed**](../Model/FeaturesRelCompanyDetailed.md)
 
 ### Authorization
 
@@ -6926,7 +6926,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostCollection**
-> \Swagger\Client\Model\FixedCostCollection[] getFixedCostCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FixedCostCollection[] getFixedCostCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of FixedCost resources.
 
@@ -6936,11 +6936,11 @@ Retrieves the collection of FixedCost resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -6985,7 +6985,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostCollection[]**](../Model/FixedCostCollection.md)
+[**\Delta/Voip\Model\FixedCostCollection[]**](../Model/FixedCostCollection.md)
 
 ### Authorization
 
@@ -6999,7 +6999,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostItem**
-> \Swagger\Client\Model\FixedCostDetailed getFixedCostItem($id)
+> \Delta/Voip\Model\FixedCostDetailed getFixedCostItem($id)
 
 Retrieves a FixedCost resource.
 
@@ -7009,11 +7009,11 @@ Retrieves a FixedCost resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7038,7 +7038,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostDetailed**](../Model/FixedCostDetailed.md)
+[**\Delta/Voip\Model\FixedCostDetailed**](../Model/FixedCostDetailed.md)
 
 ### Authorization
 
@@ -7052,7 +7052,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostsRelInvoiceCollection**
-> \Swagger\Client\Model\FixedCostsRelInvoiceDetailedCollection[] getFixedCostsRelInvoiceCollection($fixed_cost, $fixed_cost_cost, $fixed_cost_description, $fixed_cost_name, $fixed_cost2, $id_exact, $invoice, $invoice_company, $invoice_in_date, $invoice_invoice_template, $invoice_number, $invoice_number_sequence, $invoice_out_date, $invoice_scheduler, $invoice_status, $invoice_status_msg, $invoice_tax_rate, $invoice_total, $invoice_total_with_tax, $invoice2, $quantity, $quantity_between, $quantity_exists, $quantity_gt, $quantity_gte, $quantity_lt, $quantity_lte, $_order_id, $_order_quantity, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FixedCostsRelInvoiceDetailedCollection[] getFixedCostsRelInvoiceCollection($fixed_cost, $fixed_cost_cost, $fixed_cost_description, $fixed_cost_name, $fixed_cost2, $id_exact, $invoice, $invoice_company, $invoice_in_date, $invoice_invoice_template, $invoice_number, $invoice_number_sequence, $invoice_out_date, $invoice_scheduler, $invoice_status, $invoice_status_msg, $invoice_tax_rate, $invoice_total, $invoice_total_with_tax, $invoice2, $quantity, $quantity_between, $quantity_exists, $quantity_gt, $quantity_gte, $quantity_lt, $quantity_lte, $_order_id, $_order_quantity, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of FixedCostsRelInvoice resources.
 
@@ -7062,11 +7062,11 @@ Retrieves the collection of FixedCostsRelInvoice resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7153,7 +7153,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceDetailedCollection[]**](../Model/FixedCostsRelInvoiceDetailedCollection.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceDetailedCollection[]**](../Model/FixedCostsRelInvoiceDetailedCollection.md)
 
 ### Authorization
 
@@ -7167,7 +7167,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostsRelInvoiceItem**
-> \Swagger\Client\Model\FixedCostsRelInvoiceDetailed getFixedCostsRelInvoiceItem($id)
+> \Delta/Voip\Model\FixedCostsRelInvoiceDetailed getFixedCostsRelInvoiceItem($id)
 
 Retrieves a FixedCostsRelInvoice resource.
 
@@ -7177,11 +7177,11 @@ Retrieves a FixedCostsRelInvoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7206,7 +7206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceDetailed**](../Model/FixedCostsRelInvoiceDetailed.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceDetailed**](../Model/FixedCostsRelInvoiceDetailed.md)
 
 ### Authorization
 
@@ -7220,7 +7220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostsRelInvoiceSchedulerCollection**
-> \Swagger\Client\Model\FixedCostsRelInvoiceSchedulerDetailedCollection[] getFixedCostsRelInvoiceSchedulerCollection($fixed_cost, $fixed_cost_cost, $fixed_cost_description, $fixed_cost_name, $fixed_cost2, $id_exact, $invoice_scheduler, $invoice_scheduler_brand, $invoice_scheduler_company, $invoice_scheduler_email, $invoice_scheduler_frequency, $invoice_scheduler_invoice_template, $invoice_scheduler_last_execution, $invoice_scheduler_last_execution_error, $invoice_scheduler_name, $invoice_scheduler_next_execution, $invoice_scheduler_number_sequence, $invoice_scheduler_tax_rate, $invoice_scheduler_unit, $invoice_scheduler2, $quantity, $quantity_between, $quantity_exists, $quantity_gt, $quantity_gte, $quantity_lt, $quantity_lte, $_order_id, $_order_quantity, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\FixedCostsRelInvoiceSchedulerDetailedCollection[] getFixedCostsRelInvoiceSchedulerCollection($fixed_cost, $fixed_cost_cost, $fixed_cost_description, $fixed_cost_name, $fixed_cost2, $id_exact, $invoice_scheduler, $invoice_scheduler_brand, $invoice_scheduler_company, $invoice_scheduler_email, $invoice_scheduler_frequency, $invoice_scheduler_invoice_template, $invoice_scheduler_last_execution, $invoice_scheduler_last_execution_error, $invoice_scheduler_name, $invoice_scheduler_next_execution, $invoice_scheduler_number_sequence, $invoice_scheduler_tax_rate, $invoice_scheduler_unit, $invoice_scheduler2, $quantity, $quantity_between, $quantity_exists, $quantity_gt, $quantity_gte, $quantity_lt, $quantity_lte, $_order_id, $_order_quantity, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of FixedCostsRelInvoiceScheduler resources.
 
@@ -7230,11 +7230,11 @@ Retrieves the collection of FixedCostsRelInvoiceScheduler resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7321,7 +7321,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceSchedulerDetailedCollection[]**](../Model/FixedCostsRelInvoiceSchedulerDetailedCollection.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceSchedulerDetailedCollection[]**](../Model/FixedCostsRelInvoiceSchedulerDetailedCollection.md)
 
 ### Authorization
 
@@ -7335,7 +7335,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFixedCostsRelInvoiceSchedulerItem**
-> \Swagger\Client\Model\FixedCostsRelInvoiceSchedulerDetailed getFixedCostsRelInvoiceSchedulerItem($id)
+> \Delta/Voip\Model\FixedCostsRelInvoiceSchedulerDetailed getFixedCostsRelInvoiceSchedulerItem($id)
 
 Retrieves a FixedCostsRelInvoiceScheduler resource.
 
@@ -7345,11 +7345,11 @@ Retrieves a FixedCostsRelInvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7374,7 +7374,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceSchedulerDetailed**](../Model/FixedCostsRelInvoiceSchedulerDetailed.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceSchedulerDetailed**](../Model/FixedCostsRelInvoiceSchedulerDetailed.md)
 
 ### Authorization
 
@@ -7388,7 +7388,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFriendCollection**
-> \Swagger\Client\Model\FriendCollection[] getFriendCollection($company, $company2, $description, $description_end, $description_exact, $description_partial, $description_start, $direct_connectivity, $direct_connectivity_end, $direct_connectivity_exact, $direct_connectivity_partial, $direct_connectivity_start, $domain, $id_exact, $inter_company, $inter_company2, $inter_company_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_direct_connectivity, $_order_id, $_order_name, $_order_priority, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\FriendCollection[] getFriendCollection($company, $company2, $description, $description_end, $description_exact, $description_partial, $description_start, $direct_connectivity, $direct_connectivity_end, $direct_connectivity_exact, $direct_connectivity_partial, $direct_connectivity_start, $domain, $id_exact, $inter_company, $inter_company2, $inter_company_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_description, $_order_direct_connectivity, $_order_id, $_order_name, $_order_priority, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of Friend resources.
 
@@ -7398,11 +7398,11 @@ Retrieves the collection of Friend resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7517,7 +7517,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FriendCollection[]**](../Model/FriendCollection.md)
+[**\Delta/Voip\Model\FriendCollection[]**](../Model/FriendCollection.md)
 
 ### Authorization
 
@@ -7531,7 +7531,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getFriendItem**
-> \Swagger\Client\Model\FriendDetailed getFriendItem($id)
+> \Delta/Voip\Model\FriendDetailed getFriendItem($id)
 
 Retrieves a Friend resource.
 
@@ -7541,11 +7541,11 @@ Retrieves a Friend resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7570,7 +7570,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FriendDetailed**](../Model/FriendDetailed.md)
+[**\Delta/Voip\Model\FriendDetailed**](../Model/FriendDetailed.md)
 
 ### Authorization
 
@@ -7584,7 +7584,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceCollection**
-> \Swagger\Client\Model\InvoiceCollection[] getInvoiceCollection($company, $company2, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_exists, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $invoice_template, $invoice_template2, $invoice_template_exists, $number, $number_sequence, $number_sequence2, $number_sequence_exists, $number_end, $number_exact, $number_exists, $number_partial, $number_start, $out_date, $out_date_after, $out_date_before, $out_date_exists, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $pdf, $pdf_base_name, $pdf_base_name_end, $pdf_base_name_exact, $pdf_base_name_exists, $pdf_base_name_partial, $pdf_base_name_start, $pdf_file_size, $pdf_file_size_between, $pdf_file_size_exists, $pdf_file_size_gt, $pdf_file_size_gte, $pdf_file_size_lt, $pdf_file_size_lte, $pdf_mime_type, $pdf_mime_type_end, $pdf_mime_type_exact, $pdf_mime_type_exists, $pdf_mime_type_partial, $pdf_mime_type_start, $scheduler, $scheduler2, $scheduler_exists, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $total, $total_with_tax, $total_with_tax_between, $total_with_tax_exists, $total_with_tax_gt, $total_with_tax_gte, $total_with_tax_lt, $total_with_tax_lte, $total_between, $total_exists, $total_gt, $total_gte, $total_lt, $total_lte, $_order_id, $_order_in_date, $_order_number, $_order_out_date, $_order_pdf_base_name, $_order_pdf_file_size, $_order_pdf_mime_type, $_order_status, $_order_total_with_tax, $_order_total, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\InvoiceCollection[] getInvoiceCollection($company, $company2, $id_exact, $in_date, $in_date_after, $in_date_before, $in_date_exists, $in_date_start, $in_date_strictly_after, $in_date_strictly_before, $invoice_template, $invoice_template2, $invoice_template_exists, $number, $number_sequence, $number_sequence2, $number_sequence_exists, $number_end, $number_exact, $number_exists, $number_partial, $number_start, $out_date, $out_date_after, $out_date_before, $out_date_exists, $out_date_start, $out_date_strictly_after, $out_date_strictly_before, $pdf, $pdf_base_name, $pdf_base_name_end, $pdf_base_name_exact, $pdf_base_name_exists, $pdf_base_name_partial, $pdf_base_name_start, $pdf_file_size, $pdf_file_size_between, $pdf_file_size_exists, $pdf_file_size_gt, $pdf_file_size_gte, $pdf_file_size_lt, $pdf_file_size_lte, $pdf_mime_type, $pdf_mime_type_end, $pdf_mime_type_exact, $pdf_mime_type_exists, $pdf_mime_type_partial, $pdf_mime_type_start, $scheduler, $scheduler2, $scheduler_exists, $status, $status_end, $status_exact, $status_exists, $status_partial, $status_start, $total, $total_with_tax, $total_with_tax_between, $total_with_tax_exists, $total_with_tax_gt, $total_with_tax_gte, $total_with_tax_lt, $total_with_tax_lte, $total_between, $total_exists, $total_gt, $total_gte, $total_lt, $total_lte, $_order_id, $_order_in_date, $_order_number, $_order_out_date, $_order_pdf_base_name, $_order_pdf_file_size, $_order_pdf_mime_type, $_order_status, $_order_total_with_tax, $_order_total, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of Invoice resources.
 
@@ -7594,11 +7594,11 @@ Retrieves the collection of Invoice resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7793,7 +7793,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceCollection[]**](../Model/InvoiceCollection.md)
+[**\Delta/Voip\Model\InvoiceCollection[]**](../Model/InvoiceCollection.md)
 
 ### Authorization
 
@@ -7807,7 +7807,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceItem**
-> \Swagger\Client\Model\InvoiceDetailed getInvoiceItem($id, $_timezone)
+> \Delta/Voip\Model\InvoiceDetailed getInvoiceItem($id, $_timezone)
 
 Retrieves a Invoice resource.
 
@@ -7817,11 +7817,11 @@ Retrieves a Invoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7848,7 +7848,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceDetailed**](../Model/InvoiceDetailed.md)
+[**\Delta/Voip\Model\InvoiceDetailed**](../Model/InvoiceDetailed.md)
 
 ### Authorization
 
@@ -7862,7 +7862,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceNumberSequenceCollection**
-> \Swagger\Client\Model\InvoiceNumberSequenceCollection[] getInvoiceNumberSequenceCollection($id_exact, $latest_value, $latest_value_end, $latest_value_exact, $latest_value_exists, $latest_value_partial, $latest_value_start, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_latest_value, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\InvoiceNumberSequenceCollection[] getInvoiceNumberSequenceCollection($id_exact, $latest_value, $latest_value_end, $latest_value_exact, $latest_value_exists, $latest_value_partial, $latest_value_start, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_latest_value, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of InvoiceNumberSequence resources.
 
@@ -7872,11 +7872,11 @@ Retrieves the collection of InvoiceNumberSequence resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7935,7 +7935,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceNumberSequenceCollection[]**](../Model/InvoiceNumberSequenceCollection.md)
+[**\Delta/Voip\Model\InvoiceNumberSequenceCollection[]**](../Model/InvoiceNumberSequenceCollection.md)
 
 ### Authorization
 
@@ -7949,7 +7949,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceNumberSequenceItem**
-> \Swagger\Client\Model\InvoiceNumberSequenceDetailed getInvoiceNumberSequenceItem($id)
+> \Delta/Voip\Model\InvoiceNumberSequenceDetailed getInvoiceNumberSequenceItem($id)
 
 Retrieves a InvoiceNumberSequence resource.
 
@@ -7959,11 +7959,11 @@ Retrieves a InvoiceNumberSequence resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -7988,7 +7988,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceNumberSequenceDetailed**](../Model/InvoiceNumberSequenceDetailed.md)
+[**\Delta/Voip\Model\InvoiceNumberSequenceDetailed**](../Model/InvoiceNumberSequenceDetailed.md)
 
 ### Authorization
 
@@ -8002,7 +8002,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceSchedulerCollection**
-> \Swagger\Client\Model\InvoiceSchedulerCollection[] getInvoiceSchedulerCollection($brand, $brand2, $company, $company2, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $id_exact, $invoice_template, $invoice_template2, $invoice_template_exists, $last_execution, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $number_sequence, $number_sequence2, $number_sequence_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $_order_frequency, $_order_id, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\InvoiceSchedulerCollection[] getInvoiceSchedulerCollection($brand, $brand2, $company, $company2, $frequency, $frequency_between, $frequency_gt, $frequency_gte, $frequency_lt, $frequency_lte, $id_exact, $invoice_template, $invoice_template2, $invoice_template_exists, $last_execution, $last_execution_after, $last_execution_before, $last_execution_exists, $last_execution_start, $last_execution_strictly_after, $last_execution_strictly_before, $name, $name_end, $name_exact, $name_partial, $name_start, $next_execution, $next_execution_after, $next_execution_before, $next_execution_exists, $next_execution_start, $next_execution_strictly_after, $next_execution_strictly_before, $number_sequence, $number_sequence2, $number_sequence_exists, $unit, $unit_end, $unit_exact, $unit_partial, $unit_start, $_order_frequency, $_order_id, $_order_last_execution, $_order_name, $_order_next_execution, $_order_unit, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of InvoiceScheduler resources.
 
@@ -8012,11 +8012,11 @@ Retrieves the collection of InvoiceScheduler resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8141,7 +8141,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceSchedulerCollection[]**](../Model/InvoiceSchedulerCollection.md)
+[**\Delta/Voip\Model\InvoiceSchedulerCollection[]**](../Model/InvoiceSchedulerCollection.md)
 
 ### Authorization
 
@@ -8155,7 +8155,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceSchedulerItem**
-> \Swagger\Client\Model\InvoiceSchedulerDetailed getInvoiceSchedulerItem($id, $_timezone)
+> \Delta/Voip\Model\InvoiceSchedulerDetailed getInvoiceSchedulerItem($id, $_timezone)
 
 Retrieves a InvoiceScheduler resource.
 
@@ -8165,11 +8165,11 @@ Retrieves a InvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8196,7 +8196,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceSchedulerDetailed**](../Model/InvoiceSchedulerDetailed.md)
+[**\Delta/Voip\Model\InvoiceSchedulerDetailed**](../Model/InvoiceSchedulerDetailed.md)
 
 ### Authorization
 
@@ -8210,7 +8210,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceTemplateCollection**
-> \Swagger\Client\Model\InvoiceTemplateCollection[] getInvoiceTemplateCollection($global, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\InvoiceTemplateCollection[] getInvoiceTemplateCollection($global, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of InvoiceTemplate resources.
 
@@ -8220,11 +8220,11 @@ Retrieves the collection of InvoiceTemplate resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8271,7 +8271,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceTemplateCollection[]**](../Model/InvoiceTemplateCollection.md)
+[**\Delta/Voip\Model\InvoiceTemplateCollection[]**](../Model/InvoiceTemplateCollection.md)
 
 ### Authorization
 
@@ -8285,7 +8285,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getInvoiceTemplateItem**
-> \Swagger\Client\Model\InvoiceTemplateDetailed getInvoiceTemplateItem($id)
+> \Delta/Voip\Model\InvoiceTemplateDetailed getInvoiceTemplateItem($id)
 
 Retrieves a InvoiceTemplate resource.
 
@@ -8295,11 +8295,11 @@ Retrieves a InvoiceTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8324,7 +8324,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceTemplateDetailed**](../Model/InvoiceTemplateDetailed.md)
+[**\Delta/Voip\Model\InvoiceTemplateDetailed**](../Model/InvoiceTemplateDetailed.md)
 
 ### Authorization
 
@@ -8338,7 +8338,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLanguageCollection**
-> \Swagger\Client\Model\LanguageCollection[] getLanguageCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\LanguageCollection[] getLanguageCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Language resources.
 
@@ -8348,11 +8348,11 @@ Retrieves the collection of Language resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8445,7 +8445,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\LanguageCollection[]**](../Model/LanguageCollection.md)
+[**\Delta/Voip\Model\LanguageCollection[]**](../Model/LanguageCollection.md)
 
 ### Authorization
 
@@ -8459,7 +8459,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getLanguageItem**
-> \Swagger\Client\Model\LanguageDetailed getLanguageItem($id)
+> \Delta/Voip\Model\LanguageDetailed getLanguageItem($id)
 
 Retrieves a Language resource.
 
@@ -8469,11 +8469,11 @@ Retrieves a Language resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8498,7 +8498,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\LanguageDetailed**](../Model/LanguageDetailed.md)
+[**\Delta/Voip\Model\LanguageDetailed**](../Model/LanguageDetailed.md)
 
 ### Authorization
 
@@ -8512,7 +8512,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNotificationTemplateCollection**
-> \Swagger\Client\Model\NotificationTemplateCollection[] getNotificationTemplateCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_id, $_order_name, $_order_type, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\NotificationTemplateCollection[] getNotificationTemplateCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_id, $_order_name, $_order_type, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of NotificationTemplate resources.
 
@@ -8522,11 +8522,11 @@ Retrieves the collection of NotificationTemplate resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8583,7 +8583,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateCollection[]**](../Model/NotificationTemplateCollection.md)
+[**\Delta/Voip\Model\NotificationTemplateCollection[]**](../Model/NotificationTemplateCollection.md)
 
 ### Authorization
 
@@ -8597,7 +8597,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNotificationTemplateContentCollection**
-> \Swagger\Client\Model\NotificationTemplateContentCollection[] getNotificationTemplateContentCollection($from_address, $from_address_end, $from_address_exact, $from_address_exists, $from_address_partial, $from_address_start, $from_name, $from_name_end, $from_name_exact, $from_name_exists, $from_name_partial, $from_name_start, $id_exact, $language, $language2, $language_exists, $notification_template, $notification_template2, $_order_from_address, $_order_from_name, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\NotificationTemplateContentCollection[] getNotificationTemplateContentCollection($from_address, $from_address_end, $from_address_exact, $from_address_exists, $from_address_partial, $from_address_start, $from_name, $from_name_end, $from_name_exact, $from_name_exists, $from_name_partial, $from_name_start, $id_exact, $language, $language2, $language_exists, $notification_template, $notification_template2, $_order_from_address, $_order_from_name, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of NotificationTemplateContent resources.
 
@@ -8607,11 +8607,11 @@ Retrieves the collection of NotificationTemplateContent resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8682,7 +8682,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateContentCollection[]**](../Model/NotificationTemplateContentCollection.md)
+[**\Delta/Voip\Model\NotificationTemplateContentCollection[]**](../Model/NotificationTemplateContentCollection.md)
 
 ### Authorization
 
@@ -8696,7 +8696,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNotificationTemplateContentItem**
-> \Swagger\Client\Model\NotificationTemplateContentDetailed getNotificationTemplateContentItem($id)
+> \Delta/Voip\Model\NotificationTemplateContentDetailed getNotificationTemplateContentItem($id)
 
 Retrieves a NotificationTemplateContent resource.
 
@@ -8706,11 +8706,11 @@ Retrieves a NotificationTemplateContent resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8735,7 +8735,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateContentDetailed**](../Model/NotificationTemplateContentDetailed.md)
+[**\Delta/Voip\Model\NotificationTemplateContentDetailed**](../Model/NotificationTemplateContentDetailed.md)
 
 ### Authorization
 
@@ -8749,7 +8749,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getNotificationTemplateItem**
-> \Swagger\Client\Model\NotificationTemplateDetailed getNotificationTemplateItem($id)
+> \Delta/Voip\Model\NotificationTemplateDetailed getNotificationTemplateItem($id)
 
 Retrieves a NotificationTemplate resource.
 
@@ -8759,11 +8759,11 @@ Retrieves a NotificationTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8788,7 +8788,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateDetailed**](../Model/NotificationTemplateDetailed.md)
+[**\Delta/Voip\Model\NotificationTemplateDetailed**](../Model/NotificationTemplateDetailed.md)
 
 ### Authorization
 
@@ -8802,7 +8802,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOutgoingRoutingCollection**
-> \Swagger\Client\Model\OutgoingRoutingCollection[] getOutgoingRoutingCollection($carrier, $carrier2, $carrier_exists, $clid_country, $clid_country2, $clid_country_exists, $company, $company2, $company_exists, $id_exact, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $routing_mode, $routing_mode_end, $routing_mode_exact, $routing_mode_exists, $routing_mode_partial, $routing_mode_start, $routing_pattern, $routing_pattern_group, $routing_pattern_group2, $routing_pattern_group_exists, $routing_pattern2, $routing_pattern_exists, $routing_tag, $routing_tag2, $routing_tag_exists, $type, $type_end, $type_exact, $type_exists, $type_partial, $type_start, $weight, $weight_between, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_id, $_order_priority, $_order_routing_mode, $_order_type, $_order_weight, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\OutgoingRoutingCollection[] getOutgoingRoutingCollection($carrier, $carrier2, $carrier_exists, $clid_country, $clid_country2, $clid_country_exists, $company, $company2, $company_exists, $id_exact, $priority, $priority_between, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $routing_mode, $routing_mode_end, $routing_mode_exact, $routing_mode_exists, $routing_mode_partial, $routing_mode_start, $routing_pattern, $routing_pattern_group, $routing_pattern_group2, $routing_pattern_group_exists, $routing_pattern2, $routing_pattern_exists, $routing_tag, $routing_tag2, $routing_tag_exists, $type, $type_end, $type_exact, $type_exists, $type_partial, $type_start, $weight, $weight_between, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_id, $_order_priority, $_order_routing_mode, $_order_type, $_order_weight, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of OutgoingRouting resources.
 
@@ -8812,11 +8812,11 @@ Retrieves the collection of OutgoingRouting resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8941,7 +8941,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\OutgoingRoutingCollection[]**](../Model/OutgoingRoutingCollection.md)
+[**\Delta/Voip\Model\OutgoingRoutingCollection[]**](../Model/OutgoingRoutingCollection.md)
 
 ### Authorization
 
@@ -8955,7 +8955,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getOutgoingRoutingItem**
-> \Swagger\Client\Model\OutgoingRoutingDetailed getOutgoingRoutingItem($id)
+> \Delta/Voip\Model\OutgoingRoutingDetailed getOutgoingRoutingItem($id)
 
 Retrieves a OutgoingRouting resource.
 
@@ -8965,11 +8965,11 @@ Retrieves a OutgoingRouting resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -8994,7 +8994,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\OutgoingRoutingDetailed**](../Model/OutgoingRoutingDetailed.md)
+[**\Delta/Voip\Model\OutgoingRoutingDetailed**](../Model/OutgoingRoutingDetailed.md)
 
 ### Authorization
 
@@ -9008,7 +9008,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProxyTrunkCollection**
-> \Swagger\Client\Model\ProxyTrunkCollection[] getProxyTrunkCollection($id_exact, $ip, $ip_end, $ip_exact, $ip_partial, $ip_start, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $_order_id, $_order_ip, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\ProxyTrunkCollection[] getProxyTrunkCollection($id_exact, $ip, $ip_end, $ip_exact, $ip_partial, $ip_start, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $_order_id, $_order_ip, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of ProxyTrunk resources.
 
@@ -9018,11 +9018,11 @@ Retrieves the collection of ProxyTrunk resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9081,7 +9081,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ProxyTrunkCollection[]**](../Model/ProxyTrunkCollection.md)
+[**\Delta/Voip\Model\ProxyTrunkCollection[]**](../Model/ProxyTrunkCollection.md)
 
 ### Authorization
 
@@ -9095,7 +9095,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getProxyTrunkItem**
-> \Swagger\Client\Model\ProxyTrunkDetailed getProxyTrunkItem($id)
+> \Delta/Voip\Model\ProxyTrunkDetailed getProxyTrunkItem($id)
 
 Retrieves a ProxyTrunk resource.
 
@@ -9105,11 +9105,11 @@ Retrieves a ProxyTrunk resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9134,7 +9134,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ProxyTrunkDetailed**](../Model/ProxyTrunkDetailed.md)
+[**\Delta/Voip\Model\ProxyTrunkDetailed**](../Model/ProxyTrunkDetailed.md)
 
 ### Authorization
 
@@ -9148,7 +9148,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPublicEntityCollection**
-> \Swagger\Client\Model\PublicEntityCollection[] getPublicEntityCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\PublicEntityCollection[] getPublicEntityCollection($id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_exists, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_exists, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_exists, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_exists, $name_it_partial, $name_it_start, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of PublicEntity resources.
 
@@ -9158,11 +9158,11 @@ Retrieves the collection of PublicEntity resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9265,7 +9265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\PublicEntityCollection[]**](../Model/PublicEntityCollection.md)
+[**\Delta/Voip\Model\PublicEntityCollection[]**](../Model/PublicEntityCollection.md)
 
 ### Authorization
 
@@ -9279,7 +9279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getPublicEntityItem**
-> \Swagger\Client\Model\PublicEntityDetailed getPublicEntityItem($id)
+> \Delta/Voip\Model\PublicEntityDetailed getPublicEntityItem($id)
 
 Retrieves a PublicEntity resource.
 
@@ -9289,11 +9289,11 @@ Retrieves a PublicEntity resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9318,7 +9318,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\PublicEntityDetailed**](../Model/PublicEntityDetailed.md)
+[**\Delta/Voip\Model\PublicEntityDetailed**](../Model/PublicEntityDetailed.md)
 
 ### Authorization
 
@@ -9332,7 +9332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingPlanCollection**
-> \Swagger\Client\Model\RatingPlanCollection[] getRatingPlanCollection($destination_rate_group, $destination_rate_group2, $friday, $friday_exists, $id_exact, $monday, $monday_exists, $rating_plan_group, $rating_plan_group2, $saturday, $saturday_exists, $sunday, $sunday_exists, $thursday, $thursday_exists, $time_in, $time_in_after, $time_in_before, $time_in_start, $time_in_strictly_after, $time_in_strictly_before, $timing_type, $timing_type_end, $timing_type_exact, $timing_type_exists, $timing_type_partial, $timing_type_start, $tuesday, $tuesday_exists, $wednesday, $wednesday_exists, $weight, $weight_between, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_friday, $_order_id, $_order_monday, $_order_saturday, $_order_sunday, $_order_thursday, $_order_time_in, $_order_timing_type, $_order_tuesday, $_order_wednesday, $_order_weight, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RatingPlanCollection[] getRatingPlanCollection($destination_rate_group, $destination_rate_group2, $friday, $friday_exists, $id_exact, $monday, $monday_exists, $rating_plan_group, $rating_plan_group2, $saturday, $saturday_exists, $sunday, $sunday_exists, $thursday, $thursday_exists, $time_in, $time_in_after, $time_in_before, $time_in_start, $time_in_strictly_after, $time_in_strictly_before, $timing_type, $timing_type_end, $timing_type_exact, $timing_type_exists, $timing_type_partial, $timing_type_start, $tuesday, $tuesday_exists, $wednesday, $wednesday_exists, $weight, $weight_between, $weight_gt, $weight_gte, $weight_lt, $weight_lte, $_order_friday, $_order_id, $_order_monday, $_order_saturday, $_order_sunday, $_order_thursday, $_order_time_in, $_order_timing_type, $_order_tuesday, $_order_wednesday, $_order_weight, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RatingPlan resources.
 
@@ -9342,11 +9342,11 @@ Retrieves the collection of RatingPlan resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9471,7 +9471,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanCollection[]**](../Model/RatingPlanCollection.md)
+[**\Delta/Voip\Model\RatingPlanCollection[]**](../Model/RatingPlanCollection.md)
 
 ### Authorization
 
@@ -9485,7 +9485,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingPlanGroupCollection**
-> \Swagger\Client\Model\RatingPlanGroupCollection[] getRatingPlanGroupCollection($currency, $currency2, $currency_exists, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RatingPlanGroupCollection[] getRatingPlanGroupCollection($currency, $currency2, $currency_exists, $id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RatingPlanGroup resources.
 
@@ -9495,11 +9495,11 @@ Retrieves the collection of RatingPlanGroup resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9586,7 +9586,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanGroupCollection[]**](../Model/RatingPlanGroupCollection.md)
+[**\Delta/Voip\Model\RatingPlanGroupCollection[]**](../Model/RatingPlanGroupCollection.md)
 
 ### Authorization
 
@@ -9600,7 +9600,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingPlanGroupItem**
-> \Swagger\Client\Model\RatingPlanGroupDetailed getRatingPlanGroupItem($id)
+> \Delta/Voip\Model\RatingPlanGroupDetailed getRatingPlanGroupItem($id)
 
 Retrieves a RatingPlanGroup resource.
 
@@ -9610,11 +9610,11 @@ Retrieves a RatingPlanGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9639,7 +9639,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanGroupDetailed**](../Model/RatingPlanGroupDetailed.md)
+[**\Delta/Voip\Model\RatingPlanGroupDetailed**](../Model/RatingPlanGroupDetailed.md)
 
 ### Authorization
 
@@ -9653,7 +9653,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingPlanItem**
-> \Swagger\Client\Model\RatingPlanDetailed getRatingPlanItem($id)
+> \Delta/Voip\Model\RatingPlanDetailed getRatingPlanItem($id)
 
 Retrieves a RatingPlan resource.
 
@@ -9663,11 +9663,11 @@ Retrieves a RatingPlan resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9692,7 +9692,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanDetailed**](../Model/RatingPlanDetailed.md)
+[**\Delta/Voip\Model\RatingPlanDetailed**](../Model/RatingPlanDetailed.md)
 
 ### Authorization
 
@@ -9706,7 +9706,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingProfileCollection**
-> \Swagger\Client\Model\RatingProfileCollection[] getRatingProfileCollection($activation_time, $activation_time_after, $activation_time_before, $activation_time_start, $activation_time_strictly_after, $activation_time_strictly_before, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $id_exact, $rating_plan_group, $rating_plan_group2, $routing_tag, $routing_tag2, $routing_tag_exists, $_order_activation_time, $_order_id, $_items_per_page, $_page, $_properties, $_timezone)
+> \Delta/Voip\Model\RatingProfileCollection[] getRatingProfileCollection($activation_time, $activation_time_after, $activation_time_before, $activation_time_start, $activation_time_strictly_after, $activation_time_strictly_before, $carrier, $carrier2, $carrier_exists, $company, $company2, $company_exists, $id_exact, $rating_plan_group, $rating_plan_group2, $routing_tag, $routing_tag2, $routing_tag_exists, $_order_activation_time, $_order_id, $_items_per_page, $_page, $_properties, $_timezone)
 
 Retrieves the collection of RatingProfile resources.
 
@@ -9716,11 +9716,11 @@ Retrieves the collection of RatingProfile resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9791,7 +9791,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingProfileCollection[]**](../Model/RatingProfileCollection.md)
+[**\Delta/Voip\Model\RatingProfileCollection[]**](../Model/RatingProfileCollection.md)
 
 ### Authorization
 
@@ -9805,7 +9805,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRatingProfileItem**
-> \Swagger\Client\Model\RatingProfileDetailed getRatingProfileItem($id, $_timezone)
+> \Delta/Voip\Model\RatingProfileDetailed getRatingProfileItem($id, $_timezone)
 
 Retrieves a RatingProfile resource.
 
@@ -9815,11 +9815,11 @@ Retrieves a RatingProfile resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9846,7 +9846,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingProfileDetailed**](../Model/RatingProfileDetailed.md)
+[**\Delta/Voip\Model\RatingProfileDetailed**](../Model/RatingProfileDetailed.md)
 
 ### Authorization
 
@@ -9860,7 +9860,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getResidentialDeviceCollection**
-> \Swagger\Client\Model\ResidentialDeviceCollection[] getResidentialDeviceCollection($auth_needed, $auth_needed_end, $auth_needed_exact, $auth_needed_partial, $auth_needed_start, $company, $company2, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_auth_needed, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\ResidentialDeviceCollection[] getResidentialDeviceCollection($auth_needed, $auth_needed_end, $auth_needed_exact, $auth_needed_partial, $auth_needed_start, $company, $company2, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_auth_needed, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of ResidentialDevice resources.
 
@@ -9870,11 +9870,11 @@ Retrieves the collection of ResidentialDevice resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -9969,7 +9969,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ResidentialDeviceCollection[]**](../Model/ResidentialDeviceCollection.md)
+[**\Delta/Voip\Model\ResidentialDeviceCollection[]**](../Model/ResidentialDeviceCollection.md)
 
 ### Authorization
 
@@ -9983,7 +9983,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getResidentialDeviceItem**
-> \Swagger\Client\Model\ResidentialDeviceDetailed getResidentialDeviceItem($id)
+> \Delta/Voip\Model\ResidentialDeviceDetailed getResidentialDeviceItem($id)
 
 Retrieves a ResidentialDevice resource.
 
@@ -9993,11 +9993,11 @@ Retrieves a ResidentialDevice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10022,7 +10022,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ResidentialDeviceDetailed**](../Model/ResidentialDeviceDetailed.md)
+[**\Delta/Voip\Model\ResidentialDeviceDetailed**](../Model/ResidentialDeviceDetailed.md)
 
 ### Authorization
 
@@ -10036,7 +10036,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRetailAccountCollection**
-> \Swagger\Client\Model\RetailAccountCollection[] getRetailAccountCollection($company, $company2, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\RetailAccountCollection[] getRetailAccountCollection($company, $company2, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $transport, $transport_end, $transport_exact, $transport_exists, $transport_partial, $transport_start, $_order_id, $_order_name, $_order_transport, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of RetailAccount resources.
 
@@ -10046,11 +10046,11 @@ Retrieves the collection of RetailAccount resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10127,7 +10127,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RetailAccountCollection[]**](../Model/RetailAccountCollection.md)
+[**\Delta/Voip\Model\RetailAccountCollection[]**](../Model/RetailAccountCollection.md)
 
 ### Authorization
 
@@ -10141,7 +10141,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRetailAccountItem**
-> \Swagger\Client\Model\RetailAccountDetailed getRetailAccountItem($id)
+> \Delta/Voip\Model\RetailAccountDetailed getRetailAccountItem($id)
 
 Retrieves a RetailAccount resource.
 
@@ -10151,11 +10151,11 @@ Retrieves a RetailAccount resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10180,7 +10180,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RetailAccountDetailed**](../Model/RetailAccountDetailed.md)
+[**\Delta/Voip\Model\RetailAccountDetailed**](../Model/RetailAccountDetailed.md)
 
 ### Authorization
 
@@ -10194,7 +10194,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternCollection**
-> \Swagger\Client\Model\RoutingPatternCollection[] getRoutingPatternCollection($id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $prefix, $prefix_end, $prefix_exact, $prefix_partial, $prefix_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_prefix, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RoutingPatternCollection[] getRoutingPatternCollection($id_exact, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $prefix, $prefix_end, $prefix_exact, $prefix_partial, $prefix_start, $_order_id, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_prefix, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RoutingPattern resources.
 
@@ -10204,11 +10204,11 @@ Retrieves the collection of RoutingPattern resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10301,7 +10301,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternCollection[]**](../Model/RoutingPatternCollection.md)
+[**\Delta/Voip\Model\RoutingPatternCollection[]**](../Model/RoutingPatternCollection.md)
 
 ### Authorization
 
@@ -10315,7 +10315,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternGroupCollection**
-> \Swagger\Client\Model\RoutingPatternGroupCollection[] getRoutingPatternGroupCollection($description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_description, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RoutingPatternGroupCollection[] getRoutingPatternGroupCollection($description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_description, $_order_id, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RoutingPatternGroup resources.
 
@@ -10325,11 +10325,11 @@ Retrieves the collection of RoutingPatternGroup resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10388,7 +10388,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupCollection[]**](../Model/RoutingPatternGroupCollection.md)
+[**\Delta/Voip\Model\RoutingPatternGroupCollection[]**](../Model/RoutingPatternGroupCollection.md)
 
 ### Authorization
 
@@ -10402,7 +10402,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternGroupItem**
-> \Swagger\Client\Model\RoutingPatternGroupDetailed getRoutingPatternGroupItem($id)
+> \Delta/Voip\Model\RoutingPatternGroupDetailed getRoutingPatternGroupItem($id)
 
 Retrieves a RoutingPatternGroup resource.
 
@@ -10412,11 +10412,11 @@ Retrieves a RoutingPatternGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10441,7 +10441,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupDetailed**](../Model/RoutingPatternGroupDetailed.md)
+[**\Delta/Voip\Model\RoutingPatternGroupDetailed**](../Model/RoutingPatternGroupDetailed.md)
 
 ### Authorization
 
@@ -10455,7 +10455,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternGroupsRelPatternCollection**
-> \Swagger\Client\Model\RoutingPatternGroupsRelPatternDetailedCollection[] getRoutingPatternGroupsRelPatternCollection($description_ca, $description_en, $description_es, $description_it, $id_exact, $name_ca, $name_en, $name_es, $name_it, $routing_pattern, $routing_pattern_prefix, $routing_pattern_group, $routing_pattern_group_description, $routing_pattern_group_name, $routing_pattern_group2, $routing_pattern2, $_order_id, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RoutingPatternGroupsRelPatternDetailedCollection[] getRoutingPatternGroupsRelPatternCollection($description_ca, $description_en, $description_es, $description_it, $id_exact, $name_ca, $name_en, $name_es, $name_it, $routing_pattern, $routing_pattern_prefix, $routing_pattern_group, $routing_pattern_group_description, $routing_pattern_group_name, $routing_pattern_group2, $routing_pattern2, $_order_id, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RoutingPatternGroupsRelPattern resources.
 
@@ -10465,11 +10465,11 @@ Retrieves the collection of RoutingPatternGroupsRelPattern resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10532,7 +10532,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupsRelPatternDetailedCollection[]**](../Model/RoutingPatternGroupsRelPatternDetailedCollection.md)
+[**\Delta/Voip\Model\RoutingPatternGroupsRelPatternDetailedCollection[]**](../Model/RoutingPatternGroupsRelPatternDetailedCollection.md)
 
 ### Authorization
 
@@ -10546,7 +10546,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternGroupsRelPatternItem**
-> \Swagger\Client\Model\RoutingPatternGroupsRelPatternDetailed getRoutingPatternGroupsRelPatternItem($id)
+> \Delta/Voip\Model\RoutingPatternGroupsRelPatternDetailed getRoutingPatternGroupsRelPatternItem($id)
 
 Retrieves a RoutingPatternGroupsRelPattern resource.
 
@@ -10556,11 +10556,11 @@ Retrieves a RoutingPatternGroupsRelPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10585,7 +10585,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupsRelPatternDetailed**](../Model/RoutingPatternGroupsRelPatternDetailed.md)
+[**\Delta/Voip\Model\RoutingPatternGroupsRelPatternDetailed**](../Model/RoutingPatternGroupsRelPatternDetailed.md)
 
 ### Authorization
 
@@ -10599,7 +10599,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingPatternItem**
-> \Swagger\Client\Model\RoutingPatternDetailed getRoutingPatternItem($id)
+> \Delta/Voip\Model\RoutingPatternDetailed getRoutingPatternItem($id)
 
 Retrieves a RoutingPattern resource.
 
@@ -10609,11 +10609,11 @@ Retrieves a RoutingPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10638,7 +10638,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternDetailed**](../Model/RoutingPatternDetailed.md)
+[**\Delta/Voip\Model\RoutingPatternDetailed**](../Model/RoutingPatternDetailed.md)
 
 ### Authorization
 
@@ -10652,7 +10652,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingTagCollection**
-> \Swagger\Client\Model\RoutingTagCollection[] getRoutingTagCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $tag, $tag_end, $tag_exact, $tag_partial, $tag_start, $_order_id, $_order_name, $_order_tag, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\RoutingTagCollection[] getRoutingTagCollection($id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $tag, $tag_end, $tag_exact, $tag_partial, $tag_start, $_order_id, $_order_name, $_order_tag, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of RoutingTag resources.
 
@@ -10662,11 +10662,11 @@ Retrieves the collection of RoutingTag resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10723,7 +10723,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingTagCollection[]**](../Model/RoutingTagCollection.md)
+[**\Delta/Voip\Model\RoutingTagCollection[]**](../Model/RoutingTagCollection.md)
 
 ### Authorization
 
@@ -10737,7 +10737,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getRoutingTagItem**
-> \Swagger\Client\Model\RoutingTagDetailed getRoutingTagItem($id)
+> \Delta/Voip\Model\RoutingTagDetailed getRoutingTagItem($id)
 
 Retrieves a RoutingTag resource.
 
@@ -10747,11 +10747,11 @@ Retrieves a RoutingTag resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10776,7 +10776,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingTagDetailed**](../Model/RoutingTagDetailed.md)
+[**\Delta/Voip\Model\RoutingTagDetailed**](../Model/RoutingTagDetailed.md)
 
 ### Authorization
 
@@ -10790,7 +10790,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getServiceCollection**
-> \Swagger\Client\Model\ServiceCollection[] getServiceCollection($default_code, $default_code_end, $default_code_exact, $default_code_partial, $default_code_start, $extra_args, $id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_default_code, $_order_extra_args, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\ServiceCollection[] getServiceCollection($default_code, $default_code_end, $default_code_exact, $default_code_partial, $default_code_start, $extra_args, $id_exact, $iden, $iden_end, $iden_exact, $iden_partial, $iden_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $_order_default_code, $_order_extra_args, $_order_id, $_order_iden, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of Service resources.
 
@@ -10800,11 +10800,11 @@ Retrieves the collection of Service resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10915,7 +10915,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ServiceCollection[]**](../Model/ServiceCollection.md)
+[**\Delta/Voip\Model\ServiceCollection[]**](../Model/ServiceCollection.md)
 
 ### Authorization
 
@@ -10929,7 +10929,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getServiceItem**
-> \Swagger\Client\Model\ServiceDetailed getServiceItem($id)
+> \Delta/Voip\Model\ServiceDetailed getServiceItem($id)
 
 Retrieves a Service resource.
 
@@ -10939,11 +10939,11 @@ Retrieves a Service resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -10968,7 +10968,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ServiceDetailed**](../Model/ServiceDetailed.md)
+[**\Delta/Voip\Model\ServiceDetailed**](../Model/ServiceDetailed.md)
 
 ### Authorization
 
@@ -10982,7 +10982,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSpecialNumberCollection**
-> \Swagger\Client\Model\SpecialNumberCollection[] getSpecialNumberCollection($country, $country2, $disable_cdr, $disable_cdr_between, $disable_cdr_gt, $disable_cdr_gte, $disable_cdr_lt, $disable_cdr_lte, $global, $id_exact, $number, $number_end, $number_exact, $number_partial, $number_start, $_order_disable_cdr, $_order_id, $_order_number, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\SpecialNumberCollection[] getSpecialNumberCollection($country, $country2, $disable_cdr, $disable_cdr_between, $disable_cdr_gt, $disable_cdr_gte, $disable_cdr_lt, $disable_cdr_lte, $global, $id_exact, $number, $number_end, $number_exact, $number_partial, $number_start, $_order_disable_cdr, $_order_id, $_order_number, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of SpecialNumber resources.
 
@@ -10992,11 +10992,11 @@ Retrieves the collection of SpecialNumber resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11061,7 +11061,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\SpecialNumberCollection[]**](../Model/SpecialNumberCollection.md)
+[**\Delta/Voip\Model\SpecialNumberCollection[]**](../Model/SpecialNumberCollection.md)
 
 ### Authorization
 
@@ -11075,7 +11075,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getSpecialNumberItem**
-> \Swagger\Client\Model\SpecialNumberDetailed getSpecialNumberItem($id)
+> \Delta/Voip\Model\SpecialNumberDetailed getSpecialNumberItem($id)
 
 Retrieves a SpecialNumber resource.
 
@@ -11085,11 +11085,11 @@ Retrieves a SpecialNumber resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11114,7 +11114,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\SpecialNumberDetailed**](../Model/SpecialNumberDetailed.md)
+[**\Delta/Voip\Model\SpecialNumberDetailed**](../Model/SpecialNumberDetailed.md)
 
 ### Authorization
 
@@ -11128,7 +11128,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStatusCollectionFriendCollection**
-> \Swagger\Client\Model\FriendStatus[] getStatusCollectionFriendCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $inter_company, $inter_company2, $inter_company_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\FriendStatus[] getStatusCollectionFriendCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $inter_company, $inter_company2, $inter_company_exists, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of Friend resources.
 
@@ -11138,11 +11138,11 @@ Retrieves the collection of Friend resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11277,7 +11277,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\FriendStatus[]**](../Model/FriendStatus.md)
+[**\Delta/Voip\Model\FriendStatus[]**](../Model/FriendStatus.md)
 
 ### Authorization
 
@@ -11291,7 +11291,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStatusCollectionResidentialDeviceCollection**
-> \Swagger\Client\Model\ResidentialDeviceStatus[] getStatusCollectionResidentialDeviceCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\ResidentialDeviceStatus[] getStatusCollectionResidentialDeviceCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $language, $language2, $language_exists, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of ResidentialDevice resources.
 
@@ -11301,11 +11301,11 @@ Retrieves the collection of ResidentialDevice resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11434,7 +11434,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\ResidentialDeviceStatus[]**](../Model/ResidentialDeviceStatus.md)
+[**\Delta/Voip\Model\ResidentialDeviceStatus[]**](../Model/ResidentialDeviceStatus.md)
 
 ### Authorization
 
@@ -11448,7 +11448,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStatusCollectionRetailAccountCollection**
-> \Swagger\Client\Model\RetailAccountStatus[] getStatusCollectionRetailAccountCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\RetailAccountStatus[] getStatusCollectionRetailAccountCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of RetailAccount resources.
 
@@ -11458,11 +11458,11 @@ Retrieves the collection of RetailAccount resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11585,7 +11585,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\RetailAccountStatus[]**](../Model/RetailAccountStatus.md)
+[**\Delta/Voip\Model\RetailAccountStatus[]**](../Model/RetailAccountStatus.md)
 
 ### Authorization
 
@@ -11599,7 +11599,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getStatusCollectionTerminalCollection**
-> \Swagger\Client\Model\TerminalStatus[] getStatusCollectionTerminalCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\TerminalStatus[] getStatusCollectionTerminalCollection($company, $company_balance, $company_billing_method, $company_call_csv_notification_template, $company_country, $company_country_name, $company_currency, $company_default_timezone, $company_domain_users, $company_externallyextraopts, $company_fax_notification_template, $company_invoice_notification_template, $company_ipfilter, $company_language, $company_max_calls, $company_max_daily_usage, $company_max_daily_usage_email, $company_name, $company_nif, $company_on_demand_record, $company_on_demand_record_code, $company_outgoing_ddi, $company_postal_address, $company_postal_code, $company_province, $company_show_invoices, $company_town, $company_transformation_rule_set, $company_type, $company_voicemail_notification_template, $company2, $domain_name, $id_exact, $name, $name_end, $name_exact, $name_partial, $name_start, $_order_id, $_order_name, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of Terminal resources.
 
@@ -11609,11 +11609,11 @@ Retrieves the collection of Terminal resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11724,7 +11724,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TerminalStatus[]**](../Model/TerminalStatus.md)
+[**\Delta/Voip\Model\TerminalStatus[]**](../Model/TerminalStatus.md)
 
 ### Authorization
 
@@ -11738,7 +11738,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTimezoneCollection**
-> \Swagger\Client\Model\TimezoneCollection[] getTimezoneCollection($country, $country2, $country_exists, $id_exact, $tz, $tz_end, $tz_exact, $tz_partial, $tz_start, $_order_id, $_order_tz, $_items_per_page, $_page, $_properties, $_pagination)
+> \Delta/Voip\Model\TimezoneCollection[] getTimezoneCollection($country, $country2, $country_exists, $id_exact, $tz, $tz_end, $tz_exact, $tz_partial, $tz_start, $_order_id, $_order_tz, $_items_per_page, $_page, $_properties, $_pagination)
 
 Retrieves the collection of Timezone resources.
 
@@ -11748,11 +11748,11 @@ Retrieves the collection of Timezone resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11805,7 +11805,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TimezoneCollection[]**](../Model/TimezoneCollection.md)
+[**\Delta/Voip\Model\TimezoneCollection[]**](../Model/TimezoneCollection.md)
 
 ### Authorization
 
@@ -11819,7 +11819,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTimezoneItem**
-> \Swagger\Client\Model\TimezoneDetailed getTimezoneItem($id)
+> \Delta/Voip\Model\TimezoneDetailed getTimezoneItem($id)
 
 Retrieves a Timezone resource.
 
@@ -11829,11 +11829,11 @@ Retrieves a Timezone resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11858,7 +11858,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TimezoneDetailed**](../Model/TimezoneDetailed.md)
+[**\Delta/Voip\Model\TimezoneDetailed**](../Model/TimezoneDetailed.md)
 
 ### Authorization
 
@@ -11872,7 +11872,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTransformationRuleCollection**
-> \Swagger\Client\Model\TransformationRuleCollection[] getTransformationRuleCollection($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $match_expr, $match_expr_end, $match_expr_exact, $match_expr_exists, $match_expr_partial, $match_expr_start, $priority, $priority_between, $priority_exists, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $replace_expr, $replace_expr_end, $replace_expr_exact, $replace_expr_exists, $replace_expr_partial, $replace_expr_start, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_description, $_order_id, $_order_match_expr, $_order_priority, $_order_replace_expr, $_order_type, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\TransformationRuleCollection[] getTransformationRuleCollection($description, $description_end, $description_exact, $description_partial, $description_start, $id_exact, $match_expr, $match_expr_end, $match_expr_exact, $match_expr_exists, $match_expr_partial, $match_expr_start, $priority, $priority_between, $priority_exists, $priority_gt, $priority_gte, $priority_lt, $priority_lte, $replace_expr, $replace_expr_end, $replace_expr_exact, $replace_expr_exists, $replace_expr_partial, $replace_expr_start, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $type, $type_end, $type_exact, $type_partial, $type_start, $_order_description, $_order_id, $_order_match_expr, $_order_priority, $_order_replace_expr, $_order_type, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of TransformationRule resources.
 
@@ -11882,11 +11882,11 @@ Retrieves the collection of TransformationRule resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -11993,7 +11993,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleCollection[]**](../Model/TransformationRuleCollection.md)
+[**\Delta/Voip\Model\TransformationRuleCollection[]**](../Model/TransformationRuleCollection.md)
 
 ### Authorization
 
@@ -12007,7 +12007,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTransformationRuleItem**
-> \Swagger\Client\Model\TransformationRuleDetailed getTransformationRuleItem($id)
+> \Delta/Voip\Model\TransformationRuleDetailed getTransformationRuleItem($id)
 
 Retrieves a TransformationRule resource.
 
@@ -12017,11 +12017,11 @@ Retrieves a TransformationRule resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12046,7 +12046,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleDetailed**](../Model/TransformationRuleDetailed.md)
+[**\Delta/Voip\Model\TransformationRuleDetailed**](../Model/TransformationRuleDetailed.md)
 
 ### Authorization
 
@@ -12060,7 +12060,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTransformationRuleSetCollection**
-> \Swagger\Client\Model\TransformationRuleSetCollection[] getTransformationRuleSetCollection($area_code, $area_code_end, $area_code_exact, $area_code_exists, $area_code_partial, $area_code_start, $country, $country2, $country_exists, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $international_code, $international_code_end, $international_code_exact, $international_code_exists, $international_code_partial, $international_code_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $national_len, $national_len_between, $national_len_exists, $national_len_gt, $national_len_gte, $national_len_lt, $national_len_lte, $trunk_prefix, $trunk_prefix_end, $trunk_prefix_exact, $trunk_prefix_exists, $trunk_prefix_partial, $trunk_prefix_start, $_order_area_code, $_order_description, $_order_id, $_order_international_code, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_national_len, $_order_trunk_prefix, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\TransformationRuleSetCollection[] getTransformationRuleSetCollection($area_code, $area_code_end, $area_code_exact, $area_code_exists, $area_code_partial, $area_code_start, $country, $country2, $country_exists, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $international_code, $international_code_end, $international_code_exact, $international_code_exists, $international_code_partial, $international_code_start, $name, $name_ca, $name_ca_end, $name_ca_exact, $name_ca_partial, $name_ca_start, $name_en, $name_en_end, $name_en_exact, $name_en_partial, $name_en_start, $name_es, $name_es_end, $name_es_exact, $name_es_partial, $name_es_start, $name_it, $name_it_end, $name_it_exact, $name_it_partial, $name_it_start, $national_len, $national_len_between, $national_len_exists, $national_len_gt, $national_len_gte, $national_len_lt, $national_len_lte, $trunk_prefix, $trunk_prefix_end, $trunk_prefix_exact, $trunk_prefix_exists, $trunk_prefix_partial, $trunk_prefix_start, $_order_area_code, $_order_description, $_order_id, $_order_international_code, $_order_name_ca, $_order_name_en, $_order_name_es, $_order_name_it, $_order_national_len, $_order_trunk_prefix, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of TransformationRuleSet resources.
 
@@ -12070,11 +12070,11 @@ Retrieves the collection of TransformationRuleSet resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12235,7 +12235,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleSetCollection[]**](../Model/TransformationRuleSetCollection.md)
+[**\Delta/Voip\Model\TransformationRuleSetCollection[]**](../Model/TransformationRuleSetCollection.md)
 
 ### Authorization
 
@@ -12249,7 +12249,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getTransformationRuleSetItem**
-> \Swagger\Client\Model\TransformationRuleSetDetailed getTransformationRuleSetItem($id)
+> \Delta/Voip\Model\TransformationRuleSetDetailed getTransformationRuleSetItem($id)
 
 Retrieves a TransformationRuleSet resource.
 
@@ -12259,11 +12259,11 @@ Retrieves a TransformationRuleSet resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12288,7 +12288,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleSetDetailed**](../Model/TransformationRuleSetDetailed.md)
+[**\Delta/Voip\Model\TransformationRuleSetDetailed**](../Model/TransformationRuleSetDetailed.md)
 
 ### Authorization
 
@@ -12302,7 +12302,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUserCollection**
-> \Swagger\Client\Model\UserCollection[] getUserCollection($boss_assistant, $boss_assistant2, $boss_assistant_exists, $company, $company2, $id_exact, $language, $language2, $language_exists, $lastname, $lastname_end, $lastname_exact, $lastname_partial, $lastname_start, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $terminal, $terminal2, $terminal_exists, $timezone, $timezone2, $timezone_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_lastname, $_order_name, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\UserCollection[] getUserCollection($boss_assistant, $boss_assistant2, $boss_assistant_exists, $company, $company2, $id_exact, $language, $language2, $language_exists, $lastname, $lastname_end, $lastname_exact, $lastname_partial, $lastname_start, $name, $name_end, $name_exact, $name_partial, $name_start, $outgoing_ddi, $outgoing_ddi2, $outgoing_ddi_exists, $terminal, $terminal2, $terminal_exists, $timezone, $timezone2, $timezone_exists, $transformation_rule_set, $transformation_rule_set2, $transformation_rule_set_exists, $_order_id, $_order_lastname, $_order_name, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of User resources.
 
@@ -12312,11 +12312,11 @@ Retrieves the collection of User resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12413,7 +12413,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UserCollection[]**](../Model/UserCollection.md)
+[**\Delta/Voip\Model\UserCollection[]**](../Model/UserCollection.md)
 
 ### Authorization
 
@@ -12427,7 +12427,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getWebPortalCollection**
-> \Swagger\Client\Model\WebPortalCollection[] getWebPortalCollection($id_exact, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $url, $url_type, $url_type_end, $url_type_exact, $url_type_partial, $url_type_start, $url_end, $url_exact, $url_partial, $url_start, $_order_id, $_order_name, $_order_url_type, $_order_url, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\WebPortalCollection[] getWebPortalCollection($id_exact, $name, $name_end, $name_exact, $name_exists, $name_partial, $name_start, $url, $url_type, $url_type_end, $url_type_exact, $url_type_partial, $url_type_start, $url_end, $url_exact, $url_partial, $url_start, $_order_id, $_order_name, $_order_url_type, $_order_url, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of WebPortal resources.
 
@@ -12437,11 +12437,11 @@ Retrieves the collection of WebPortal resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12512,7 +12512,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\WebPortalCollection[]**](../Model/WebPortalCollection.md)
+[**\Delta/Voip\Model\WebPortalCollection[]**](../Model/WebPortalCollection.md)
 
 ### Authorization
 
@@ -12526,7 +12526,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getWebPortalItem**
-> \Swagger\Client\Model\WebPortalDetailed getWebPortalItem($id)
+> \Delta/Voip\Model\WebPortalDetailed getWebPortalItem($id)
 
 Retrieves a WebPortal resource.
 
@@ -12536,11 +12536,11 @@ Retrieves a WebPortal resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12565,7 +12565,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\WebPortalDetailed**](../Model/WebPortalDetailed.md)
+[**\Delta/Voip\Model\WebPortalDetailed**](../Model/WebPortalDetailed.md)
 
 ### Authorization
 
@@ -12589,11 +12589,11 @@ Retrieves a Invoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -12631,7 +12631,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postAdministratorCollection**
-> \Swagger\Client\Model\Administrator postAdministratorCollection($administrator)
+> \Delta/Voip\Model\Administrator postAdministratorCollection($administrator)
 
 Creates a Administrator resource.
 
@@ -12641,17 +12641,17 @@ Creates a Administrator resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$administrator = new \Swagger\Client\Model\Administrator(); // \Swagger\Client\Model\Administrator | The new Administrator resource
+$administrator = new \Delta/Voip\Model\Administrator(); // \Delta/Voip\Model\Administrator | The new Administrator resource
 
 try {
     $result = $apiInstance->postAdministratorCollection($administrator);
@@ -12666,11 +12666,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **administrator** | [**\Swagger\Client\Model\Administrator**](../Model/Administrator.md)| The new Administrator resource | [optional]
+ **administrator** | [**\Delta/Voip\Model\Administrator**](../Model/Administrator.md)| The new Administrator resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Administrator**](../Model/Administrator.md)
+[**\Delta/Voip\Model\Administrator**](../Model/Administrator.md)
 
 ### Authorization
 
@@ -12684,7 +12684,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postBalanceNotificationCollection**
-> \Swagger\Client\Model\BalanceNotification postBalanceNotificationCollection($balance_notification, $_timezone)
+> \Delta/Voip\Model\BalanceNotification postBalanceNotificationCollection($balance_notification, $_timezone)
 
 Creates a BalanceNotification resource.
 
@@ -12694,17 +12694,17 @@ Creates a BalanceNotification resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$balance_notification = new \Swagger\Client\Model\BalanceNotification(); // \Swagger\Client\Model\BalanceNotification | The new BalanceNotification resource
+$balance_notification = new \Delta/Voip\Model\BalanceNotification(); // \Delta/Voip\Model\BalanceNotification | The new BalanceNotification resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -12720,12 +12720,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **balance_notification** | [**\Swagger\Client\Model\BalanceNotification**](../Model/BalanceNotification.md)| The new BalanceNotification resource | [optional]
+ **balance_notification** | [**\Delta/Voip\Model\BalanceNotification**](../Model/BalanceNotification.md)| The new BalanceNotification resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\BalanceNotification**](../Model/BalanceNotification.md)
+[**\Delta/Voip\Model\BalanceNotification**](../Model/BalanceNotification.md)
 
 ### Authorization
 
@@ -12739,7 +12739,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postBrandServiceCollection**
-> \Swagger\Client\Model\BrandService postBrandServiceCollection($brand_service)
+> \Delta/Voip\Model\BrandService postBrandServiceCollection($brand_service)
 
 Creates a BrandService resource.
 
@@ -12749,17 +12749,17 @@ Creates a BrandService resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$brand_service = new \Swagger\Client\Model\BrandService(); // \Swagger\Client\Model\BrandService | The new BrandService resource
+$brand_service = new \Delta/Voip\Model\BrandService(); // \Delta/Voip\Model\BrandService | The new BrandService resource
 
 try {
     $result = $apiInstance->postBrandServiceCollection($brand_service);
@@ -12774,11 +12774,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **brand_service** | [**\Swagger\Client\Model\BrandService**](../Model/BrandService.md)| The new BrandService resource | [optional]
+ **brand_service** | [**\Delta/Voip\Model\BrandService**](../Model/BrandService.md)| The new BrandService resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandService**](../Model/BrandService.md)
+[**\Delta/Voip\Model\BrandService**](../Model/BrandService.md)
 
 ### Authorization
 
@@ -12792,7 +12792,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postCallCsvSchedulerCollection**
-> \Swagger\Client\Model\CallCsvScheduler postCallCsvSchedulerCollection($call_csv_scheduler, $_timezone)
+> \Delta/Voip\Model\CallCsvScheduler postCallCsvSchedulerCollection($call_csv_scheduler, $_timezone)
 
 Creates a CallCsvScheduler resource.
 
@@ -12802,17 +12802,17 @@ Creates a CallCsvScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$call_csv_scheduler = new \Swagger\Client\Model\CallCsvScheduler(); // \Swagger\Client\Model\CallCsvScheduler | The new CallCsvScheduler resource
+$call_csv_scheduler = new \Delta/Voip\Model\CallCsvScheduler(); // \Delta/Voip\Model\CallCsvScheduler | The new CallCsvScheduler resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -12828,12 +12828,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **call_csv_scheduler** | [**\Swagger\Client\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)| The new CallCsvScheduler resource | [optional]
+ **call_csv_scheduler** | [**\Delta/Voip\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)| The new CallCsvScheduler resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)
+[**\Delta/Voip\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)
 
 ### Authorization
 
@@ -12847,7 +12847,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postCarrierCollection**
-> \Swagger\Client\Model\Carrier postCarrierCollection($carrier)
+> \Delta/Voip\Model\Carrier postCarrierCollection($carrier)
 
 Creates a Carrier resource.
 
@@ -12857,17 +12857,17 @@ Creates a Carrier resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$carrier = new \Swagger\Client\Model\Carrier(); // \Swagger\Client\Model\Carrier | The new Carrier resource
+$carrier = new \Delta/Voip\Model\Carrier(); // \Delta/Voip\Model\Carrier | The new Carrier resource
 
 try {
     $result = $apiInstance->postCarrierCollection($carrier);
@@ -12882,11 +12882,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **carrier** | [**\Swagger\Client\Model\Carrier**](../Model/Carrier.md)| The new Carrier resource | [optional]
+ **carrier** | [**\Delta/Voip\Model\Carrier**](../Model/Carrier.md)| The new Carrier resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Carrier**](../Model/Carrier.md)
+[**\Delta/Voip\Model\Carrier**](../Model/Carrier.md)
 
 ### Authorization
 
@@ -12900,7 +12900,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postCarrierServerCollection**
-> \Swagger\Client\Model\CarrierServer postCarrierServerCollection($carrier_server)
+> \Delta/Voip\Model\CarrierServer postCarrierServerCollection($carrier_server)
 
 Creates a CarrierServer resource.
 
@@ -12910,17 +12910,17 @@ Creates a CarrierServer resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$carrier_server = new \Swagger\Client\Model\CarrierServer(); // \Swagger\Client\Model\CarrierServer | The new CarrierServer resource
+$carrier_server = new \Delta/Voip\Model\CarrierServer(); // \Delta/Voip\Model\CarrierServer | The new CarrierServer resource
 
 try {
     $result = $apiInstance->postCarrierServerCollection($carrier_server);
@@ -12935,11 +12935,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **carrier_server** | [**\Swagger\Client\Model\CarrierServer**](../Model/CarrierServer.md)| The new CarrierServer resource | [optional]
+ **carrier_server** | [**\Delta/Voip\Model\CarrierServer**](../Model/CarrierServer.md)| The new CarrierServer resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierServer**](../Model/CarrierServer.md)
+[**\Delta/Voip\Model\CarrierServer**](../Model/CarrierServer.md)
 
 ### Authorization
 
@@ -12953,7 +12953,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postCompanyCollection**
-> \Swagger\Client\Model\CompanyWithFeatures postCompanyCollection($company)
+> \Delta/Voip\Model\CompanyWithFeatures postCompanyCollection($company)
 
 Creates a Company resource.
 
@@ -12963,17 +12963,17 @@ Creates a Company resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$company = new \Swagger\Client\Model\Company(); // \Swagger\Client\Model\Company | The new Company resource
+$company = new \Delta/Voip\Model\Company(); // \Delta/Voip\Model\Company | The new Company resource
 
 try {
     $result = $apiInstance->postCompanyCollection($company);
@@ -12988,11 +12988,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **company** | [**\Swagger\Client\Model\Company**](../Model/Company.md)| The new Company resource | [optional]
+ **company** | [**\Delta/Voip\Model\Company**](../Model/Company.md)| The new Company resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CompanyWithFeatures**](../Model/CompanyWithFeatures.md)
+[**\Delta/Voip\Model\CompanyWithFeatures**](../Model/CompanyWithFeatures.md)
 
 ### Authorization
 
@@ -13006,7 +13006,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDdiCollection**
-> \Swagger\Client\Model\Ddi postDdiCollection($ddi)
+> \Delta/Voip\Model\Ddi postDdiCollection($ddi)
 
 Creates a Ddi resource.
 
@@ -13016,17 +13016,17 @@ Creates a Ddi resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ddi = new \Swagger\Client\Model\Ddi(); // \Swagger\Client\Model\Ddi | The new Ddi resource
+$ddi = new \Delta/Voip\Model\Ddi(); // \Delta/Voip\Model\Ddi | The new Ddi resource
 
 try {
     $result = $apiInstance->postDdiCollection($ddi);
@@ -13041,11 +13041,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ddi** | [**\Swagger\Client\Model\Ddi**](../Model/Ddi.md)| The new Ddi resource | [optional]
+ **ddi** | [**\Delta/Voip\Model\Ddi**](../Model/Ddi.md)| The new Ddi resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Ddi**](../Model/Ddi.md)
+[**\Delta/Voip\Model\Ddi**](../Model/Ddi.md)
 
 ### Authorization
 
@@ -13059,7 +13059,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDdiProviderAddressCollection**
-> \Swagger\Client\Model\DdiProviderAddress postDdiProviderAddressCollection($ddi_provider_address)
+> \Delta/Voip\Model\DdiProviderAddress postDdiProviderAddressCollection($ddi_provider_address)
 
 Creates a DdiProviderAddress resource.
 
@@ -13069,17 +13069,17 @@ Creates a DdiProviderAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ddi_provider_address = new \Swagger\Client\Model\DdiProviderAddress(); // \Swagger\Client\Model\DdiProviderAddress | The new DdiProviderAddress resource
+$ddi_provider_address = new \Delta/Voip\Model\DdiProviderAddress(); // \Delta/Voip\Model\DdiProviderAddress | The new DdiProviderAddress resource
 
 try {
     $result = $apiInstance->postDdiProviderAddressCollection($ddi_provider_address);
@@ -13094,11 +13094,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ddi_provider_address** | [**\Swagger\Client\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)| The new DdiProviderAddress resource | [optional]
+ **ddi_provider_address** | [**\Delta/Voip\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)| The new DdiProviderAddress resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)
+[**\Delta/Voip\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)
 
 ### Authorization
 
@@ -13112,7 +13112,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDdiProviderCollection**
-> \Swagger\Client\Model\DdiProvider postDdiProviderCollection($ddi_provider)
+> \Delta/Voip\Model\DdiProvider postDdiProviderCollection($ddi_provider)
 
 Creates a DdiProvider resource.
 
@@ -13122,17 +13122,17 @@ Creates a DdiProvider resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ddi_provider = new \Swagger\Client\Model\DdiProvider(); // \Swagger\Client\Model\DdiProvider | The new DdiProvider resource
+$ddi_provider = new \Delta/Voip\Model\DdiProvider(); // \Delta/Voip\Model\DdiProvider | The new DdiProvider resource
 
 try {
     $result = $apiInstance->postDdiProviderCollection($ddi_provider);
@@ -13147,11 +13147,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ddi_provider** | [**\Swagger\Client\Model\DdiProvider**](../Model/DdiProvider.md)| The new DdiProvider resource | [optional]
+ **ddi_provider** | [**\Delta/Voip\Model\DdiProvider**](../Model/DdiProvider.md)| The new DdiProvider resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProvider**](../Model/DdiProvider.md)
+[**\Delta/Voip\Model\DdiProvider**](../Model/DdiProvider.md)
 
 ### Authorization
 
@@ -13165,7 +13165,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDdiProviderRegistrationCollection**
-> \Swagger\Client\Model\DdiProviderRegistration postDdiProviderRegistrationCollection($ddi_provider_registration)
+> \Delta/Voip\Model\DdiProviderRegistration postDdiProviderRegistrationCollection($ddi_provider_registration)
 
 Creates a DdiProviderRegistration resource.
 
@@ -13175,17 +13175,17 @@ Creates a DdiProviderRegistration resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$ddi_provider_registration = new \Swagger\Client\Model\DdiProviderRegistration(); // \Swagger\Client\Model\DdiProviderRegistration | The new DdiProviderRegistration resource
+$ddi_provider_registration = new \Delta/Voip\Model\DdiProviderRegistration(); // \Delta/Voip\Model\DdiProviderRegistration | The new DdiProviderRegistration resource
 
 try {
     $result = $apiInstance->postDdiProviderRegistrationCollection($ddi_provider_registration);
@@ -13200,11 +13200,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **ddi_provider_registration** | [**\Swagger\Client\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)| The new DdiProviderRegistration resource | [optional]
+ **ddi_provider_registration** | [**\Delta/Voip\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)| The new DdiProviderRegistration resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)
+[**\Delta/Voip\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)
 
 ### Authorization
 
@@ -13218,7 +13218,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDestinationCollection**
-> \Swagger\Client\Model\Destination postDestinationCollection($destination)
+> \Delta/Voip\Model\Destination postDestinationCollection($destination)
 
 Creates a Destination resource.
 
@@ -13228,17 +13228,17 @@ Creates a Destination resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$destination = new \Swagger\Client\Model\Destination(); // \Swagger\Client\Model\Destination | The new Destination resource
+$destination = new \Delta/Voip\Model\Destination(); // \Delta/Voip\Model\Destination | The new Destination resource
 
 try {
     $result = $apiInstance->postDestinationCollection($destination);
@@ -13253,11 +13253,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **destination** | [**\Swagger\Client\Model\Destination**](../Model/Destination.md)| The new Destination resource | [optional]
+ **destination** | [**\Delta/Voip\Model\Destination**](../Model/Destination.md)| The new Destination resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Destination**](../Model/Destination.md)
+[**\Delta/Voip\Model\Destination**](../Model/Destination.md)
 
 ### Authorization
 
@@ -13271,7 +13271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDestinationRateCollection**
-> \Swagger\Client\Model\DestinationRate postDestinationRateCollection($destination_rate)
+> \Delta/Voip\Model\DestinationRate postDestinationRateCollection($destination_rate)
 
 Creates a DestinationRate resource.
 
@@ -13281,17 +13281,17 @@ Creates a DestinationRate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$destination_rate = new \Swagger\Client\Model\DestinationRate(); // \Swagger\Client\Model\DestinationRate | The new DestinationRate resource
+$destination_rate = new \Delta/Voip\Model\DestinationRate(); // \Delta/Voip\Model\DestinationRate | The new DestinationRate resource
 
 try {
     $result = $apiInstance->postDestinationRateCollection($destination_rate);
@@ -13306,11 +13306,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **destination_rate** | [**\Swagger\Client\Model\DestinationRate**](../Model/DestinationRate.md)| The new DestinationRate resource | [optional]
+ **destination_rate** | [**\Delta/Voip\Model\DestinationRate**](../Model/DestinationRate.md)| The new DestinationRate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRate**](../Model/DestinationRate.md)
+[**\Delta/Voip\Model\DestinationRate**](../Model/DestinationRate.md)
 
 ### Authorization
 
@@ -13324,7 +13324,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postDestinationRateGroupCollection**
-> \Swagger\Client\Model\DestinationRateGroup postDestinationRateGroupCollection($destination_rate_group, $file)
+> \Delta/Voip\Model\DestinationRateGroup postDestinationRateGroupCollection($destination_rate_group, $file)
 
 Creates a DestinationRateGroup resource.
 
@@ -13334,11 +13334,11 @@ Creates a DestinationRateGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -13365,7 +13365,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateGroup**](../Model/DestinationRateGroup.md)
+[**\Delta/Voip\Model\DestinationRateGroup**](../Model/DestinationRateGroup.md)
 
 ### Authorization
 
@@ -13379,7 +13379,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postFeaturesRelCompanyCollection**
-> \Swagger\Client\Model\FeaturesRelCompany postFeaturesRelCompanyCollection($features_rel_company)
+> \Delta/Voip\Model\FeaturesRelCompany postFeaturesRelCompanyCollection($features_rel_company)
 
 Creates a FeaturesRelCompany resource.
 
@@ -13389,17 +13389,17 @@ Creates a FeaturesRelCompany resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$features_rel_company = new \Swagger\Client\Model\FeaturesRelCompany(); // \Swagger\Client\Model\FeaturesRelCompany | The new FeaturesRelCompany resource
+$features_rel_company = new \Delta/Voip\Model\FeaturesRelCompany(); // \Delta/Voip\Model\FeaturesRelCompany | The new FeaturesRelCompany resource
 
 try {
     $result = $apiInstance->postFeaturesRelCompanyCollection($features_rel_company);
@@ -13414,11 +13414,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **features_rel_company** | [**\Swagger\Client\Model\FeaturesRelCompany**](../Model/FeaturesRelCompany.md)| The new FeaturesRelCompany resource | [optional]
+ **features_rel_company** | [**\Delta/Voip\Model\FeaturesRelCompany**](../Model/FeaturesRelCompany.md)| The new FeaturesRelCompany resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FeaturesRelCompany**](../Model/FeaturesRelCompany.md)
+[**\Delta/Voip\Model\FeaturesRelCompany**](../Model/FeaturesRelCompany.md)
 
 ### Authorization
 
@@ -13432,7 +13432,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postFixedCostCollection**
-> \Swagger\Client\Model\FixedCost postFixedCostCollection($fixed_cost)
+> \Delta/Voip\Model\FixedCost postFixedCostCollection($fixed_cost)
 
 Creates a FixedCost resource.
 
@@ -13442,17 +13442,17 @@ Creates a FixedCost resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$fixed_cost = new \Swagger\Client\Model\FixedCost(); // \Swagger\Client\Model\FixedCost | The new FixedCost resource
+$fixed_cost = new \Delta/Voip\Model\FixedCost(); // \Delta/Voip\Model\FixedCost | The new FixedCost resource
 
 try {
     $result = $apiInstance->postFixedCostCollection($fixed_cost);
@@ -13467,11 +13467,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **fixed_cost** | [**\Swagger\Client\Model\FixedCost**](../Model/FixedCost.md)| The new FixedCost resource | [optional]
+ **fixed_cost** | [**\Delta/Voip\Model\FixedCost**](../Model/FixedCost.md)| The new FixedCost resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCost**](../Model/FixedCost.md)
+[**\Delta/Voip\Model\FixedCost**](../Model/FixedCost.md)
 
 ### Authorization
 
@@ -13485,7 +13485,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postFixedCostsRelInvoiceCollection**
-> \Swagger\Client\Model\FixedCostsRelInvoice postFixedCostsRelInvoiceCollection($fixed_costs_rel_invoice)
+> \Delta/Voip\Model\FixedCostsRelInvoice postFixedCostsRelInvoiceCollection($fixed_costs_rel_invoice)
 
 Creates a FixedCostsRelInvoice resource.
 
@@ -13495,17 +13495,17 @@ Creates a FixedCostsRelInvoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$fixed_costs_rel_invoice = new \Swagger\Client\Model\FixedCostsRelInvoice(); // \Swagger\Client\Model\FixedCostsRelInvoice | The new FixedCostsRelInvoice resource
+$fixed_costs_rel_invoice = new \Delta/Voip\Model\FixedCostsRelInvoice(); // \Delta/Voip\Model\FixedCostsRelInvoice | The new FixedCostsRelInvoice resource
 
 try {
     $result = $apiInstance->postFixedCostsRelInvoiceCollection($fixed_costs_rel_invoice);
@@ -13520,11 +13520,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **fixed_costs_rel_invoice** | [**\Swagger\Client\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)| The new FixedCostsRelInvoice resource | [optional]
+ **fixed_costs_rel_invoice** | [**\Delta/Voip\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)| The new FixedCostsRelInvoice resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)
 
 ### Authorization
 
@@ -13538,7 +13538,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postFixedCostsRelInvoiceSchedulerCollection**
-> \Swagger\Client\Model\FixedCostsRelInvoiceScheduler postFixedCostsRelInvoiceSchedulerCollection($fixed_costs_rel_invoice_scheduler)
+> \Delta/Voip\Model\FixedCostsRelInvoiceScheduler postFixedCostsRelInvoiceSchedulerCollection($fixed_costs_rel_invoice_scheduler)
 
 Creates a FixedCostsRelInvoiceScheduler resource.
 
@@ -13548,17 +13548,17 @@ Creates a FixedCostsRelInvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$fixed_costs_rel_invoice_scheduler = new \Swagger\Client\Model\FixedCostsRelInvoiceScheduler(); // \Swagger\Client\Model\FixedCostsRelInvoiceScheduler | The new FixedCostsRelInvoiceScheduler resource
+$fixed_costs_rel_invoice_scheduler = new \Delta/Voip\Model\FixedCostsRelInvoiceScheduler(); // \Delta/Voip\Model\FixedCostsRelInvoiceScheduler | The new FixedCostsRelInvoiceScheduler resource
 
 try {
     $result = $apiInstance->postFixedCostsRelInvoiceSchedulerCollection($fixed_costs_rel_invoice_scheduler);
@@ -13573,11 +13573,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **fixed_costs_rel_invoice_scheduler** | [**\Swagger\Client\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)| The new FixedCostsRelInvoiceScheduler resource | [optional]
+ **fixed_costs_rel_invoice_scheduler** | [**\Delta/Voip\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)| The new FixedCostsRelInvoiceScheduler resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)
 
 ### Authorization
 
@@ -13591,7 +13591,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postFriendCollection**
-> \Swagger\Client\Model\Friend postFriendCollection($friend)
+> \Delta/Voip\Model\Friend postFriendCollection($friend)
 
 Creates a Friend resource.
 
@@ -13601,17 +13601,17 @@ Creates a Friend resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$friend = new \Swagger\Client\Model\Friend(); // \Swagger\Client\Model\Friend | The new Friend resource
+$friend = new \Delta/Voip\Model\Friend(); // \Delta/Voip\Model\Friend | The new Friend resource
 
 try {
     $result = $apiInstance->postFriendCollection($friend);
@@ -13626,11 +13626,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **friend** | [**\Swagger\Client\Model\Friend**](../Model/Friend.md)| The new Friend resource | [optional]
+ **friend** | [**\Delta/Voip\Model\Friend**](../Model/Friend.md)| The new Friend resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Friend**](../Model/Friend.md)
+[**\Delta/Voip\Model\Friend**](../Model/Friend.md)
 
 ### Authorization
 
@@ -13644,7 +13644,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postInvoiceCollection**
-> \Swagger\Client\Model\Invoice postInvoiceCollection($invoice, $_timezone)
+> \Delta/Voip\Model\Invoice postInvoiceCollection($invoice, $_timezone)
 
 Creates a Invoice resource.
 
@@ -13654,17 +13654,17 @@ Creates a Invoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$invoice = new \Swagger\Client\Model\Invoice(); // \Swagger\Client\Model\Invoice | The new Invoice resource
+$invoice = new \Delta/Voip\Model\Invoice(); // \Delta/Voip\Model\Invoice | The new Invoice resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -13680,12 +13680,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **invoice** | [**\Swagger\Client\Model\Invoice**](../Model/Invoice.md)| The new Invoice resource | [optional]
+ **invoice** | [**\Delta/Voip\Model\Invoice**](../Model/Invoice.md)| The new Invoice resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Invoice**](../Model/Invoice.md)
+[**\Delta/Voip\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -13699,7 +13699,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postInvoiceNumberSequenceCollection**
-> \Swagger\Client\Model\InvoiceNumberSequence postInvoiceNumberSequenceCollection($invoice_number_sequence)
+> \Delta/Voip\Model\InvoiceNumberSequence postInvoiceNumberSequenceCollection($invoice_number_sequence)
 
 Creates a InvoiceNumberSequence resource.
 
@@ -13709,17 +13709,17 @@ Creates a InvoiceNumberSequence resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$invoice_number_sequence = new \Swagger\Client\Model\InvoiceNumberSequence(); // \Swagger\Client\Model\InvoiceNumberSequence | The new InvoiceNumberSequence resource
+$invoice_number_sequence = new \Delta/Voip\Model\InvoiceNumberSequence(); // \Delta/Voip\Model\InvoiceNumberSequence | The new InvoiceNumberSequence resource
 
 try {
     $result = $apiInstance->postInvoiceNumberSequenceCollection($invoice_number_sequence);
@@ -13734,11 +13734,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **invoice_number_sequence** | [**\Swagger\Client\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)| The new InvoiceNumberSequence resource | [optional]
+ **invoice_number_sequence** | [**\Delta/Voip\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)| The new InvoiceNumberSequence resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)
+[**\Delta/Voip\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)
 
 ### Authorization
 
@@ -13752,7 +13752,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postInvoiceSchedulerCollection**
-> \Swagger\Client\Model\InvoiceScheduler postInvoiceSchedulerCollection($invoice_scheduler, $_timezone)
+> \Delta/Voip\Model\InvoiceScheduler postInvoiceSchedulerCollection($invoice_scheduler, $_timezone)
 
 Creates a InvoiceScheduler resource.
 
@@ -13762,17 +13762,17 @@ Creates a InvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$invoice_scheduler = new \Swagger\Client\Model\InvoiceScheduler(); // \Swagger\Client\Model\InvoiceScheduler | The new InvoiceScheduler resource
+$invoice_scheduler = new \Delta/Voip\Model\InvoiceScheduler(); // \Delta/Voip\Model\InvoiceScheduler | The new InvoiceScheduler resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -13788,12 +13788,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **invoice_scheduler** | [**\Swagger\Client\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)| The new InvoiceScheduler resource | [optional]
+ **invoice_scheduler** | [**\Delta/Voip\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)| The new InvoiceScheduler resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)
+[**\Delta/Voip\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)
 
 ### Authorization
 
@@ -13807,7 +13807,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postInvoiceTemplateCollection**
-> \Swagger\Client\Model\InvoiceTemplate postInvoiceTemplateCollection($invoice_template)
+> \Delta/Voip\Model\InvoiceTemplate postInvoiceTemplateCollection($invoice_template)
 
 Creates a InvoiceTemplate resource.
 
@@ -13817,17 +13817,17 @@ Creates a InvoiceTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$invoice_template = new \Swagger\Client\Model\InvoiceTemplate(); // \Swagger\Client\Model\InvoiceTemplate | The new InvoiceTemplate resource
+$invoice_template = new \Delta/Voip\Model\InvoiceTemplate(); // \Delta/Voip\Model\InvoiceTemplate | The new InvoiceTemplate resource
 
 try {
     $result = $apiInstance->postInvoiceTemplateCollection($invoice_template);
@@ -13842,11 +13842,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **invoice_template** | [**\Swagger\Client\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)| The new InvoiceTemplate resource | [optional]
+ **invoice_template** | [**\Delta/Voip\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)| The new InvoiceTemplate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)
+[**\Delta/Voip\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)
 
 ### Authorization
 
@@ -13860,7 +13860,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postNotificationTemplateCollection**
-> \Swagger\Client\Model\NotificationTemplate postNotificationTemplateCollection($notification_template)
+> \Delta/Voip\Model\NotificationTemplate postNotificationTemplateCollection($notification_template)
 
 Creates a NotificationTemplate resource.
 
@@ -13870,17 +13870,17 @@ Creates a NotificationTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$notification_template = new \Swagger\Client\Model\NotificationTemplate(); // \Swagger\Client\Model\NotificationTemplate | The new NotificationTemplate resource
+$notification_template = new \Delta/Voip\Model\NotificationTemplate(); // \Delta/Voip\Model\NotificationTemplate | The new NotificationTemplate resource
 
 try {
     $result = $apiInstance->postNotificationTemplateCollection($notification_template);
@@ -13895,11 +13895,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](../Model/NotificationTemplate.md)| The new NotificationTemplate resource | [optional]
+ **notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](../Model/NotificationTemplate.md)| The new NotificationTemplate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplate**](../Model/NotificationTemplate.md)
+[**\Delta/Voip\Model\NotificationTemplate**](../Model/NotificationTemplate.md)
 
 ### Authorization
 
@@ -13913,7 +13913,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postNotificationTemplateContentCollection**
-> \Swagger\Client\Model\NotificationTemplateContent postNotificationTemplateContentCollection($notification_template_content)
+> \Delta/Voip\Model\NotificationTemplateContent postNotificationTemplateContentCollection($notification_template_content)
 
 Creates a NotificationTemplateContent resource.
 
@@ -13923,17 +13923,17 @@ Creates a NotificationTemplateContent resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$notification_template_content = new \Swagger\Client\Model\NotificationTemplateContent(); // \Swagger\Client\Model\NotificationTemplateContent | The new NotificationTemplateContent resource
+$notification_template_content = new \Delta/Voip\Model\NotificationTemplateContent(); // \Delta/Voip\Model\NotificationTemplateContent | The new NotificationTemplateContent resource
 
 try {
     $result = $apiInstance->postNotificationTemplateContentCollection($notification_template_content);
@@ -13948,11 +13948,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **notification_template_content** | [**\Swagger\Client\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)| The new NotificationTemplateContent resource | [optional]
+ **notification_template_content** | [**\Delta/Voip\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)| The new NotificationTemplateContent resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)
+[**\Delta/Voip\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)
 
 ### Authorization
 
@@ -13966,7 +13966,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postOutgoingRoutingCollection**
-> \Swagger\Client\Model\OutgoingRoutingWithCarriers postOutgoingRoutingCollection($outgoing_routing)
+> \Delta/Voip\Model\OutgoingRoutingWithCarriers postOutgoingRoutingCollection($outgoing_routing)
 
 Creates a OutgoingRouting resource.
 
@@ -13976,17 +13976,17 @@ Creates a OutgoingRouting resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$outgoing_routing = new \Swagger\Client\Model\OutgoingRouting(); // \Swagger\Client\Model\OutgoingRouting | The new OutgoingRouting resource
+$outgoing_routing = new \Delta/Voip\Model\OutgoingRouting(); // \Delta/Voip\Model\OutgoingRouting | The new OutgoingRouting resource
 
 try {
     $result = $apiInstance->postOutgoingRoutingCollection($outgoing_routing);
@@ -14001,11 +14001,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **outgoing_routing** | [**\Swagger\Client\Model\OutgoingRouting**](../Model/OutgoingRouting.md)| The new OutgoingRouting resource | [optional]
+ **outgoing_routing** | [**\Delta/Voip\Model\OutgoingRouting**](../Model/OutgoingRouting.md)| The new OutgoingRouting resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\OutgoingRoutingWithCarriers**](../Model/OutgoingRoutingWithCarriers.md)
+[**\Delta/Voip\Model\OutgoingRoutingWithCarriers**](../Model/OutgoingRoutingWithCarriers.md)
 
 ### Authorization
 
@@ -14019,7 +14019,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRatingPlanCollection**
-> \Swagger\Client\Model\RatingPlan postRatingPlanCollection($rating_plan)
+> \Delta/Voip\Model\RatingPlan postRatingPlanCollection($rating_plan)
 
 Creates a RatingPlan resource.
 
@@ -14029,17 +14029,17 @@ Creates a RatingPlan resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$rating_plan = new \Swagger\Client\Model\RatingPlan(); // \Swagger\Client\Model\RatingPlan | The new RatingPlan resource
+$rating_plan = new \Delta/Voip\Model\RatingPlan(); // \Delta/Voip\Model\RatingPlan | The new RatingPlan resource
 
 try {
     $result = $apiInstance->postRatingPlanCollection($rating_plan);
@@ -14054,11 +14054,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **rating_plan** | [**\Swagger\Client\Model\RatingPlan**](../Model/RatingPlan.md)| The new RatingPlan resource | [optional]
+ **rating_plan** | [**\Delta/Voip\Model\RatingPlan**](../Model/RatingPlan.md)| The new RatingPlan resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlan**](../Model/RatingPlan.md)
+[**\Delta/Voip\Model\RatingPlan**](../Model/RatingPlan.md)
 
 ### Authorization
 
@@ -14072,7 +14072,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRatingPlanGroupCollection**
-> \Swagger\Client\Model\RatingPlanGroup postRatingPlanGroupCollection($rating_plan_group)
+> \Delta/Voip\Model\RatingPlanGroup postRatingPlanGroupCollection($rating_plan_group)
 
 Creates a RatingPlanGroup resource.
 
@@ -14082,17 +14082,17 @@ Creates a RatingPlanGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$rating_plan_group = new \Swagger\Client\Model\RatingPlanGroup(); // \Swagger\Client\Model\RatingPlanGroup | The new RatingPlanGroup resource
+$rating_plan_group = new \Delta/Voip\Model\RatingPlanGroup(); // \Delta/Voip\Model\RatingPlanGroup | The new RatingPlanGroup resource
 
 try {
     $result = $apiInstance->postRatingPlanGroupCollection($rating_plan_group);
@@ -14107,11 +14107,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **rating_plan_group** | [**\Swagger\Client\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)| The new RatingPlanGroup resource | [optional]
+ **rating_plan_group** | [**\Delta/Voip\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)| The new RatingPlanGroup resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)
+[**\Delta/Voip\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)
 
 ### Authorization
 
@@ -14125,7 +14125,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRatingProfileCollection**
-> \Swagger\Client\Model\RatingProfile postRatingProfileCollection($rating_profile, $_timezone)
+> \Delta/Voip\Model\RatingProfile postRatingProfileCollection($rating_profile, $_timezone)
 
 Creates a RatingProfile resource.
 
@@ -14135,17 +14135,17 @@ Creates a RatingProfile resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$rating_profile = new \Swagger\Client\Model\RatingProfile(); // \Swagger\Client\Model\RatingProfile | The new RatingProfile resource
+$rating_profile = new \Delta/Voip\Model\RatingProfile(); // \Delta/Voip\Model\RatingProfile | The new RatingProfile resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -14161,12 +14161,12 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **rating_profile** | [**\Swagger\Client\Model\RatingProfile**](../Model/RatingProfile.md)| The new RatingProfile resource | [optional]
+ **rating_profile** | [**\Delta/Voip\Model\RatingProfile**](../Model/RatingProfile.md)| The new RatingProfile resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingProfile**](../Model/RatingProfile.md)
+[**\Delta/Voip\Model\RatingProfile**](../Model/RatingProfile.md)
 
 ### Authorization
 
@@ -14180,7 +14180,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postResidentialDeviceCollection**
-> \Swagger\Client\Model\ResidentialDevice postResidentialDeviceCollection($residential_device)
+> \Delta/Voip\Model\ResidentialDevice postResidentialDeviceCollection($residential_device)
 
 Creates a ResidentialDevice resource.
 
@@ -14190,17 +14190,17 @@ Creates a ResidentialDevice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$residential_device = new \Swagger\Client\Model\ResidentialDevice(); // \Swagger\Client\Model\ResidentialDevice | The new ResidentialDevice resource
+$residential_device = new \Delta/Voip\Model\ResidentialDevice(); // \Delta/Voip\Model\ResidentialDevice | The new ResidentialDevice resource
 
 try {
     $result = $apiInstance->postResidentialDeviceCollection($residential_device);
@@ -14215,11 +14215,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **residential_device** | [**\Swagger\Client\Model\ResidentialDevice**](../Model/ResidentialDevice.md)| The new ResidentialDevice resource | [optional]
+ **residential_device** | [**\Delta/Voip\Model\ResidentialDevice**](../Model/ResidentialDevice.md)| The new ResidentialDevice resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\ResidentialDevice**](../Model/ResidentialDevice.md)
+[**\Delta/Voip\Model\ResidentialDevice**](../Model/ResidentialDevice.md)
 
 ### Authorization
 
@@ -14233,7 +14233,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRetailAccountCollection**
-> \Swagger\Client\Model\RetailAccount postRetailAccountCollection($retail_account)
+> \Delta/Voip\Model\RetailAccount postRetailAccountCollection($retail_account)
 
 Creates a RetailAccount resource.
 
@@ -14243,17 +14243,17 @@ Creates a RetailAccount resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$retail_account = new \Swagger\Client\Model\RetailAccount(); // \Swagger\Client\Model\RetailAccount | The new RetailAccount resource
+$retail_account = new \Delta/Voip\Model\RetailAccount(); // \Delta/Voip\Model\RetailAccount | The new RetailAccount resource
 
 try {
     $result = $apiInstance->postRetailAccountCollection($retail_account);
@@ -14268,11 +14268,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **retail_account** | [**\Swagger\Client\Model\RetailAccount**](../Model/RetailAccount.md)| The new RetailAccount resource | [optional]
+ **retail_account** | [**\Delta/Voip\Model\RetailAccount**](../Model/RetailAccount.md)| The new RetailAccount resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RetailAccount**](../Model/RetailAccount.md)
+[**\Delta/Voip\Model\RetailAccount**](../Model/RetailAccount.md)
 
 ### Authorization
 
@@ -14286,7 +14286,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRoutingPatternCollection**
-> \Swagger\Client\Model\RoutingPattern postRoutingPatternCollection($routing_pattern)
+> \Delta/Voip\Model\RoutingPattern postRoutingPatternCollection($routing_pattern)
 
 Creates a RoutingPattern resource.
 
@@ -14296,17 +14296,17 @@ Creates a RoutingPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$routing_pattern = new \Swagger\Client\Model\RoutingPattern(); // \Swagger\Client\Model\RoutingPattern | The new RoutingPattern resource
+$routing_pattern = new \Delta/Voip\Model\RoutingPattern(); // \Delta/Voip\Model\RoutingPattern | The new RoutingPattern resource
 
 try {
     $result = $apiInstance->postRoutingPatternCollection($routing_pattern);
@@ -14321,11 +14321,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **routing_pattern** | [**\Swagger\Client\Model\RoutingPattern**](../Model/RoutingPattern.md)| The new RoutingPattern resource | [optional]
+ **routing_pattern** | [**\Delta/Voip\Model\RoutingPattern**](../Model/RoutingPattern.md)| The new RoutingPattern resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPattern**](../Model/RoutingPattern.md)
+[**\Delta/Voip\Model\RoutingPattern**](../Model/RoutingPattern.md)
 
 ### Authorization
 
@@ -14339,7 +14339,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRoutingPatternGroupCollection**
-> \Swagger\Client\Model\RoutingPatternGroupWithPatterns postRoutingPatternGroupCollection($routing_pattern_group)
+> \Delta/Voip\Model\RoutingPatternGroupWithPatterns postRoutingPatternGroupCollection($routing_pattern_group)
 
 Creates a RoutingPatternGroup resource.
 
@@ -14349,17 +14349,17 @@ Creates a RoutingPatternGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$routing_pattern_group = new \Swagger\Client\Model\RoutingPatternGroup(); // \Swagger\Client\Model\RoutingPatternGroup | The new RoutingPatternGroup resource
+$routing_pattern_group = new \Delta/Voip\Model\RoutingPatternGroup(); // \Delta/Voip\Model\RoutingPatternGroup | The new RoutingPatternGroup resource
 
 try {
     $result = $apiInstance->postRoutingPatternGroupCollection($routing_pattern_group);
@@ -14374,11 +14374,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **routing_pattern_group** | [**\Swagger\Client\Model\RoutingPatternGroup**](../Model/RoutingPatternGroup.md)| The new RoutingPatternGroup resource | [optional]
+ **routing_pattern_group** | [**\Delta/Voip\Model\RoutingPatternGroup**](../Model/RoutingPatternGroup.md)| The new RoutingPatternGroup resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupWithPatterns**](../Model/RoutingPatternGroupWithPatterns.md)
+[**\Delta/Voip\Model\RoutingPatternGroupWithPatterns**](../Model/RoutingPatternGroupWithPatterns.md)
 
 ### Authorization
 
@@ -14392,7 +14392,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRoutingPatternGroupsRelPatternCollection**
-> \Swagger\Client\Model\RoutingPatternGroupsRelPattern postRoutingPatternGroupsRelPatternCollection($routing_pattern_groups_rel_pattern)
+> \Delta/Voip\Model\RoutingPatternGroupsRelPattern postRoutingPatternGroupsRelPatternCollection($routing_pattern_groups_rel_pattern)
 
 Creates a RoutingPatternGroupsRelPattern resource.
 
@@ -14402,17 +14402,17 @@ Creates a RoutingPatternGroupsRelPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$routing_pattern_groups_rel_pattern = new \Swagger\Client\Model\RoutingPatternGroupsRelPattern(); // \Swagger\Client\Model\RoutingPatternGroupsRelPattern | The new RoutingPatternGroupsRelPattern resource
+$routing_pattern_groups_rel_pattern = new \Delta/Voip\Model\RoutingPatternGroupsRelPattern(); // \Delta/Voip\Model\RoutingPatternGroupsRelPattern | The new RoutingPatternGroupsRelPattern resource
 
 try {
     $result = $apiInstance->postRoutingPatternGroupsRelPatternCollection($routing_pattern_groups_rel_pattern);
@@ -14427,11 +14427,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **routing_pattern_groups_rel_pattern** | [**\Swagger\Client\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)| The new RoutingPatternGroupsRelPattern resource | [optional]
+ **routing_pattern_groups_rel_pattern** | [**\Delta/Voip\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)| The new RoutingPatternGroupsRelPattern resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)
+[**\Delta/Voip\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)
 
 ### Authorization
 
@@ -14445,7 +14445,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postRoutingTagCollection**
-> \Swagger\Client\Model\RoutingTag postRoutingTagCollection($routing_tag)
+> \Delta/Voip\Model\RoutingTag postRoutingTagCollection($routing_tag)
 
 Creates a RoutingTag resource.
 
@@ -14455,17 +14455,17 @@ Creates a RoutingTag resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$routing_tag = new \Swagger\Client\Model\RoutingTag(); // \Swagger\Client\Model\RoutingTag | The new RoutingTag resource
+$routing_tag = new \Delta/Voip\Model\RoutingTag(); // \Delta/Voip\Model\RoutingTag | The new RoutingTag resource
 
 try {
     $result = $apiInstance->postRoutingTagCollection($routing_tag);
@@ -14480,11 +14480,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **routing_tag** | [**\Swagger\Client\Model\RoutingTag**](../Model/RoutingTag.md)| The new RoutingTag resource | [optional]
+ **routing_tag** | [**\Delta/Voip\Model\RoutingTag**](../Model/RoutingTag.md)| The new RoutingTag resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingTag**](../Model/RoutingTag.md)
+[**\Delta/Voip\Model\RoutingTag**](../Model/RoutingTag.md)
 
 ### Authorization
 
@@ -14498,7 +14498,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postSpecialNumberCollection**
-> \Swagger\Client\Model\SpecialNumber postSpecialNumberCollection($special_number)
+> \Delta/Voip\Model\SpecialNumber postSpecialNumberCollection($special_number)
 
 Creates a SpecialNumber resource.
 
@@ -14508,17 +14508,17 @@ Creates a SpecialNumber resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$special_number = new \Swagger\Client\Model\SpecialNumber(); // \Swagger\Client\Model\SpecialNumber | The new SpecialNumber resource
+$special_number = new \Delta/Voip\Model\SpecialNumber(); // \Delta/Voip\Model\SpecialNumber | The new SpecialNumber resource
 
 try {
     $result = $apiInstance->postSpecialNumberCollection($special_number);
@@ -14533,11 +14533,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **special_number** | [**\Swagger\Client\Model\SpecialNumber**](../Model/SpecialNumber.md)| The new SpecialNumber resource | [optional]
+ **special_number** | [**\Delta/Voip\Model\SpecialNumber**](../Model/SpecialNumber.md)| The new SpecialNumber resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\SpecialNumber**](../Model/SpecialNumber.md)
+[**\Delta/Voip\Model\SpecialNumber**](../Model/SpecialNumber.md)
 
 ### Authorization
 
@@ -14551,7 +14551,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postTransformationRuleCollection**
-> \Swagger\Client\Model\TransformationRule postTransformationRuleCollection($transformation_rule)
+> \Delta/Voip\Model\TransformationRule postTransformationRuleCollection($transformation_rule)
 
 Creates a TransformationRule resource.
 
@@ -14561,17 +14561,17 @@ Creates a TransformationRule resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$transformation_rule = new \Swagger\Client\Model\TransformationRule(); // \Swagger\Client\Model\TransformationRule | The new TransformationRule resource
+$transformation_rule = new \Delta/Voip\Model\TransformationRule(); // \Delta/Voip\Model\TransformationRule | The new TransformationRule resource
 
 try {
     $result = $apiInstance->postTransformationRuleCollection($transformation_rule);
@@ -14586,11 +14586,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transformation_rule** | [**\Swagger\Client\Model\TransformationRule**](../Model/TransformationRule.md)| The new TransformationRule resource | [optional]
+ **transformation_rule** | [**\Delta/Voip\Model\TransformationRule**](../Model/TransformationRule.md)| The new TransformationRule resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRule**](../Model/TransformationRule.md)
+[**\Delta/Voip\Model\TransformationRule**](../Model/TransformationRule.md)
 
 ### Authorization
 
@@ -14604,7 +14604,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postTransformationRuleSetCollection**
-> \Swagger\Client\Model\TransformationRuleSet postTransformationRuleSetCollection($transformation_rule_set)
+> \Delta/Voip\Model\TransformationRuleSet postTransformationRuleSetCollection($transformation_rule_set)
 
 Creates a TransformationRuleSet resource.
 
@@ -14614,17 +14614,17 @@ Creates a TransformationRuleSet resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$transformation_rule_set = new \Swagger\Client\Model\TransformationRuleSet(); // \Swagger\Client\Model\TransformationRuleSet | The new TransformationRuleSet resource
+$transformation_rule_set = new \Delta/Voip\Model\TransformationRuleSet(); // \Delta/Voip\Model\TransformationRuleSet | The new TransformationRuleSet resource
 
 try {
     $result = $apiInstance->postTransformationRuleSetCollection($transformation_rule_set);
@@ -14639,11 +14639,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)| The new TransformationRuleSet resource | [optional]
+ **transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)| The new TransformationRuleSet resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)
+[**\Delta/Voip\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)
 
 ### Authorization
 
@@ -14657,7 +14657,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postUsersMassImportUsersMassImportCollection**
-> \Swagger\Client\Model\UsersMassImport postUsersMassImportUsersMassImportCollection($company, $csv)
+> \Delta/Voip\Model\UsersMassImport postUsersMassImportUsersMassImportCollection($company, $csv)
 
 Creates a UsersMassImport resource.
 
@@ -14667,11 +14667,11 @@ Creates a UsersMassImport resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -14698,7 +14698,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersMassImport**](../Model/UsersMassImport.md)
+[**\Delta/Voip\Model\UsersMassImport**](../Model/UsersMassImport.md)
 
 ### Authorization
 
@@ -14712,7 +14712,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postWebPortalCollection**
-> \Swagger\Client\Model\WebPortal postWebPortalCollection($web_portal, $logo)
+> \Delta/Voip\Model\WebPortal postWebPortalCollection($web_portal, $logo)
 
 Creates a WebPortal resource.
 
@@ -14722,11 +14722,11 @@ Creates a WebPortal resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -14753,7 +14753,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\WebPortal**](../Model/WebPortal.md)
+[**\Delta/Voip\Model\WebPortal**](../Model/WebPortal.md)
 
 ### Authorization
 
@@ -14767,7 +14767,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putAdministratorItem**
-> \Swagger\Client\Model\Administrator putAdministratorItem($id, $administrator)
+> \Delta/Voip\Model\Administrator putAdministratorItem($id, $administrator)
 
 Replaces the Administrator resource.
 
@@ -14777,18 +14777,18 @@ Replaces the Administrator resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$administrator = new \Swagger\Client\Model\Administrator(); // \Swagger\Client\Model\Administrator | The updated Administrator resource
+$administrator = new \Delta/Voip\Model\Administrator(); // \Delta/Voip\Model\Administrator | The updated Administrator resource
 
 try {
     $result = $apiInstance->putAdministratorItem($id, $administrator);
@@ -14804,11 +14804,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **administrator** | [**\Swagger\Client\Model\Administrator**](../Model/Administrator.md)| The updated Administrator resource | [optional]
+ **administrator** | [**\Delta/Voip\Model\Administrator**](../Model/Administrator.md)| The updated Administrator resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Administrator**](../Model/Administrator.md)
+[**\Delta/Voip\Model\Administrator**](../Model/Administrator.md)
 
 ### Authorization
 
@@ -14822,7 +14822,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putAdministratorRelPublicEntityItem**
-> \Swagger\Client\Model\AdministratorRelPublicEntity putAdministratorRelPublicEntityItem($id, $administrator_rel_public_entity)
+> \Delta/Voip\Model\AdministratorRelPublicEntity putAdministratorRelPublicEntityItem($id, $administrator_rel_public_entity)
 
 Replaces the AdministratorRelPublicEntity resource.
 
@@ -14832,18 +14832,18 @@ Replaces the AdministratorRelPublicEntity resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$administrator_rel_public_entity = new \Swagger\Client\Model\AdministratorRelPublicEntity(); // \Swagger\Client\Model\AdministratorRelPublicEntity | The updated AdministratorRelPublicEntity resource
+$administrator_rel_public_entity = new \Delta/Voip\Model\AdministratorRelPublicEntity(); // \Delta/Voip\Model\AdministratorRelPublicEntity | The updated AdministratorRelPublicEntity resource
 
 try {
     $result = $apiInstance->putAdministratorRelPublicEntityItem($id, $administrator_rel_public_entity);
@@ -14859,11 +14859,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **administrator_rel_public_entity** | [**\Swagger\Client\Model\AdministratorRelPublicEntity**](../Model/AdministratorRelPublicEntity.md)| The updated AdministratorRelPublicEntity resource | [optional]
+ **administrator_rel_public_entity** | [**\Delta/Voip\Model\AdministratorRelPublicEntity**](../Model/AdministratorRelPublicEntity.md)| The updated AdministratorRelPublicEntity resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\AdministratorRelPublicEntity**](../Model/AdministratorRelPublicEntity.md)
+[**\Delta/Voip\Model\AdministratorRelPublicEntity**](../Model/AdministratorRelPublicEntity.md)
 
 ### Authorization
 
@@ -14877,7 +14877,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putBalanceNotificationItem**
-> \Swagger\Client\Model\BalanceNotification putBalanceNotificationItem($id, $balance_notification, $_timezone)
+> \Delta/Voip\Model\BalanceNotification putBalanceNotificationItem($id, $balance_notification, $_timezone)
 
 Replaces the BalanceNotification resource.
 
@@ -14887,18 +14887,18 @@ Replaces the BalanceNotification resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$balance_notification = new \Swagger\Client\Model\BalanceNotification(); // \Swagger\Client\Model\BalanceNotification | The updated BalanceNotification resource
+$balance_notification = new \Delta/Voip\Model\BalanceNotification(); // \Delta/Voip\Model\BalanceNotification | The updated BalanceNotification resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -14915,12 +14915,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **balance_notification** | [**\Swagger\Client\Model\BalanceNotification**](../Model/BalanceNotification.md)| The updated BalanceNotification resource | [optional]
+ **balance_notification** | [**\Delta/Voip\Model\BalanceNotification**](../Model/BalanceNotification.md)| The updated BalanceNotification resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\BalanceNotification**](../Model/BalanceNotification.md)
+[**\Delta/Voip\Model\BalanceNotification**](../Model/BalanceNotification.md)
 
 ### Authorization
 
@@ -14934,7 +14934,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putBillableCallRateByCallidBillableCallItem**
-> \Swagger\Client\Model\BillableCall putBillableCallRateByCallidBillableCallItem($callid, $rating, $_timezone)
+> \Delta/Voip\Model\BillableCall putBillableCallRateByCallidBillableCallItem($callid, $rating, $_timezone)
 
 Replaces the BillableCall resource.
 
@@ -14944,18 +14944,18 @@ Replaces the BillableCall resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $callid = "callid_example"; // string | callid
-$rating = new \Swagger\Client\Model\BillableCallRating(); // \Swagger\Client\Model\BillableCallRating | The rating values
+$rating = new \Delta/Voip\Model\BillableCallRating(); // \Delta/Voip\Model\BillableCallRating | The rating values
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -14972,12 +14972,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **callid** | **string**| callid |
- **rating** | [**\Swagger\Client\Model\BillableCallRating**](../Model/BillableCallRating.md)| The rating values |
+ **rating** | [**\Delta/Voip\Model\BillableCallRating**](../Model/BillableCallRating.md)| The rating values |
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\BillableCall**](../Model/BillableCall.md)
+[**\Delta/Voip\Model\BillableCall**](../Model/BillableCall.md)
 
 ### Authorization
 
@@ -14991,7 +14991,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putBrandItem**
-> \Swagger\Client\Model\Brand putBrandItem($id, $brand, $logo)
+> \Delta/Voip\Model\Brand putBrandItem($id, $brand, $logo)
 
 Replaces the Brand resource.
 
@@ -15001,11 +15001,11 @@ Replaces the Brand resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -15034,7 +15034,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\Brand**](../Model/Brand.md)
+[**\Delta/Voip\Model\Brand**](../Model/Brand.md)
 
 ### Authorization
 
@@ -15048,7 +15048,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putBrandServiceItem**
-> \Swagger\Client\Model\BrandService putBrandServiceItem($id, $brand_service)
+> \Delta/Voip\Model\BrandService putBrandServiceItem($id, $brand_service)
 
 Replaces the BrandService resource.
 
@@ -15058,18 +15058,18 @@ Replaces the BrandService resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$brand_service = new \Swagger\Client\Model\BrandService(); // \Swagger\Client\Model\BrandService | The updated BrandService resource
+$brand_service = new \Delta/Voip\Model\BrandService(); // \Delta/Voip\Model\BrandService | The updated BrandService resource
 
 try {
     $result = $apiInstance->putBrandServiceItem($id, $brand_service);
@@ -15085,11 +15085,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **brand_service** | [**\Swagger\Client\Model\BrandService**](../Model/BrandService.md)| The updated BrandService resource | [optional]
+ **brand_service** | [**\Delta/Voip\Model\BrandService**](../Model/BrandService.md)| The updated BrandService resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\BrandService**](../Model/BrandService.md)
+[**\Delta/Voip\Model\BrandService**](../Model/BrandService.md)
 
 ### Authorization
 
@@ -15103,7 +15103,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putCallCsvSchedulerItem**
-> \Swagger\Client\Model\CallCsvScheduler putCallCsvSchedulerItem($id, $call_csv_scheduler, $_timezone)
+> \Delta/Voip\Model\CallCsvScheduler putCallCsvSchedulerItem($id, $call_csv_scheduler, $_timezone)
 
 Replaces the CallCsvScheduler resource.
 
@@ -15113,18 +15113,18 @@ Replaces the CallCsvScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$call_csv_scheduler = new \Swagger\Client\Model\CallCsvScheduler(); // \Swagger\Client\Model\CallCsvScheduler | The updated CallCsvScheduler resource
+$call_csv_scheduler = new \Delta/Voip\Model\CallCsvScheduler(); // \Delta/Voip\Model\CallCsvScheduler | The updated CallCsvScheduler resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -15141,12 +15141,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **call_csv_scheduler** | [**\Swagger\Client\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)| The updated CallCsvScheduler resource | [optional]
+ **call_csv_scheduler** | [**\Delta/Voip\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)| The updated CallCsvScheduler resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)
+[**\Delta/Voip\Model\CallCsvScheduler**](../Model/CallCsvScheduler.md)
 
 ### Authorization
 
@@ -15160,7 +15160,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putCarrierItem**
-> \Swagger\Client\Model\Carrier putCarrierItem($id, $carrier)
+> \Delta/Voip\Model\Carrier putCarrierItem($id, $carrier)
 
 Replaces the Carrier resource.
 
@@ -15170,18 +15170,18 @@ Replaces the Carrier resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$carrier = new \Swagger\Client\Model\Carrier(); // \Swagger\Client\Model\Carrier | The updated Carrier resource
+$carrier = new \Delta/Voip\Model\Carrier(); // \Delta/Voip\Model\Carrier | The updated Carrier resource
 
 try {
     $result = $apiInstance->putCarrierItem($id, $carrier);
@@ -15197,11 +15197,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **carrier** | [**\Swagger\Client\Model\Carrier**](../Model/Carrier.md)| The updated Carrier resource | [optional]
+ **carrier** | [**\Delta/Voip\Model\Carrier**](../Model/Carrier.md)| The updated Carrier resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Carrier**](../Model/Carrier.md)
+[**\Delta/Voip\Model\Carrier**](../Model/Carrier.md)
 
 ### Authorization
 
@@ -15215,7 +15215,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putCarrierServerItem**
-> \Swagger\Client\Model\CarrierServer putCarrierServerItem($id, $carrier_server)
+> \Delta/Voip\Model\CarrierServer putCarrierServerItem($id, $carrier_server)
 
 Replaces the CarrierServer resource.
 
@@ -15225,18 +15225,18 @@ Replaces the CarrierServer resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$carrier_server = new \Swagger\Client\Model\CarrierServer(); // \Swagger\Client\Model\CarrierServer | The updated CarrierServer resource
+$carrier_server = new \Delta/Voip\Model\CarrierServer(); // \Delta/Voip\Model\CarrierServer | The updated CarrierServer resource
 
 try {
     $result = $apiInstance->putCarrierServerItem($id, $carrier_server);
@@ -15252,11 +15252,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **carrier_server** | [**\Swagger\Client\Model\CarrierServer**](../Model/CarrierServer.md)| The updated CarrierServer resource | [optional]
+ **carrier_server** | [**\Delta/Voip\Model\CarrierServer**](../Model/CarrierServer.md)| The updated CarrierServer resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CarrierServer**](../Model/CarrierServer.md)
+[**\Delta/Voip\Model\CarrierServer**](../Model/CarrierServer.md)
 
 ### Authorization
 
@@ -15270,7 +15270,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putCompanyItem**
-> \Swagger\Client\Model\CompanyWithFeatures putCompanyItem($id, $company)
+> \Delta/Voip\Model\CompanyWithFeatures putCompanyItem($id, $company)
 
 Replaces the Company resource.
 
@@ -15280,18 +15280,18 @@ Replaces the Company resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$company = new \Swagger\Client\Model\Company(); // \Swagger\Client\Model\Company | The updated Company resource
+$company = new \Delta/Voip\Model\Company(); // \Delta/Voip\Model\Company | The updated Company resource
 
 try {
     $result = $apiInstance->putCompanyItem($id, $company);
@@ -15307,11 +15307,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **company** | [**\Swagger\Client\Model\Company**](../Model/Company.md)| The updated Company resource | [optional]
+ **company** | [**\Delta/Voip\Model\Company**](../Model/Company.md)| The updated Company resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\CompanyWithFeatures**](../Model/CompanyWithFeatures.md)
+[**\Delta/Voip\Model\CompanyWithFeatures**](../Model/CompanyWithFeatures.md)
 
 ### Authorization
 
@@ -15325,7 +15325,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDdiItem**
-> \Swagger\Client\Model\Ddi putDdiItem($id, $ddi)
+> \Delta/Voip\Model\Ddi putDdiItem($id, $ddi)
 
 Replaces the Ddi resource.
 
@@ -15335,18 +15335,18 @@ Replaces the Ddi resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$ddi = new \Swagger\Client\Model\Ddi(); // \Swagger\Client\Model\Ddi | The updated Ddi resource
+$ddi = new \Delta/Voip\Model\Ddi(); // \Delta/Voip\Model\Ddi | The updated Ddi resource
 
 try {
     $result = $apiInstance->putDdiItem($id, $ddi);
@@ -15362,11 +15362,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **ddi** | [**\Swagger\Client\Model\Ddi**](../Model/Ddi.md)| The updated Ddi resource | [optional]
+ **ddi** | [**\Delta/Voip\Model\Ddi**](../Model/Ddi.md)| The updated Ddi resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Ddi**](../Model/Ddi.md)
+[**\Delta/Voip\Model\Ddi**](../Model/Ddi.md)
 
 ### Authorization
 
@@ -15380,7 +15380,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDdiProviderAddressItem**
-> \Swagger\Client\Model\DdiProviderAddress putDdiProviderAddressItem($id, $ddi_provider_address)
+> \Delta/Voip\Model\DdiProviderAddress putDdiProviderAddressItem($id, $ddi_provider_address)
 
 Replaces the DdiProviderAddress resource.
 
@@ -15390,18 +15390,18 @@ Replaces the DdiProviderAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$ddi_provider_address = new \Swagger\Client\Model\DdiProviderAddress(); // \Swagger\Client\Model\DdiProviderAddress | The updated DdiProviderAddress resource
+$ddi_provider_address = new \Delta/Voip\Model\DdiProviderAddress(); // \Delta/Voip\Model\DdiProviderAddress | The updated DdiProviderAddress resource
 
 try {
     $result = $apiInstance->putDdiProviderAddressItem($id, $ddi_provider_address);
@@ -15417,11 +15417,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **ddi_provider_address** | [**\Swagger\Client\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)| The updated DdiProviderAddress resource | [optional]
+ **ddi_provider_address** | [**\Delta/Voip\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)| The updated DdiProviderAddress resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)
+[**\Delta/Voip\Model\DdiProviderAddress**](../Model/DdiProviderAddress.md)
 
 ### Authorization
 
@@ -15435,7 +15435,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDdiProviderItem**
-> \Swagger\Client\Model\DdiProvider putDdiProviderItem($id, $ddi_provider)
+> \Delta/Voip\Model\DdiProvider putDdiProviderItem($id, $ddi_provider)
 
 Replaces the DdiProvider resource.
 
@@ -15445,18 +15445,18 @@ Replaces the DdiProvider resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$ddi_provider = new \Swagger\Client\Model\DdiProvider(); // \Swagger\Client\Model\DdiProvider | The updated DdiProvider resource
+$ddi_provider = new \Delta/Voip\Model\DdiProvider(); // \Delta/Voip\Model\DdiProvider | The updated DdiProvider resource
 
 try {
     $result = $apiInstance->putDdiProviderItem($id, $ddi_provider);
@@ -15472,11 +15472,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **ddi_provider** | [**\Swagger\Client\Model\DdiProvider**](../Model/DdiProvider.md)| The updated DdiProvider resource | [optional]
+ **ddi_provider** | [**\Delta/Voip\Model\DdiProvider**](../Model/DdiProvider.md)| The updated DdiProvider resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProvider**](../Model/DdiProvider.md)
+[**\Delta/Voip\Model\DdiProvider**](../Model/DdiProvider.md)
 
 ### Authorization
 
@@ -15490,7 +15490,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDdiProviderRegistrationItem**
-> \Swagger\Client\Model\DdiProviderRegistration putDdiProviderRegistrationItem($id, $ddi_provider_registration)
+> \Delta/Voip\Model\DdiProviderRegistration putDdiProviderRegistrationItem($id, $ddi_provider_registration)
 
 Replaces the DdiProviderRegistration resource.
 
@@ -15500,18 +15500,18 @@ Replaces the DdiProviderRegistration resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$ddi_provider_registration = new \Swagger\Client\Model\DdiProviderRegistration(); // \Swagger\Client\Model\DdiProviderRegistration | The updated DdiProviderRegistration resource
+$ddi_provider_registration = new \Delta/Voip\Model\DdiProviderRegistration(); // \Delta/Voip\Model\DdiProviderRegistration | The updated DdiProviderRegistration resource
 
 try {
     $result = $apiInstance->putDdiProviderRegistrationItem($id, $ddi_provider_registration);
@@ -15527,11 +15527,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **ddi_provider_registration** | [**\Swagger\Client\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)| The updated DdiProviderRegistration resource | [optional]
+ **ddi_provider_registration** | [**\Delta/Voip\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)| The updated DdiProviderRegistration resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)
+[**\Delta/Voip\Model\DdiProviderRegistration**](../Model/DdiProviderRegistration.md)
 
 ### Authorization
 
@@ -15545,7 +15545,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDestinationItem**
-> \Swagger\Client\Model\Destination putDestinationItem($id, $destination)
+> \Delta/Voip\Model\Destination putDestinationItem($id, $destination)
 
 Replaces the Destination resource.
 
@@ -15555,18 +15555,18 @@ Replaces the Destination resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$destination = new \Swagger\Client\Model\Destination(); // \Swagger\Client\Model\Destination | The updated Destination resource
+$destination = new \Delta/Voip\Model\Destination(); // \Delta/Voip\Model\Destination | The updated Destination resource
 
 try {
     $result = $apiInstance->putDestinationItem($id, $destination);
@@ -15582,11 +15582,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **destination** | [**\Swagger\Client\Model\Destination**](../Model/Destination.md)| The updated Destination resource | [optional]
+ **destination** | [**\Delta/Voip\Model\Destination**](../Model/Destination.md)| The updated Destination resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Destination**](../Model/Destination.md)
+[**\Delta/Voip\Model\Destination**](../Model/Destination.md)
 
 ### Authorization
 
@@ -15600,7 +15600,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDestinationRateGroupItem**
-> \Swagger\Client\Model\DestinationRateGroup putDestinationRateGroupItem($id, $destination_rate_group, $file)
+> \Delta/Voip\Model\DestinationRateGroup putDestinationRateGroupItem($id, $destination_rate_group, $file)
 
 Replaces the DestinationRateGroup resource.
 
@@ -15610,11 +15610,11 @@ Replaces the DestinationRateGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -15643,7 +15643,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRateGroup**](../Model/DestinationRateGroup.md)
+[**\Delta/Voip\Model\DestinationRateGroup**](../Model/DestinationRateGroup.md)
 
 ### Authorization
 
@@ -15657,7 +15657,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putDestinationRateItem**
-> \Swagger\Client\Model\DestinationRate putDestinationRateItem($id, $destination_rate)
+> \Delta/Voip\Model\DestinationRate putDestinationRateItem($id, $destination_rate)
 
 Replaces the DestinationRate resource.
 
@@ -15667,18 +15667,18 @@ Replaces the DestinationRate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$destination_rate = new \Swagger\Client\Model\DestinationRate(); // \Swagger\Client\Model\DestinationRate | The updated DestinationRate resource
+$destination_rate = new \Delta/Voip\Model\DestinationRate(); // \Delta/Voip\Model\DestinationRate | The updated DestinationRate resource
 
 try {
     $result = $apiInstance->putDestinationRateItem($id, $destination_rate);
@@ -15694,11 +15694,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **destination_rate** | [**\Swagger\Client\Model\DestinationRate**](../Model/DestinationRate.md)| The updated DestinationRate resource | [optional]
+ **destination_rate** | [**\Delta/Voip\Model\DestinationRate**](../Model/DestinationRate.md)| The updated DestinationRate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\DestinationRate**](../Model/DestinationRate.md)
+[**\Delta/Voip\Model\DestinationRate**](../Model/DestinationRate.md)
 
 ### Authorization
 
@@ -15712,7 +15712,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putFixedCostItem**
-> \Swagger\Client\Model\FixedCost putFixedCostItem($id, $fixed_cost)
+> \Delta/Voip\Model\FixedCost putFixedCostItem($id, $fixed_cost)
 
 Replaces the FixedCost resource.
 
@@ -15722,18 +15722,18 @@ Replaces the FixedCost resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$fixed_cost = new \Swagger\Client\Model\FixedCost(); // \Swagger\Client\Model\FixedCost | The updated FixedCost resource
+$fixed_cost = new \Delta/Voip\Model\FixedCost(); // \Delta/Voip\Model\FixedCost | The updated FixedCost resource
 
 try {
     $result = $apiInstance->putFixedCostItem($id, $fixed_cost);
@@ -15749,11 +15749,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **fixed_cost** | [**\Swagger\Client\Model\FixedCost**](../Model/FixedCost.md)| The updated FixedCost resource | [optional]
+ **fixed_cost** | [**\Delta/Voip\Model\FixedCost**](../Model/FixedCost.md)| The updated FixedCost resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCost**](../Model/FixedCost.md)
+[**\Delta/Voip\Model\FixedCost**](../Model/FixedCost.md)
 
 ### Authorization
 
@@ -15767,7 +15767,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putFixedCostsRelInvoiceItem**
-> \Swagger\Client\Model\FixedCostsRelInvoice putFixedCostsRelInvoiceItem($id, $fixed_costs_rel_invoice)
+> \Delta/Voip\Model\FixedCostsRelInvoice putFixedCostsRelInvoiceItem($id, $fixed_costs_rel_invoice)
 
 Replaces the FixedCostsRelInvoice resource.
 
@@ -15777,18 +15777,18 @@ Replaces the FixedCostsRelInvoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$fixed_costs_rel_invoice = new \Swagger\Client\Model\FixedCostsRelInvoice(); // \Swagger\Client\Model\FixedCostsRelInvoice | The updated FixedCostsRelInvoice resource
+$fixed_costs_rel_invoice = new \Delta/Voip\Model\FixedCostsRelInvoice(); // \Delta/Voip\Model\FixedCostsRelInvoice | The updated FixedCostsRelInvoice resource
 
 try {
     $result = $apiInstance->putFixedCostsRelInvoiceItem($id, $fixed_costs_rel_invoice);
@@ -15804,11 +15804,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **fixed_costs_rel_invoice** | [**\Swagger\Client\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)| The updated FixedCostsRelInvoice resource | [optional]
+ **fixed_costs_rel_invoice** | [**\Delta/Voip\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)| The updated FixedCostsRelInvoice resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoice**](../Model/FixedCostsRelInvoice.md)
 
 ### Authorization
 
@@ -15822,7 +15822,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putFixedCostsRelInvoiceSchedulerItem**
-> \Swagger\Client\Model\FixedCostsRelInvoiceScheduler putFixedCostsRelInvoiceSchedulerItem($id, $fixed_costs_rel_invoice_scheduler)
+> \Delta/Voip\Model\FixedCostsRelInvoiceScheduler putFixedCostsRelInvoiceSchedulerItem($id, $fixed_costs_rel_invoice_scheduler)
 
 Replaces the FixedCostsRelInvoiceScheduler resource.
 
@@ -15832,18 +15832,18 @@ Replaces the FixedCostsRelInvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$fixed_costs_rel_invoice_scheduler = new \Swagger\Client\Model\FixedCostsRelInvoiceScheduler(); // \Swagger\Client\Model\FixedCostsRelInvoiceScheduler | The updated FixedCostsRelInvoiceScheduler resource
+$fixed_costs_rel_invoice_scheduler = new \Delta/Voip\Model\FixedCostsRelInvoiceScheduler(); // \Delta/Voip\Model\FixedCostsRelInvoiceScheduler | The updated FixedCostsRelInvoiceScheduler resource
 
 try {
     $result = $apiInstance->putFixedCostsRelInvoiceSchedulerItem($id, $fixed_costs_rel_invoice_scheduler);
@@ -15859,11 +15859,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **fixed_costs_rel_invoice_scheduler** | [**\Swagger\Client\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)| The updated FixedCostsRelInvoiceScheduler resource | [optional]
+ **fixed_costs_rel_invoice_scheduler** | [**\Delta/Voip\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)| The updated FixedCostsRelInvoiceScheduler resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)
+[**\Delta/Voip\Model\FixedCostsRelInvoiceScheduler**](../Model/FixedCostsRelInvoiceScheduler.md)
 
 ### Authorization
 
@@ -15877,7 +15877,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putFriendItem**
-> \Swagger\Client\Model\Friend putFriendItem($id, $friend)
+> \Delta/Voip\Model\Friend putFriendItem($id, $friend)
 
 Replaces the Friend resource.
 
@@ -15887,18 +15887,18 @@ Replaces the Friend resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$friend = new \Swagger\Client\Model\Friend(); // \Swagger\Client\Model\Friend | The updated Friend resource
+$friend = new \Delta/Voip\Model\Friend(); // \Delta/Voip\Model\Friend | The updated Friend resource
 
 try {
     $result = $apiInstance->putFriendItem($id, $friend);
@@ -15914,11 +15914,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **friend** | [**\Swagger\Client\Model\Friend**](../Model/Friend.md)| The updated Friend resource | [optional]
+ **friend** | [**\Delta/Voip\Model\Friend**](../Model/Friend.md)| The updated Friend resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Friend**](../Model/Friend.md)
+[**\Delta/Voip\Model\Friend**](../Model/Friend.md)
 
 ### Authorization
 
@@ -15932,7 +15932,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putInvoiceItem**
-> \Swagger\Client\Model\Invoice putInvoiceItem($id, $invoice, $_timezone)
+> \Delta/Voip\Model\Invoice putInvoiceItem($id, $invoice, $_timezone)
 
 Replaces the Invoice resource.
 
@@ -15942,18 +15942,18 @@ Replaces the Invoice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$invoice = new \Swagger\Client\Model\Invoice(); // \Swagger\Client\Model\Invoice | The updated Invoice resource
+$invoice = new \Delta/Voip\Model\Invoice(); // \Delta/Voip\Model\Invoice | The updated Invoice resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -15970,12 +15970,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **invoice** | [**\Swagger\Client\Model\Invoice**](../Model/Invoice.md)| The updated Invoice resource | [optional]
+ **invoice** | [**\Delta/Voip\Model\Invoice**](../Model/Invoice.md)| The updated Invoice resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\Invoice**](../Model/Invoice.md)
+[**\Delta/Voip\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -15989,7 +15989,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putInvoiceNumberSequenceItem**
-> \Swagger\Client\Model\InvoiceNumberSequence putInvoiceNumberSequenceItem($id, $invoice_number_sequence)
+> \Delta/Voip\Model\InvoiceNumberSequence putInvoiceNumberSequenceItem($id, $invoice_number_sequence)
 
 Replaces the InvoiceNumberSequence resource.
 
@@ -15999,18 +15999,18 @@ Replaces the InvoiceNumberSequence resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$invoice_number_sequence = new \Swagger\Client\Model\InvoiceNumberSequence(); // \Swagger\Client\Model\InvoiceNumberSequence | The updated InvoiceNumberSequence resource
+$invoice_number_sequence = new \Delta/Voip\Model\InvoiceNumberSequence(); // \Delta/Voip\Model\InvoiceNumberSequence | The updated InvoiceNumberSequence resource
 
 try {
     $result = $apiInstance->putInvoiceNumberSequenceItem($id, $invoice_number_sequence);
@@ -16026,11 +16026,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **invoice_number_sequence** | [**\Swagger\Client\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)| The updated InvoiceNumberSequence resource | [optional]
+ **invoice_number_sequence** | [**\Delta/Voip\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)| The updated InvoiceNumberSequence resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)
+[**\Delta/Voip\Model\InvoiceNumberSequence**](../Model/InvoiceNumberSequence.md)
 
 ### Authorization
 
@@ -16044,7 +16044,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putInvoiceSchedulerItem**
-> \Swagger\Client\Model\InvoiceScheduler putInvoiceSchedulerItem($id, $invoice_scheduler, $_timezone)
+> \Delta/Voip\Model\InvoiceScheduler putInvoiceSchedulerItem($id, $invoice_scheduler, $_timezone)
 
 Replaces the InvoiceScheduler resource.
 
@@ -16054,18 +16054,18 @@ Replaces the InvoiceScheduler resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$invoice_scheduler = new \Swagger\Client\Model\InvoiceScheduler(); // \Swagger\Client\Model\InvoiceScheduler | The updated InvoiceScheduler resource
+$invoice_scheduler = new \Delta/Voip\Model\InvoiceScheduler(); // \Delta/Voip\Model\InvoiceScheduler | The updated InvoiceScheduler resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -16082,12 +16082,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **invoice_scheduler** | [**\Swagger\Client\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)| The updated InvoiceScheduler resource | [optional]
+ **invoice_scheduler** | [**\Delta/Voip\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)| The updated InvoiceScheduler resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)
+[**\Delta/Voip\Model\InvoiceScheduler**](../Model/InvoiceScheduler.md)
 
 ### Authorization
 
@@ -16101,7 +16101,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putInvoiceTemplateItem**
-> \Swagger\Client\Model\InvoiceTemplate putInvoiceTemplateItem($id, $invoice_template)
+> \Delta/Voip\Model\InvoiceTemplate putInvoiceTemplateItem($id, $invoice_template)
 
 Replaces the InvoiceTemplate resource.
 
@@ -16111,18 +16111,18 @@ Replaces the InvoiceTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$invoice_template = new \Swagger\Client\Model\InvoiceTemplate(); // \Swagger\Client\Model\InvoiceTemplate | The updated InvoiceTemplate resource
+$invoice_template = new \Delta/Voip\Model\InvoiceTemplate(); // \Delta/Voip\Model\InvoiceTemplate | The updated InvoiceTemplate resource
 
 try {
     $result = $apiInstance->putInvoiceTemplateItem($id, $invoice_template);
@@ -16138,11 +16138,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **invoice_template** | [**\Swagger\Client\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)| The updated InvoiceTemplate resource | [optional]
+ **invoice_template** | [**\Delta/Voip\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)| The updated InvoiceTemplate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)
+[**\Delta/Voip\Model\InvoiceTemplate**](../Model/InvoiceTemplate.md)
 
 ### Authorization
 
@@ -16156,7 +16156,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putNotificationTemplateContentItem**
-> \Swagger\Client\Model\NotificationTemplateContent putNotificationTemplateContentItem($id, $notification_template_content)
+> \Delta/Voip\Model\NotificationTemplateContent putNotificationTemplateContentItem($id, $notification_template_content)
 
 Replaces the NotificationTemplateContent resource.
 
@@ -16166,18 +16166,18 @@ Replaces the NotificationTemplateContent resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$notification_template_content = new \Swagger\Client\Model\NotificationTemplateContent(); // \Swagger\Client\Model\NotificationTemplateContent | The updated NotificationTemplateContent resource
+$notification_template_content = new \Delta/Voip\Model\NotificationTemplateContent(); // \Delta/Voip\Model\NotificationTemplateContent | The updated NotificationTemplateContent resource
 
 try {
     $result = $apiInstance->putNotificationTemplateContentItem($id, $notification_template_content);
@@ -16193,11 +16193,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **notification_template_content** | [**\Swagger\Client\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)| The updated NotificationTemplateContent resource | [optional]
+ **notification_template_content** | [**\Delta/Voip\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)| The updated NotificationTemplateContent resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)
+[**\Delta/Voip\Model\NotificationTemplateContent**](../Model/NotificationTemplateContent.md)
 
 ### Authorization
 
@@ -16211,7 +16211,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putNotificationTemplateItem**
-> \Swagger\Client\Model\NotificationTemplate putNotificationTemplateItem($id, $notification_template)
+> \Delta/Voip\Model\NotificationTemplate putNotificationTemplateItem($id, $notification_template)
 
 Replaces the NotificationTemplate resource.
 
@@ -16221,18 +16221,18 @@ Replaces the NotificationTemplate resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$notification_template = new \Swagger\Client\Model\NotificationTemplate(); // \Swagger\Client\Model\NotificationTemplate | The updated NotificationTemplate resource
+$notification_template = new \Delta/Voip\Model\NotificationTemplate(); // \Delta/Voip\Model\NotificationTemplate | The updated NotificationTemplate resource
 
 try {
     $result = $apiInstance->putNotificationTemplateItem($id, $notification_template);
@@ -16248,11 +16248,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](../Model/NotificationTemplate.md)| The updated NotificationTemplate resource | [optional]
+ **notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](../Model/NotificationTemplate.md)| The updated NotificationTemplate resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\NotificationTemplate**](../Model/NotificationTemplate.md)
+[**\Delta/Voip\Model\NotificationTemplate**](../Model/NotificationTemplate.md)
 
 ### Authorization
 
@@ -16266,7 +16266,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putOutgoingRoutingItem**
-> \Swagger\Client\Model\OutgoingRoutingWithCarriers putOutgoingRoutingItem($id, $outgoing_routing)
+> \Delta/Voip\Model\OutgoingRoutingWithCarriers putOutgoingRoutingItem($id, $outgoing_routing)
 
 Replaces the OutgoingRouting resource.
 
@@ -16276,18 +16276,18 @@ Replaces the OutgoingRouting resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$outgoing_routing = new \Swagger\Client\Model\OutgoingRouting(); // \Swagger\Client\Model\OutgoingRouting | The updated OutgoingRouting resource
+$outgoing_routing = new \Delta/Voip\Model\OutgoingRouting(); // \Delta/Voip\Model\OutgoingRouting | The updated OutgoingRouting resource
 
 try {
     $result = $apiInstance->putOutgoingRoutingItem($id, $outgoing_routing);
@@ -16303,11 +16303,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **outgoing_routing** | [**\Swagger\Client\Model\OutgoingRouting**](../Model/OutgoingRouting.md)| The updated OutgoingRouting resource | [optional]
+ **outgoing_routing** | [**\Delta/Voip\Model\OutgoingRouting**](../Model/OutgoingRouting.md)| The updated OutgoingRouting resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\OutgoingRoutingWithCarriers**](../Model/OutgoingRoutingWithCarriers.md)
+[**\Delta/Voip\Model\OutgoingRoutingWithCarriers**](../Model/OutgoingRoutingWithCarriers.md)
 
 ### Authorization
 
@@ -16321,7 +16321,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRatingPlanGroupItem**
-> \Swagger\Client\Model\RatingPlanGroup putRatingPlanGroupItem($id, $rating_plan_group)
+> \Delta/Voip\Model\RatingPlanGroup putRatingPlanGroupItem($id, $rating_plan_group)
 
 Replaces the RatingPlanGroup resource.
 
@@ -16331,18 +16331,18 @@ Replaces the RatingPlanGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$rating_plan_group = new \Swagger\Client\Model\RatingPlanGroup(); // \Swagger\Client\Model\RatingPlanGroup | The updated RatingPlanGroup resource
+$rating_plan_group = new \Delta/Voip\Model\RatingPlanGroup(); // \Delta/Voip\Model\RatingPlanGroup | The updated RatingPlanGroup resource
 
 try {
     $result = $apiInstance->putRatingPlanGroupItem($id, $rating_plan_group);
@@ -16358,11 +16358,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **rating_plan_group** | [**\Swagger\Client\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)| The updated RatingPlanGroup resource | [optional]
+ **rating_plan_group** | [**\Delta/Voip\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)| The updated RatingPlanGroup resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)
+[**\Delta/Voip\Model\RatingPlanGroup**](../Model/RatingPlanGroup.md)
 
 ### Authorization
 
@@ -16376,7 +16376,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRatingPlanItem**
-> \Swagger\Client\Model\RatingPlan putRatingPlanItem($id, $rating_plan)
+> \Delta/Voip\Model\RatingPlan putRatingPlanItem($id, $rating_plan)
 
 Replaces the RatingPlan resource.
 
@@ -16386,18 +16386,18 @@ Replaces the RatingPlan resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$rating_plan = new \Swagger\Client\Model\RatingPlan(); // \Swagger\Client\Model\RatingPlan | The updated RatingPlan resource
+$rating_plan = new \Delta/Voip\Model\RatingPlan(); // \Delta/Voip\Model\RatingPlan | The updated RatingPlan resource
 
 try {
     $result = $apiInstance->putRatingPlanItem($id, $rating_plan);
@@ -16413,11 +16413,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **rating_plan** | [**\Swagger\Client\Model\RatingPlan**](../Model/RatingPlan.md)| The updated RatingPlan resource | [optional]
+ **rating_plan** | [**\Delta/Voip\Model\RatingPlan**](../Model/RatingPlan.md)| The updated RatingPlan resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingPlan**](../Model/RatingPlan.md)
+[**\Delta/Voip\Model\RatingPlan**](../Model/RatingPlan.md)
 
 ### Authorization
 
@@ -16431,7 +16431,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRatingProfileItem**
-> \Swagger\Client\Model\RatingProfile putRatingProfileItem($id, $rating_profile, $_timezone)
+> \Delta/Voip\Model\RatingProfile putRatingProfileItem($id, $rating_profile, $_timezone)
 
 Replaces the RatingProfile resource.
 
@@ -16441,18 +16441,18 @@ Replaces the RatingProfile resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$rating_profile = new \Swagger\Client\Model\RatingProfile(); // \Swagger\Client\Model\RatingProfile | The updated RatingProfile resource
+$rating_profile = new \Delta/Voip\Model\RatingProfile(); // \Delta/Voip\Model\RatingProfile | The updated RatingProfile resource
 $_timezone = "_timezone_example"; // string | Use a time zone of choice instead of the token user one (Applies to both input and output)
 
 try {
@@ -16469,12 +16469,12 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **rating_profile** | [**\Swagger\Client\Model\RatingProfile**](../Model/RatingProfile.md)| The updated RatingProfile resource | [optional]
+ **rating_profile** | [**\Delta/Voip\Model\RatingProfile**](../Model/RatingProfile.md)| The updated RatingProfile resource | [optional]
  **_timezone** | **string**| Use a time zone of choice instead of the token user one (Applies to both input and output) | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RatingProfile**](../Model/RatingProfile.md)
+[**\Delta/Voip\Model\RatingProfile**](../Model/RatingProfile.md)
 
 ### Authorization
 
@@ -16488,7 +16488,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putResidentialDeviceItem**
-> \Swagger\Client\Model\ResidentialDevice putResidentialDeviceItem($id, $residential_device)
+> \Delta/Voip\Model\ResidentialDevice putResidentialDeviceItem($id, $residential_device)
 
 Replaces the ResidentialDevice resource.
 
@@ -16498,18 +16498,18 @@ Replaces the ResidentialDevice resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$residential_device = new \Swagger\Client\Model\ResidentialDevice(); // \Swagger\Client\Model\ResidentialDevice | The updated ResidentialDevice resource
+$residential_device = new \Delta/Voip\Model\ResidentialDevice(); // \Delta/Voip\Model\ResidentialDevice | The updated ResidentialDevice resource
 
 try {
     $result = $apiInstance->putResidentialDeviceItem($id, $residential_device);
@@ -16525,11 +16525,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **residential_device** | [**\Swagger\Client\Model\ResidentialDevice**](../Model/ResidentialDevice.md)| The updated ResidentialDevice resource | [optional]
+ **residential_device** | [**\Delta/Voip\Model\ResidentialDevice**](../Model/ResidentialDevice.md)| The updated ResidentialDevice resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\ResidentialDevice**](../Model/ResidentialDevice.md)
+[**\Delta/Voip\Model\ResidentialDevice**](../Model/ResidentialDevice.md)
 
 ### Authorization
 
@@ -16543,7 +16543,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRetailAccountItem**
-> \Swagger\Client\Model\RetailAccount putRetailAccountItem($id, $retail_account)
+> \Delta/Voip\Model\RetailAccount putRetailAccountItem($id, $retail_account)
 
 Replaces the RetailAccount resource.
 
@@ -16553,18 +16553,18 @@ Replaces the RetailAccount resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$retail_account = new \Swagger\Client\Model\RetailAccount(); // \Swagger\Client\Model\RetailAccount | The updated RetailAccount resource
+$retail_account = new \Delta/Voip\Model\RetailAccount(); // \Delta/Voip\Model\RetailAccount | The updated RetailAccount resource
 
 try {
     $result = $apiInstance->putRetailAccountItem($id, $retail_account);
@@ -16580,11 +16580,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **retail_account** | [**\Swagger\Client\Model\RetailAccount**](../Model/RetailAccount.md)| The updated RetailAccount resource | [optional]
+ **retail_account** | [**\Delta/Voip\Model\RetailAccount**](../Model/RetailAccount.md)| The updated RetailAccount resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RetailAccount**](../Model/RetailAccount.md)
+[**\Delta/Voip\Model\RetailAccount**](../Model/RetailAccount.md)
 
 ### Authorization
 
@@ -16598,7 +16598,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRoutingPatternGroupItem**
-> \Swagger\Client\Model\RoutingPatternGroupWithPatterns putRoutingPatternGroupItem($id, $routing_pattern_group)
+> \Delta/Voip\Model\RoutingPatternGroupWithPatterns putRoutingPatternGroupItem($id, $routing_pattern_group)
 
 Replaces the RoutingPatternGroup resource.
 
@@ -16608,18 +16608,18 @@ Replaces the RoutingPatternGroup resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$routing_pattern_group = new \Swagger\Client\Model\RoutingPatternGroup(); // \Swagger\Client\Model\RoutingPatternGroup | The updated RoutingPatternGroup resource
+$routing_pattern_group = new \Delta/Voip\Model\RoutingPatternGroup(); // \Delta/Voip\Model\RoutingPatternGroup | The updated RoutingPatternGroup resource
 
 try {
     $result = $apiInstance->putRoutingPatternGroupItem($id, $routing_pattern_group);
@@ -16635,11 +16635,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **routing_pattern_group** | [**\Swagger\Client\Model\RoutingPatternGroup**](../Model/RoutingPatternGroup.md)| The updated RoutingPatternGroup resource | [optional]
+ **routing_pattern_group** | [**\Delta/Voip\Model\RoutingPatternGroup**](../Model/RoutingPatternGroup.md)| The updated RoutingPatternGroup resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupWithPatterns**](../Model/RoutingPatternGroupWithPatterns.md)
+[**\Delta/Voip\Model\RoutingPatternGroupWithPatterns**](../Model/RoutingPatternGroupWithPatterns.md)
 
 ### Authorization
 
@@ -16653,7 +16653,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRoutingPatternGroupsRelPatternItem**
-> \Swagger\Client\Model\RoutingPatternGroupsRelPattern putRoutingPatternGroupsRelPatternItem($id, $routing_pattern_groups_rel_pattern)
+> \Delta/Voip\Model\RoutingPatternGroupsRelPattern putRoutingPatternGroupsRelPatternItem($id, $routing_pattern_groups_rel_pattern)
 
 Replaces the RoutingPatternGroupsRelPattern resource.
 
@@ -16663,18 +16663,18 @@ Replaces the RoutingPatternGroupsRelPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$routing_pattern_groups_rel_pattern = new \Swagger\Client\Model\RoutingPatternGroupsRelPattern(); // \Swagger\Client\Model\RoutingPatternGroupsRelPattern | The updated RoutingPatternGroupsRelPattern resource
+$routing_pattern_groups_rel_pattern = new \Delta/Voip\Model\RoutingPatternGroupsRelPattern(); // \Delta/Voip\Model\RoutingPatternGroupsRelPattern | The updated RoutingPatternGroupsRelPattern resource
 
 try {
     $result = $apiInstance->putRoutingPatternGroupsRelPatternItem($id, $routing_pattern_groups_rel_pattern);
@@ -16690,11 +16690,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **routing_pattern_groups_rel_pattern** | [**\Swagger\Client\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)| The updated RoutingPatternGroupsRelPattern resource | [optional]
+ **routing_pattern_groups_rel_pattern** | [**\Delta/Voip\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)| The updated RoutingPatternGroupsRelPattern resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)
+[**\Delta/Voip\Model\RoutingPatternGroupsRelPattern**](../Model/RoutingPatternGroupsRelPattern.md)
 
 ### Authorization
 
@@ -16708,7 +16708,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRoutingPatternItem**
-> \Swagger\Client\Model\RoutingPattern putRoutingPatternItem($id, $routing_pattern)
+> \Delta/Voip\Model\RoutingPattern putRoutingPatternItem($id, $routing_pattern)
 
 Replaces the RoutingPattern resource.
 
@@ -16718,18 +16718,18 @@ Replaces the RoutingPattern resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$routing_pattern = new \Swagger\Client\Model\RoutingPattern(); // \Swagger\Client\Model\RoutingPattern | The updated RoutingPattern resource
+$routing_pattern = new \Delta/Voip\Model\RoutingPattern(); // \Delta/Voip\Model\RoutingPattern | The updated RoutingPattern resource
 
 try {
     $result = $apiInstance->putRoutingPatternItem($id, $routing_pattern);
@@ -16745,11 +16745,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **routing_pattern** | [**\Swagger\Client\Model\RoutingPattern**](../Model/RoutingPattern.md)| The updated RoutingPattern resource | [optional]
+ **routing_pattern** | [**\Delta/Voip\Model\RoutingPattern**](../Model/RoutingPattern.md)| The updated RoutingPattern resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingPattern**](../Model/RoutingPattern.md)
+[**\Delta/Voip\Model\RoutingPattern**](../Model/RoutingPattern.md)
 
 ### Authorization
 
@@ -16763,7 +16763,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putRoutingTagItem**
-> \Swagger\Client\Model\RoutingTag putRoutingTagItem($id, $routing_tag)
+> \Delta/Voip\Model\RoutingTag putRoutingTagItem($id, $routing_tag)
 
 Replaces the RoutingTag resource.
 
@@ -16773,18 +16773,18 @@ Replaces the RoutingTag resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$routing_tag = new \Swagger\Client\Model\RoutingTag(); // \Swagger\Client\Model\RoutingTag | The updated RoutingTag resource
+$routing_tag = new \Delta/Voip\Model\RoutingTag(); // \Delta/Voip\Model\RoutingTag | The updated RoutingTag resource
 
 try {
     $result = $apiInstance->putRoutingTagItem($id, $routing_tag);
@@ -16800,11 +16800,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **routing_tag** | [**\Swagger\Client\Model\RoutingTag**](../Model/RoutingTag.md)| The updated RoutingTag resource | [optional]
+ **routing_tag** | [**\Delta/Voip\Model\RoutingTag**](../Model/RoutingTag.md)| The updated RoutingTag resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\RoutingTag**](../Model/RoutingTag.md)
+[**\Delta/Voip\Model\RoutingTag**](../Model/RoutingTag.md)
 
 ### Authorization
 
@@ -16818,7 +16818,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putSpecialNumberItem**
-> \Swagger\Client\Model\SpecialNumber putSpecialNumberItem($id, $special_number)
+> \Delta/Voip\Model\SpecialNumber putSpecialNumberItem($id, $special_number)
 
 Replaces the SpecialNumber resource.
 
@@ -16828,18 +16828,18 @@ Replaces the SpecialNumber resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$special_number = new \Swagger\Client\Model\SpecialNumber(); // \Swagger\Client\Model\SpecialNumber | The updated SpecialNumber resource
+$special_number = new \Delta/Voip\Model\SpecialNumber(); // \Delta/Voip\Model\SpecialNumber | The updated SpecialNumber resource
 
 try {
     $result = $apiInstance->putSpecialNumberItem($id, $special_number);
@@ -16855,11 +16855,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **special_number** | [**\Swagger\Client\Model\SpecialNumber**](../Model/SpecialNumber.md)| The updated SpecialNumber resource | [optional]
+ **special_number** | [**\Delta/Voip\Model\SpecialNumber**](../Model/SpecialNumber.md)| The updated SpecialNumber resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\SpecialNumber**](../Model/SpecialNumber.md)
+[**\Delta/Voip\Model\SpecialNumber**](../Model/SpecialNumber.md)
 
 ### Authorization
 
@@ -16873,7 +16873,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putTransformationRuleItem**
-> \Swagger\Client\Model\TransformationRule putTransformationRuleItem($id, $transformation_rule)
+> \Delta/Voip\Model\TransformationRule putTransformationRuleItem($id, $transformation_rule)
 
 Replaces the TransformationRule resource.
 
@@ -16883,18 +16883,18 @@ Replaces the TransformationRule resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$transformation_rule = new \Swagger\Client\Model\TransformationRule(); // \Swagger\Client\Model\TransformationRule | The updated TransformationRule resource
+$transformation_rule = new \Delta/Voip\Model\TransformationRule(); // \Delta/Voip\Model\TransformationRule | The updated TransformationRule resource
 
 try {
     $result = $apiInstance->putTransformationRuleItem($id, $transformation_rule);
@@ -16910,11 +16910,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **transformation_rule** | [**\Swagger\Client\Model\TransformationRule**](../Model/TransformationRule.md)| The updated TransformationRule resource | [optional]
+ **transformation_rule** | [**\Delta/Voip\Model\TransformationRule**](../Model/TransformationRule.md)| The updated TransformationRule resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRule**](../Model/TransformationRule.md)
+[**\Delta/Voip\Model\TransformationRule**](../Model/TransformationRule.md)
 
 ### Authorization
 
@@ -16928,7 +16928,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putTransformationRuleSetItem**
-> \Swagger\Client\Model\TransformationRuleSet putTransformationRuleSetItem($id, $transformation_rule_set)
+> \Delta/Voip\Model\TransformationRuleSet putTransformationRuleSetItem($id, $transformation_rule_set)
 
 Replaces the TransformationRuleSet resource.
 
@@ -16938,18 +16938,18 @@ Replaces the TransformationRuleSet resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$transformation_rule_set = new \Swagger\Client\Model\TransformationRuleSet(); // \Swagger\Client\Model\TransformationRuleSet | The updated TransformationRuleSet resource
+$transformation_rule_set = new \Delta/Voip\Model\TransformationRuleSet(); // \Delta/Voip\Model\TransformationRuleSet | The updated TransformationRuleSet resource
 
 try {
     $result = $apiInstance->putTransformationRuleSetItem($id, $transformation_rule_set);
@@ -16965,11 +16965,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)| The updated TransformationRuleSet resource | [optional]
+ **transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)| The updated TransformationRuleSet resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)
+[**\Delta/Voip\Model\TransformationRuleSet**](../Model/TransformationRuleSet.md)
 
 ### Authorization
 
@@ -16983,7 +16983,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putWebPortalItem**
-> \Swagger\Client\Model\WebPortal putWebPortalItem($id, $web_portal, $logo)
+> \Delta/Voip\Model\WebPortal putWebPortalItem($id, $web_portal, $logo)
 
 Replaces the WebPortal resource.
 
@@ -16993,11 +16993,11 @@ Replaces the WebPortal resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -17026,7 +17026,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\WebPortal**](../Model/WebPortal.md)
+[**\Delta/Voip\Model\WebPortal**](../Model/WebPortal.md)
 
 ### Authorization
 
@@ -17050,11 +17050,11 @@ Retrieves a WebPortal resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\ProviderApi(
+$apiInstance = new Delta/Voip\Api\ProviderApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),

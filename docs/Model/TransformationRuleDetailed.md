@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **match_expr** | **string** |  | [optional] 
 **replace_expr** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
-**transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
+**transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

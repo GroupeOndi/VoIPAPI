@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * FeaturesRelBrandDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,7 +58,7 @@ class FeaturesRelBrandDetailed implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'feature' => '\Swagger\Client\Model\Feature'
+        'feature' => '\Delta/Voip\Model\Feature'
     ];
 
     /**
@@ -240,7 +240,7 @@ class FeaturesRelBrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets feature
      *
-     * @return \Swagger\Client\Model\Feature
+     * @return \Delta/Voip\Model\Feature
      */
     public function getFeature()
     {
@@ -250,7 +250,7 @@ class FeaturesRelBrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets feature
      *
-     * @param \Swagger\Client\Model\Feature $feature feature
+     * @param \Delta/Voip\Model\Feature $feature feature
      *
      * @return $this
      */

@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta/Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta/Voip\ApiException;
+use Delta/Voip\Configuration;
+use Delta/Voip\HeaderSelector;
+use Delta/Voip\ObjectSerializer;
 
 /**
  * AuthApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -95,7 +95,7 @@ class AuthApi
      * @param  string $username username (required)
      * @param  string $password password (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -112,7 +112,7 @@ class AuthApi
      * @param  string $username (required)
      * @param  string $password (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */
@@ -343,9 +343,9 @@ class AuthApi
      * @param  string $token Platform admin token (required)
      * @param  string $username Target brand admin user name (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\Token
+     * @return \Delta/Voip\Model\Token
      */
     public function postAuthTokenExchangeTokenCollection($token, $username)
     {
@@ -361,13 +361,13 @@ class AuthApi
      * @param  string $token Platform admin token (required)
      * @param  string $username Target brand admin user name (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\Token, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\Token, HTTP status code, HTTP response headers (array of strings)
      */
     public function postAuthTokenExchangeTokenCollectionWithHttpInfo($token, $username)
     {
-        $returnType = '\Swagger\Client\Model\Token';
+        $returnType = '\Delta/Voip\Model\Token';
         $request = $this->postAuthTokenExchangeTokenCollectionRequest($token, $username);
 
         try {
@@ -419,7 +419,7 @@ class AuthApi
                 case 201:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\Token',
+                        '\Delta/Voip\Model\Token',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -463,7 +463,7 @@ class AuthApi
      */
     public function postAuthTokenExchangeTokenCollectionAsyncWithHttpInfo($token, $username)
     {
-        $returnType = '\Swagger\Client\Model\Token';
+        $returnType = '\Delta/Voip\Model\Token';
         $request = $this->postAuthTokenExchangeTokenCollectionRequest($token, $username);
 
         return $this->client
@@ -627,7 +627,7 @@ class AuthApi
      *
      * @param  string $refresh_token refresh_token (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return void
      */
@@ -643,7 +643,7 @@ class AuthApi
      *
      * @param  string $refresh_token (required)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
      * @return array of null, HTTP status code, HTTP response headers (array of strings)
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * BrandServiceDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class BrandServiceDetailed implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'code' => 'string',
         'id' => 'int',
-        'service' => '\Swagger\Client\Model\Service'
+        'service' => '\Delta/Voip\Model\Service'
     ];
 
     /**
@@ -281,7 +281,7 @@ class BrandServiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets service
      *
-     * @return \Swagger\Client\Model\Service
+     * @return \Delta/Voip\Model\Service
      */
     public function getService()
     {
@@ -291,7 +291,7 @@ class BrandServiceDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets service
      *
-     * @param \Swagger\Client\Model\Service $service service
+     * @param \Delta/Voip\Model\Service $service service
      *
      * @return $this
      */

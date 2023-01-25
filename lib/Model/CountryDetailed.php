@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * CountryDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,8 +60,8 @@ class CountryDetailed implements ModelInterface, ArrayAccess
         'code' => 'string',
         'country_code' => 'string',
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\CountryName',
-        'zone' => '\Swagger\Client\Model\CountryZone'
+        'name' => '\Delta/Voip\Model\CountryName',
+        'zone' => '\Delta/Voip\Model\CountryZone'
     ];
 
     /**
@@ -322,7 +322,7 @@ class CountryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\CountryName
+     * @return \Delta/Voip\Model\CountryName
      */
     public function getName()
     {
@@ -332,7 +332,7 @@ class CountryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\CountryName $name name
+     * @param \Delta/Voip\Model\CountryName $name name
      *
      * @return $this
      */
@@ -346,7 +346,7 @@ class CountryDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets zone
      *
-     * @return \Swagger\Client\Model\CountryZone
+     * @return \Delta/Voip\Model\CountryZone
      */
     public function getZone()
     {
@@ -356,7 +356,7 @@ class CountryDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets zone
      *
-     * @param \Swagger\Client\Model\CountryZone $zone zone
+     * @param \Delta/Voip\Model\CountryZone $zone zone
      *
      * @return $this
      */

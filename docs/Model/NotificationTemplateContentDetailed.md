@@ -9,8 +9,8 @@ Name | Type | Description | Notes
 **body** | **string** |  | 
 **body_type** | **string** |  | [default to 'text/plain']
 **id** | **int** |  | [optional] 
-**notification_template** | [**\Swagger\Client\Model\NotificationTemplate**](NotificationTemplate.md) |  | 
-**language** | [**\Swagger\Client\Model\Language**](Language.md) |  | [optional] 
+**notification_template** | [**\Delta/Voip\Model\NotificationTemplate**](NotificationTemplate.md) |  | 
+**language** | [**\Delta/Voip\Model\Language**](Language.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

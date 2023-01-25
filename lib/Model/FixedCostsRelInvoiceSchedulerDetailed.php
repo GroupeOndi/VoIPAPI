@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * FixedCostsRelInvoiceSchedulerDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class FixedCostsRelInvoiceSchedulerDetailed implements ModelInterface, ArrayAcce
     protected static $swaggerTypes = [
         'quantity' => 'int',
         'id' => 'int',
-        'fixed_cost' => '\Swagger\Client\Model\FixedCost',
-        'invoice_scheduler' => '\Swagger\Client\Model\InvoiceScheduler'
+        'fixed_cost' => '\Delta/Voip\Model\FixedCost',
+        'invoice_scheduler' => '\Delta/Voip\Model\InvoiceScheduler'
     ];
 
     /**
@@ -288,7 +288,7 @@ class FixedCostsRelInvoiceSchedulerDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets fixed_cost
      *
-     * @return \Swagger\Client\Model\FixedCost
+     * @return \Delta/Voip\Model\FixedCost
      */
     public function getFixedCost()
     {
@@ -298,7 +298,7 @@ class FixedCostsRelInvoiceSchedulerDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets fixed_cost
      *
-     * @param \Swagger\Client\Model\FixedCost $fixed_cost fixed_cost
+     * @param \Delta/Voip\Model\FixedCost $fixed_cost fixed_cost
      *
      * @return $this
      */
@@ -312,7 +312,7 @@ class FixedCostsRelInvoiceSchedulerDetailed implements ModelInterface, ArrayAcce
     /**
      * Gets invoice_scheduler
      *
-     * @return \Swagger\Client\Model\InvoiceScheduler
+     * @return \Delta/Voip\Model\InvoiceScheduler
      */
     public function getInvoiceScheduler()
     {
@@ -322,7 +322,7 @@ class FixedCostsRelInvoiceSchedulerDetailed implements ModelInterface, ArrayAcce
     /**
      * Sets invoice_scheduler
      *
-     * @param \Swagger\Client\Model\InvoiceScheduler $invoice_scheduler invoice_scheduler
+     * @param \Delta/Voip\Model\InvoiceScheduler $invoice_scheduler invoice_scheduler
      *
      * @return $this
      */

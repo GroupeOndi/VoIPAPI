@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * Destination Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,7 +59,7 @@ class Destination implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'prefix' => 'string',
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\DestinationName'
+        'name' => '\Delta/Voip\Model\DestinationName'
     ];
 
     /**
@@ -278,7 +278,7 @@ class Destination implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\DestinationName
+     * @return \Delta/Voip\Model\DestinationName
      */
     public function getName()
     {
@@ -288,7 +288,7 @@ class Destination implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\DestinationName $name name
+     * @param \Delta/Voip\Model\DestinationName $name name
      *
      * @return $this
      */

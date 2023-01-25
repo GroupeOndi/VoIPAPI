@@ -8,8 +8,8 @@ Name | Type | Description | Notes
 **update** | **bool** |  | [default to false]
 **delete** | **bool** |  | [default to false]
 **id** | **int** |  | [optional] 
-**administrator** | [**\Swagger\Client\Model\Administrator**](Administrator.md) |  | 
-**public_entity** | [**\Swagger\Client\Model\PublicEntity**](PublicEntity.md) |  | 
+**administrator** | [**\Delta/Voip\Model\Administrator**](Administrator.md) |  | 
+**public_entity** | [**\Delta/Voip\Model\PublicEntity**](PublicEntity.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

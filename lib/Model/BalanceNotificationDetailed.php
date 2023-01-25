@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * BalanceNotificationDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,8 +61,8 @@ class BalanceNotificationDetailed implements ModelInterface, ArrayAccess
         'threshold' => 'float',
         'last_sent' => '\DateTime',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'notification_template' => '\Swagger\Client\Model\NotificationTemplate'
+        'company' => '\Delta/Voip\Model\Company',
+        'notification_template' => '\Delta/Voip\Model\NotificationTemplate'
     ];
 
     /**
@@ -341,7 +341,7 @@ class BalanceNotificationDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -351,7 +351,7 @@ class BalanceNotificationDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -365,7 +365,7 @@ class BalanceNotificationDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getNotificationTemplate()
     {
@@ -375,7 +375,7 @@ class BalanceNotificationDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $notification_template notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $notification_template notification_template
      *
      * @return $this
      */

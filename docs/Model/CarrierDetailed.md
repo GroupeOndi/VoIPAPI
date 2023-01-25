@@ -9,9 +9,9 @@ Name | Type | Description | Notes
 **balance** | **float** |  | [optional] [default to 0.0]
 **calculate_cost** | **bool** |  | [optional] [default to false]
 **id** | **int** |  | [optional] 
-**transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
-**currency** | [**\Swagger\Client\Model\Currency**](Currency.md) |  | [optional] 
-**proxy_trunk** | [**\Swagger\Client\Model\ProxyTrunk**](ProxyTrunk.md) |  | [optional] 
+**transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | 
+**currency** | [**\Delta/Voip\Model\Currency**](Currency.md) |  | [optional] 
+**proxy_trunk** | [**\Delta/Voip\Model\ProxyTrunk**](ProxyTrunk.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

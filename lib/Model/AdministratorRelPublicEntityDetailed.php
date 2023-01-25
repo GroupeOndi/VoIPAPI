@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * AdministratorRelPublicEntityDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -62,8 +62,8 @@ class AdministratorRelPublicEntityDetailed implements ModelInterface, ArrayAcces
         'update' => 'bool',
         'delete' => 'bool',
         'id' => 'int',
-        'administrator' => '\Swagger\Client\Model\Administrator',
-        'public_entity' => '\Swagger\Client\Model\PublicEntity'
+        'administrator' => '\Delta/Voip\Model\Administrator',
+        'public_entity' => '\Delta/Voip\Model\PublicEntity'
     ];
 
     /**
@@ -381,7 +381,7 @@ class AdministratorRelPublicEntityDetailed implements ModelInterface, ArrayAcces
     /**
      * Gets administrator
      *
-     * @return \Swagger\Client\Model\Administrator
+     * @return \Delta/Voip\Model\Administrator
      */
     public function getAdministrator()
     {
@@ -391,7 +391,7 @@ class AdministratorRelPublicEntityDetailed implements ModelInterface, ArrayAcces
     /**
      * Sets administrator
      *
-     * @param \Swagger\Client\Model\Administrator $administrator administrator
+     * @param \Delta/Voip\Model\Administrator $administrator administrator
      *
      * @return $this
      */
@@ -405,7 +405,7 @@ class AdministratorRelPublicEntityDetailed implements ModelInterface, ArrayAcces
     /**
      * Gets public_entity
      *
-     * @return \Swagger\Client\Model\PublicEntity
+     * @return \Delta/Voip\Model\PublicEntity
      */
     public function getPublicEntity()
     {
@@ -415,7 +415,7 @@ class AdministratorRelPublicEntityDetailed implements ModelInterface, ArrayAcces
     /**
      * Sets public_entity
      *
-     * @param \Swagger\Client\Model\PublicEntity $public_entity public_entity
+     * @param \Delta/Voip\Model\PublicEntity $public_entity public_entity
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DdiProviderDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,8 +61,8 @@ class DdiProviderDetailed implements ModelInterface, ArrayAccess
         'name' => 'string',
         'externally_rated' => 'bool',
         'id' => 'int',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'proxy_trunk' => '\Swagger\Client\Model\ProxyTrunk'
+        'transformation_rule_set' => '\Delta/Voip\Model\TransformationRuleSet',
+        'proxy_trunk' => '\Delta/Voip\Model\ProxyTrunk'
     ];
 
     /**
@@ -358,7 +358,7 @@ class DdiProviderDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta/Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -368,7 +368,7 @@ class DdiProviderDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta/Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -382,7 +382,7 @@ class DdiProviderDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets proxy_trunk
      *
-     * @return \Swagger\Client\Model\ProxyTrunk
+     * @return \Delta/Voip\Model\ProxyTrunk
      */
     public function getProxyTrunk()
     {
@@ -392,7 +392,7 @@ class DdiProviderDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets proxy_trunk
      *
-     * @param \Swagger\Client\Model\ProxyTrunk $proxy_trunk proxy_trunk
+     * @param \Delta/Voip\Model\ProxyTrunk $proxy_trunk proxy_trunk
      *
      * @return $this
      */

@@ -12,10 +12,10 @@ Name | Type | Description | Notes
 **next_execution** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **tax_rate** | **float** |  | [optional] 
 **id** | **int** |  | [optional] 
-**invoice_template** | [**\Swagger\Client\Model\InvoiceTemplate**](InvoiceTemplate.md) |  | [optional] 
-**brand** | [**\Swagger\Client\Model\Brand**](Brand.md) |  | 
-**company** | [**\Swagger\Client\Model\Company**](Company.md) |  | 
-**number_sequence** | [**\Swagger\Client\Model\InvoiceNumberSequence**](InvoiceNumberSequence.md) |  | [optional] 
+**invoice_template** | [**\Delta/Voip\Model\InvoiceTemplate**](InvoiceTemplate.md) |  | [optional] 
+**brand** | [**\Delta/Voip\Model\Brand**](Brand.md) |  | 
+**company** | [**\Delta/Voip\Model\Company**](Company.md) |  | 
+**number_sequence** | [**\Delta/Voip\Model\InvoiceNumberSequence**](InvoiceNumberSequence.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

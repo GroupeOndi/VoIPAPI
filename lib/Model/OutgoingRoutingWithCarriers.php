@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * OutgoingRoutingWithCarriers Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,12 +66,12 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
         'force_clid' => 'bool',
         'clid' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'carrier' => '\Swagger\Client\Model\Carrier',
-        'routing_pattern' => '\Swagger\Client\Model\RoutingPattern',
-        'routing_pattern_group' => '\Swagger\Client\Model\RoutingPatternGroup',
-        'routing_tag' => '\Swagger\Client\Model\RoutingTag',
-        'clid_country' => '\Swagger\Client\Model\Country',
+        'company' => '\Delta/Voip\Model\Company',
+        'carrier' => '\Delta/Voip\Model\Carrier',
+        'routing_pattern' => '\Delta/Voip\Model\RoutingPattern',
+        'routing_pattern_group' => '\Delta/Voip\Model\RoutingPatternGroup',
+        'routing_tag' => '\Delta/Voip\Model\RoutingTag',
+        'clid_country' => '\Delta/Voip\Model\Country',
         'carrier_ids' => 'int[]'
     ];
 
@@ -598,7 +598,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -608,7 +608,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -622,7 +622,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets carrier
      *
-     * @return \Swagger\Client\Model\Carrier
+     * @return \Delta/Voip\Model\Carrier
      */
     public function getCarrier()
     {
@@ -632,7 +632,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets carrier
      *
-     * @param \Swagger\Client\Model\Carrier $carrier carrier
+     * @param \Delta/Voip\Model\Carrier $carrier carrier
      *
      * @return $this
      */
@@ -646,7 +646,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets routing_pattern
      *
-     * @return \Swagger\Client\Model\RoutingPattern
+     * @return \Delta/Voip\Model\RoutingPattern
      */
     public function getRoutingPattern()
     {
@@ -656,7 +656,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets routing_pattern
      *
-     * @param \Swagger\Client\Model\RoutingPattern $routing_pattern routing_pattern
+     * @param \Delta/Voip\Model\RoutingPattern $routing_pattern routing_pattern
      *
      * @return $this
      */
@@ -670,7 +670,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets routing_pattern_group
      *
-     * @return \Swagger\Client\Model\RoutingPatternGroup
+     * @return \Delta/Voip\Model\RoutingPatternGroup
      */
     public function getRoutingPatternGroup()
     {
@@ -680,7 +680,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets routing_pattern_group
      *
-     * @param \Swagger\Client\Model\RoutingPatternGroup $routing_pattern_group routing_pattern_group
+     * @param \Delta/Voip\Model\RoutingPatternGroup $routing_pattern_group routing_pattern_group
      *
      * @return $this
      */
@@ -694,7 +694,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets routing_tag
      *
-     * @return \Swagger\Client\Model\RoutingTag
+     * @return \Delta/Voip\Model\RoutingTag
      */
     public function getRoutingTag()
     {
@@ -704,7 +704,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets routing_tag
      *
-     * @param \Swagger\Client\Model\RoutingTag $routing_tag routing_tag
+     * @param \Delta/Voip\Model\RoutingTag $routing_tag routing_tag
      *
      * @return $this
      */
@@ -718,7 +718,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Gets clid_country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta/Voip\Model\Country
      */
     public function getClidCountry()
     {
@@ -728,7 +728,7 @@ class OutgoingRoutingWithCarriers implements ModelInterface, ArrayAccess
     /**
      * Sets clid_country
      *
-     * @param \Swagger\Client\Model\Country $clid_country clid_country
+     * @param \Delta/Voip\Model\Country $clid_country clid_country
      *
      * @return $this
      */

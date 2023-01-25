@@ -18,7 +18,7 @@ Name | Type | Description | Notes
 **from_user** | **string** |  | [optional] 
 **from_domain** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
-**carrier** | [**\Swagger\Client\Model\Carrier**](Carrier.md) |  | 
+**carrier** | [**\Delta/Voip\Model\Carrier**](Carrier.md) |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

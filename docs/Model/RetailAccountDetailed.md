@@ -14,9 +14,9 @@ Name | Type | Description | Notes
 **ddi_in** | **string** |  | [default to 'yes']
 **t38_passthrough** | **string** |  | [default to 'no']
 **id** | **int** |  | [optional] 
-**company** | [**\Swagger\Client\Model\Company**](Company.md) |  | 
-**transformation_rule_set** | [**\Swagger\Client\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | [optional] 
-**outgoing_ddi** | [**\Swagger\Client\Model\Ddi**](Ddi.md) |  | [optional] 
+**company** | [**\Delta/Voip\Model\Company**](Company.md) |  | 
+**transformation_rule_set** | [**\Delta/Voip\Model\TransformationRuleSet**](TransformationRuleSet.md) |  | [optional] 
+**outgoing_ddi** | [**\Delta/Voip\Model\Ddi**](Ddi.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

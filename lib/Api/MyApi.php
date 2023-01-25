@@ -4,7 +4,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Api;
+namespace Delta/Voip\Api;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\ClientInterface;
@@ -34,16 +34,16 @@ use GuzzleHttp\Exception\RequestException;
 use GuzzleHttp\Psr7\MultipartStream;
 use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\RequestOptions;
-use Swagger\Client\ApiException;
-use Swagger\Client\Configuration;
-use Swagger\Client\HeaderSelector;
-use Swagger\Client\ObjectSerializer;
+use Delta/Voip\ApiException;
+use Delta/Voip\Configuration;
+use Delta/Voip\HeaderSelector;
+use Delta/Voip\ObjectSerializer;
 
 /**
  * MyApi Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -94,9 +94,9 @@ class MyApi
      *
      * @param  int $company Company Id (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\ActiveCalls
+     * @return \Delta/Voip\Model\ActiveCalls
      */
     public function getMyActiveCallsActiveCallsItem($company = null)
     {
@@ -111,13 +111,13 @@ class MyApi
      *
      * @param  int $company Company Id (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\ActiveCalls, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\ActiveCalls, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyActiveCallsActiveCallsItemWithHttpInfo($company = null)
     {
-        $returnType = '\Swagger\Client\Model\ActiveCalls';
+        $returnType = '\Delta/Voip\Model\ActiveCalls';
         $request = $this->getMyActiveCallsActiveCallsItemRequest($company);
 
         try {
@@ -169,7 +169,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\ActiveCalls',
+                        '\Delta/Voip\Model\ActiveCalls',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -211,7 +211,7 @@ class MyApi
      */
     public function getMyActiveCallsActiveCallsItemAsyncWithHttpInfo($company = null)
     {
-        $returnType = '\Swagger\Client\Model\ActiveCalls';
+        $returnType = '\Delta/Voip\Model\ActiveCalls';
         $request = $this->getMyActiveCallsActiveCallsItemRequest($company);
 
         return $this->client
@@ -358,9 +358,9 @@ class MyApi
      *
      * @param  int $company Company Id (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\RegistrationSummary
+     * @return \Delta/Voip\Model\RegistrationSummary
      */
     public function getMyRegistrationSummaryRegistrationSummaryItem($company = null)
     {
@@ -375,13 +375,13 @@ class MyApi
      *
      * @param  int $company Company Id (optional)
      *
-     * @throws \Swagger\Client\ApiException on non-2xx response
+     * @throws \Delta/Voip\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\RegistrationSummary, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Delta/Voip\Model\RegistrationSummary, HTTP status code, HTTP response headers (array of strings)
      */
     public function getMyRegistrationSummaryRegistrationSummaryItemWithHttpInfo($company = null)
     {
-        $returnType = '\Swagger\Client\Model\RegistrationSummary';
+        $returnType = '\Delta/Voip\Model\RegistrationSummary';
         $request = $this->getMyRegistrationSummaryRegistrationSummaryItemRequest($company);
 
         try {
@@ -433,7 +433,7 @@ class MyApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\RegistrationSummary',
+                        '\Delta/Voip\Model\RegistrationSummary',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -475,7 +475,7 @@ class MyApi
      */
     public function getMyRegistrationSummaryRegistrationSummaryItemAsyncWithHttpInfo($company = null)
     {
-        $returnType = '\Swagger\Client\Model\RegistrationSummary';
+        $returnType = '\Delta/Voip\Model\RegistrationSummary';
         $request = $this->getMyRegistrationSummaryRegistrationSummaryItemRequest($company);
 
         return $this->client

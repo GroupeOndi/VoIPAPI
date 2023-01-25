@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * FriendDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -71,11 +71,11 @@ class FriendDetailed implements ModelInterface, ArrayAccess
         'ddi_in' => 'string',
         't38_passthrough' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'transformation_rule_set' => '\Swagger\Client\Model\TransformationRuleSet',
-        'outgoing_ddi' => '\Swagger\Client\Model\Ddi',
-        'language' => '\Swagger\Client\Model\Language',
-        'inter_company' => '\Swagger\Client\Model\Company'
+        'company' => '\Delta/Voip\Model\Company',
+        'transformation_rule_set' => '\Delta/Voip\Model\TransformationRuleSet',
+        'outgoing_ddi' => '\Delta/Voip\Model\Ddi',
+        'language' => '\Delta/Voip\Model\Language',
+        'inter_company' => '\Delta/Voip\Model\Company'
     ];
 
     /**
@@ -888,7 +888,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -898,7 +898,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -912,7 +912,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets transformation_rule_set
      *
-     * @return \Swagger\Client\Model\TransformationRuleSet
+     * @return \Delta/Voip\Model\TransformationRuleSet
      */
     public function getTransformationRuleSet()
     {
@@ -922,7 +922,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets transformation_rule_set
      *
-     * @param \Swagger\Client\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
+     * @param \Delta/Voip\Model\TransformationRuleSet $transformation_rule_set transformation_rule_set
      *
      * @return $this
      */
@@ -936,7 +936,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets outgoing_ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta/Voip\Model\Ddi
      */
     public function getOutgoingDdi()
     {
@@ -946,7 +946,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets outgoing_ddi
      *
-     * @param \Swagger\Client\Model\Ddi $outgoing_ddi outgoing_ddi
+     * @param \Delta/Voip\Model\Ddi $outgoing_ddi outgoing_ddi
      *
      * @return $this
      */
@@ -960,7 +960,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta/Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -970,7 +970,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta/Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -984,7 +984,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets inter_company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getInterCompany()
     {
@@ -994,7 +994,7 @@ class FriendDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets inter_company
      *
-     * @param \Swagger\Client\Model\Company $inter_company inter_company
+     * @param \Delta/Voip\Model\Company $inter_company inter_company
      *
      * @return $this
      */

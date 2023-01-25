@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,14 +27,14 @@
  * Please update the test case below to test the model.
  */
 
-namespace Swagger\Client;
+namespace Delta/Voip;
 
 /**
  * InvoiceDetailedTest Class Doc Comment
  *
  * @category    Class
  * @description InvoiceDetailed
- * @package     Swagger\Client
+ * @package     Delta/Voip
  * @author      Swagger Codegen team
  * @link        https://github.com/swagger-api/swagger-codegen
  */

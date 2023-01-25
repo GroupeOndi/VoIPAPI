@@ -1,4 +1,4 @@
-# Swagger\Client\KamApi
+# Delta/Voip\KamApi
 
 All URIs are relative to *https://localhost/api/brand/*
 
@@ -22,11 +22,11 @@ Removes the UsersAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta/Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -64,7 +64,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUsersAddressCollection**
-> \Swagger\Client\Model\UsersAddressCollection[] getUsersAddressCollection($company, $company2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $source_address, $source_address_end, $source_address_exact, $source_address_partial, $source_address_start, $_order_description, $_order_id, $_order_source_address, $_items_per_page, $_page, $_properties)
+> \Delta/Voip\Model\UsersAddressCollection[] getUsersAddressCollection($company, $company2, $description, $description_end, $description_exact, $description_exists, $description_partial, $description_start, $id_exact, $source_address, $source_address_end, $source_address_exact, $source_address_partial, $source_address_start, $_order_description, $_order_id, $_order_source_address, $_items_per_page, $_page, $_properties)
 
 Retrieves the collection of UsersAddress resources.
 
@@ -74,11 +74,11 @@ Retrieves the collection of UsersAddress resources.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta/Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -141,7 +141,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersAddressCollection[]**](../Model/UsersAddressCollection.md)
+[**\Delta/Voip\Model\UsersAddressCollection[]**](../Model/UsersAddressCollection.md)
 
 ### Authorization
 
@@ -155,7 +155,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **getUsersAddressItem**
-> \Swagger\Client\Model\UsersAddressDetailed getUsersAddressItem($id)
+> \Delta/Voip\Model\UsersAddressDetailed getUsersAddressItem($id)
 
 Retrieves a UsersAddress resource.
 
@@ -165,11 +165,11 @@ Retrieves a UsersAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta/Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
@@ -194,7 +194,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersAddressDetailed**](../Model/UsersAddressDetailed.md)
+[**\Delta/Voip\Model\UsersAddressDetailed**](../Model/UsersAddressDetailed.md)
 
 ### Authorization
 
@@ -208,7 +208,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **postUsersAddressCollection**
-> \Swagger\Client\Model\UsersAddress postUsersAddressCollection($users_address)
+> \Delta/Voip\Model\UsersAddress postUsersAddressCollection($users_address)
 
 Creates a UsersAddress resource.
 
@@ -218,17 +218,17 @@ Creates a UsersAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta/Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
-$users_address = new \Swagger\Client\Model\UsersAddress(); // \Swagger\Client\Model\UsersAddress | The new UsersAddress resource
+$users_address = new \Delta/Voip\Model\UsersAddress(); // \Delta/Voip\Model\UsersAddress | The new UsersAddress resource
 
 try {
     $result = $apiInstance->postUsersAddressCollection($users_address);
@@ -243,11 +243,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **users_address** | [**\Swagger\Client\Model\UsersAddress**](../Model/UsersAddress.md)| The new UsersAddress resource | [optional]
+ **users_address** | [**\Delta/Voip\Model\UsersAddress**](../Model/UsersAddress.md)| The new UsersAddress resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersAddress**](../Model/UsersAddress.md)
+[**\Delta/Voip\Model\UsersAddress**](../Model/UsersAddress.md)
 
 ### Authorization
 
@@ -261,7 +261,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **putUsersAddressItem**
-> \Swagger\Client\Model\UsersAddress putUsersAddressItem($id, $users_address)
+> \Delta/Voip\Model\UsersAddress putUsersAddressItem($id, $users_address)
 
 Replaces the UsersAddress resource.
 
@@ -271,18 +271,18 @@ Replaces the UsersAddress resource.
 require_once(__DIR__ . '/vendor/autoload.php');
 
 // Configure API key authorization: bearer
-$config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
+$config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKey('Authorization', 'YOUR_API_KEY');
 // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-// $config = Swagger\Client\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
+// $config = Delta/Voip\Configuration::getDefaultConfiguration()->setApiKeyPrefix('Authorization', 'Bearer');
 
-$apiInstance = new Swagger\Client\Api\KamApi(
+$apiInstance = new Delta/Voip\Api\KamApi(
     // If you want use custom http client, pass your client which implements `GuzzleHttp\ClientInterface`.
     // This is optional, `GuzzleHttp\Client` will be used as default.
     new GuzzleHttp\Client(),
     $config
 );
 $id = "id_example"; // string | 
-$users_address = new \Swagger\Client\Model\UsersAddress(); // \Swagger\Client\Model\UsersAddress | The updated UsersAddress resource
+$users_address = new \Delta/Voip\Model\UsersAddress(); // \Delta/Voip\Model\UsersAddress | The updated UsersAddress resource
 
 try {
     $result = $apiInstance->putUsersAddressItem($id, $users_address);
@@ -298,11 +298,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **string**|  |
- **users_address** | [**\Swagger\Client\Model\UsersAddress**](../Model/UsersAddress.md)| The updated UsersAddress resource | [optional]
+ **users_address** | [**\Delta/Voip\Model\UsersAddress**](../Model/UsersAddress.md)| The updated UsersAddress resource | [optional]
 
 ### Return type
 
-[**\Swagger\Client\Model\UsersAddress**](../Model/UsersAddress.md)
+[**\Delta/Voip\Model\UsersAddress**](../Model/UsersAddress.md)
 
 ### Authorization
 

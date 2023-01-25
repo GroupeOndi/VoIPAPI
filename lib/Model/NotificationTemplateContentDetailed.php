@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * NotificationTemplateContentDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -63,8 +63,8 @@ class NotificationTemplateContentDetailed implements ModelInterface, ArrayAccess
         'body' => 'string',
         'body_type' => 'string',
         'id' => 'int',
-        'notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'language' => '\Swagger\Client\Model\Language'
+        'notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'language' => '\Delta/Voip\Model\Language'
     ];
 
     /**
@@ -477,7 +477,7 @@ class NotificationTemplateContentDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getNotificationTemplate()
     {
@@ -487,7 +487,7 @@ class NotificationTemplateContentDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $notification_template notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $notification_template notification_template
      *
      * @return $this
      */
@@ -501,7 +501,7 @@ class NotificationTemplateContentDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta/Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -511,7 +511,7 @@ class NotificationTemplateContentDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta/Voip\Model\Language $language language
      *
      * @return $this
      */

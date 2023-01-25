@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * RoutingPattern Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class RoutingPattern implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'prefix' => 'string',
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\RoutingPatternName',
-        'description' => '\Swagger\Client\Model\RoutingPatternDescription'
+        'name' => '\Delta/Voip\Model\RoutingPatternName',
+        'description' => '\Delta/Voip\Model\RoutingPatternDescription'
     ];
 
     /**
@@ -284,7 +284,7 @@ class RoutingPattern implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\RoutingPatternName
+     * @return \Delta/Voip\Model\RoutingPatternName
      */
     public function getName()
     {
@@ -294,7 +294,7 @@ class RoutingPattern implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\RoutingPatternName $name name
+     * @param \Delta/Voip\Model\RoutingPatternName $name name
      *
      * @return $this
      */
@@ -308,7 +308,7 @@ class RoutingPattern implements ModelInterface, ArrayAccess
     /**
      * Gets description
      *
-     * @return \Swagger\Client\Model\RoutingPatternDescription
+     * @return \Delta/Voip\Model\RoutingPatternDescription
      */
     public function getDescription()
     {
@@ -318,7 +318,7 @@ class RoutingPattern implements ModelInterface, ArrayAccess
     /**
      * Sets description
      *
-     * @param \Swagger\Client\Model\RoutingPatternDescription $description description
+     * @param \Delta/Voip\Model\RoutingPatternDescription $description description
      *
      * @return $this
      */

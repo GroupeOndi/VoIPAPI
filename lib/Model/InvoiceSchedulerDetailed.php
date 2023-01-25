@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * InvoiceSchedulerDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -66,10 +66,10 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
         'next_execution' => '\DateTime',
         'tax_rate' => 'float',
         'id' => 'int',
-        'invoice_template' => '\Swagger\Client\Model\InvoiceTemplate',
-        'brand' => '\Swagger\Client\Model\Brand',
-        'company' => '\Swagger\Client\Model\Company',
-        'number_sequence' => '\Swagger\Client\Model\InvoiceNumberSequence'
+        'invoice_template' => '\Delta/Voip\Model\InvoiceTemplate',
+        'brand' => '\Delta/Voip\Model\Brand',
+        'company' => '\Delta/Voip\Model\Company',
+        'number_sequence' => '\Delta/Voip\Model\InvoiceNumberSequence'
     ];
 
     /**
@@ -588,7 +588,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_template
      *
-     * @return \Swagger\Client\Model\InvoiceTemplate
+     * @return \Delta/Voip\Model\InvoiceTemplate
      */
     public function getInvoiceTemplate()
     {
@@ -598,7 +598,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_template
      *
-     * @param \Swagger\Client\Model\InvoiceTemplate $invoice_template invoice_template
+     * @param \Delta/Voip\Model\InvoiceTemplate $invoice_template invoice_template
      *
      * @return $this
      */
@@ -612,7 +612,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets brand
      *
-     * @return \Swagger\Client\Model\Brand
+     * @return \Delta/Voip\Model\Brand
      */
     public function getBrand()
     {
@@ -622,7 +622,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets brand
      *
-     * @param \Swagger\Client\Model\Brand $brand brand
+     * @param \Delta/Voip\Model\Brand $brand brand
      *
      * @return $this
      */
@@ -636,7 +636,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -646,7 +646,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -660,7 +660,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets number_sequence
      *
-     * @return \Swagger\Client\Model\InvoiceNumberSequence
+     * @return \Delta/Voip\Model\InvoiceNumberSequence
      */
     public function getNumberSequence()
     {
@@ -670,7 +670,7 @@ class InvoiceSchedulerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets number_sequence
      *
-     * @param \Swagger\Client\Model\InvoiceNumberSequence $number_sequence number_sequence
+     * @param \Delta/Voip\Model\InvoiceNumberSequence $number_sequence number_sequence
      *
      * @return $this
      */

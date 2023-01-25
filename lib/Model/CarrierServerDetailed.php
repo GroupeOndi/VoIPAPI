@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * CarrierServerDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -72,7 +72,7 @@ class CarrierServerDetailed implements ModelInterface, ArrayAccess
         'from_user' => 'string',
         'from_domain' => 'string',
         'id' => 'int',
-        'carrier' => '\Swagger\Client\Model\Carrier'
+        'carrier' => '\Delta/Voip\Model\Carrier'
     ];
 
     /**
@@ -754,7 +754,7 @@ class CarrierServerDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets carrier
      *
-     * @return \Swagger\Client\Model\Carrier
+     * @return \Delta/Voip\Model\Carrier
      */
     public function getCarrier()
     {
@@ -764,7 +764,7 @@ class CarrierServerDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets carrier
      *
-     * @param \Swagger\Client\Model\Carrier $carrier carrier
+     * @param \Delta/Voip\Model\Carrier $carrier carrier
      *
      * @return $this
      */

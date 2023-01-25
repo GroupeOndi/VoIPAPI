@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * CountryCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class CountryCollection implements ModelInterface, ArrayAccess
         'id' => 'int',
         'code' => 'string',
         'country_code' => 'string',
-        'name' => '\Swagger\Client\Model\CountryName'
+        'name' => '\Delta/Voip\Model\CountryName'
     ];
 
     /**
@@ -316,7 +316,7 @@ class CountryCollection implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\CountryName
+     * @return \Delta/Voip\Model\CountryName
      */
     public function getName()
     {
@@ -326,7 +326,7 @@ class CountryCollection implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\CountryName $name name
+     * @param \Delta/Voip\Model\CountryName $name name
      *
      * @return $this
      */

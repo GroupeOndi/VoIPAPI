@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DestinationRateGroupDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -61,10 +61,10 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
         'last_execution_error' => 'string',
         'deductible_connection_fee' => 'bool',
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\DestinationRateGroupName',
-        'description' => '\Swagger\Client\Model\DestinationRateGroupDescription',
-        'file' => '\Swagger\Client\Model\DestinationRateGroupFile',
-        'currency' => '\Swagger\Client\Model\Currency'
+        'name' => '\Delta/Voip\Model\DestinationRateGroupName',
+        'description' => '\Delta/Voip\Model\DestinationRateGroupDescription',
+        'file' => '\Delta/Voip\Model\DestinationRateGroupFile',
+        'currency' => '\Delta/Voip\Model\Currency'
     ];
 
     /**
@@ -400,7 +400,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\DestinationRateGroupName
+     * @return \Delta/Voip\Model\DestinationRateGroupName
      */
     public function getName()
     {
@@ -410,7 +410,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\DestinationRateGroupName $name name
+     * @param \Delta/Voip\Model\DestinationRateGroupName $name name
      *
      * @return $this
      */
@@ -424,7 +424,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets description
      *
-     * @return \Swagger\Client\Model\DestinationRateGroupDescription
+     * @return \Delta/Voip\Model\DestinationRateGroupDescription
      */
     public function getDescription()
     {
@@ -434,7 +434,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets description
      *
-     * @param \Swagger\Client\Model\DestinationRateGroupDescription $description description
+     * @param \Delta/Voip\Model\DestinationRateGroupDescription $description description
      *
      * @return $this
      */
@@ -448,7 +448,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets file
      *
-     * @return \Swagger\Client\Model\DestinationRateGroupFile
+     * @return \Delta/Voip\Model\DestinationRateGroupFile
      */
     public function getFile()
     {
@@ -458,7 +458,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets file
      *
-     * @param \Swagger\Client\Model\DestinationRateGroupFile $file file
+     * @param \Delta/Voip\Model\DestinationRateGroupFile $file file
      *
      * @return $this
      */
@@ -472,7 +472,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\Currency
+     * @return \Delta/Voip\Model\Currency
      */
     public function getCurrency()
     {
@@ -482,7 +482,7 @@ class DestinationRateGroupDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\Currency $currency currency
+     * @param \Delta/Voip\Model\Currency $currency currency
      *
      * @return $this
      */

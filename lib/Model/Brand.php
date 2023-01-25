@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * Brand Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class Brand implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'name' => 'string',
         'id' => 'int',
-        'logo' => '\Swagger\Client\Model\BrandLogo',
-        'invoice' => '\Swagger\Client\Model\BrandInvoice',
+        'logo' => '\Delta/Voip\Model\BrandLogo',
+        'invoice' => '\Delta/Voip\Model\BrandInvoice',
         'language' => 'int',
         'default_timezone' => 'int',
         'currency' => 'int',
@@ -335,7 +335,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\BrandLogo
+     * @return \Delta/Voip\Model\BrandLogo
      */
     public function getLogo()
     {
@@ -345,7 +345,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\BrandLogo $logo logo
+     * @param \Delta/Voip\Model\BrandLogo $logo logo
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \Swagger\Client\Model\BrandInvoice
+     * @return \Delta/Voip\Model\BrandInvoice
      */
     public function getInvoice()
     {
@@ -369,7 +369,7 @@ class Brand implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \Swagger\Client\Model\BrandInvoice $invoice invoice
+     * @param \Delta/Voip\Model\BrandInvoice $invoice invoice
      *
      * @return $this
      */

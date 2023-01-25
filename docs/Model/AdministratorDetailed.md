@@ -11,8 +11,8 @@ Name | Type | Description | Notes
 **name** | **string** |  | [optional] 
 **lastname** | **string** |  | [optional] 
 **id** | **int** |  | [optional] 
-**company** | [**\Swagger\Client\Model\Company**](Company.md) |  | 
-**timezone** | [**\Swagger\Client\Model\Timezone**](Timezone.md) |  | [optional] 
+**company** | [**\Delta/Voip\Model\Company**](Company.md) |  | 
+**timezone** | [**\Delta/Voip\Model\Timezone**](Timezone.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

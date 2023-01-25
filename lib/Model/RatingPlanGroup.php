@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * RatingPlanGroup Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class RatingPlanGroup implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\RatingPlanGroupName',
-        'description' => '\Swagger\Client\Model\RatingPlanGroupDescription',
+        'name' => '\Delta/Voip\Model\RatingPlanGroupName',
+        'description' => '\Delta/Voip\Model\RatingPlanGroupDescription',
         'currency' => 'int'
     ];
 
@@ -249,7 +249,7 @@ class RatingPlanGroup implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\RatingPlanGroupName
+     * @return \Delta/Voip\Model\RatingPlanGroupName
      */
     public function getName()
     {
@@ -259,7 +259,7 @@ class RatingPlanGroup implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\RatingPlanGroupName $name name
+     * @param \Delta/Voip\Model\RatingPlanGroupName $name name
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class RatingPlanGroup implements ModelInterface, ArrayAccess
     /**
      * Gets description
      *
-     * @return \Swagger\Client\Model\RatingPlanGroupDescription
+     * @return \Delta/Voip\Model\RatingPlanGroupDescription
      */
     public function getDescription()
     {
@@ -283,7 +283,7 @@ class RatingPlanGroup implements ModelInterface, ArrayAccess
     /**
      * Sets description
      *
-     * @param \Swagger\Client\Model\RatingPlanGroupDescription $description description
+     * @param \Delta/Voip\Model\RatingPlanGroupDescription $description description
      *
      * @return $this
      */

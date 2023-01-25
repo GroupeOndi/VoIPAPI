@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * BrandDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,16 +59,16 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'name' => 'string',
         'id' => 'int',
-        'logo' => '\Swagger\Client\Model\BrandLogo',
-        'invoice' => '\Swagger\Client\Model\BrandInvoice',
-        'language' => '\Swagger\Client\Model\Language',
-        'default_timezone' => '\Swagger\Client\Model\Timezone',
-        'currency' => '\Swagger\Client\Model\Currency',
-        'voicemail_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'fax_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'invoice_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'call_csv_notification_template' => '\Swagger\Client\Model\NotificationTemplate',
-        'max_daily_usage_notification_template' => '\Swagger\Client\Model\NotificationTemplate'
+        'logo' => '\Delta/Voip\Model\BrandLogo',
+        'invoice' => '\Delta/Voip\Model\BrandInvoice',
+        'language' => '\Delta/Voip\Model\Language',
+        'default_timezone' => '\Delta/Voip\Model\Timezone',
+        'currency' => '\Delta/Voip\Model\Currency',
+        'voicemail_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'fax_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'invoice_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'call_csv_notification_template' => '\Delta/Voip\Model\NotificationTemplate',
+        'max_daily_usage_notification_template' => '\Delta/Voip\Model\NotificationTemplate'
     ];
 
     /**
@@ -335,7 +335,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets logo
      *
-     * @return \Swagger\Client\Model\BrandLogo
+     * @return \Delta/Voip\Model\BrandLogo
      */
     public function getLogo()
     {
@@ -345,7 +345,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets logo
      *
-     * @param \Swagger\Client\Model\BrandLogo $logo logo
+     * @param \Delta/Voip\Model\BrandLogo $logo logo
      *
      * @return $this
      */
@@ -359,7 +359,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \Swagger\Client\Model\BrandInvoice
+     * @return \Delta/Voip\Model\BrandInvoice
      */
     public function getInvoice()
     {
@@ -369,7 +369,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \Swagger\Client\Model\BrandInvoice $invoice invoice
+     * @param \Delta/Voip\Model\BrandInvoice $invoice invoice
      *
      * @return $this
      */
@@ -383,7 +383,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets language
      *
-     * @return \Swagger\Client\Model\Language
+     * @return \Delta/Voip\Model\Language
      */
     public function getLanguage()
     {
@@ -393,7 +393,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets language
      *
-     * @param \Swagger\Client\Model\Language $language language
+     * @param \Delta/Voip\Model\Language $language language
      *
      * @return $this
      */
@@ -407,7 +407,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets default_timezone
      *
-     * @return \Swagger\Client\Model\Timezone
+     * @return \Delta/Voip\Model\Timezone
      */
     public function getDefaultTimezone()
     {
@@ -417,7 +417,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets default_timezone
      *
-     * @param \Swagger\Client\Model\Timezone $default_timezone default_timezone
+     * @param \Delta/Voip\Model\Timezone $default_timezone default_timezone
      *
      * @return $this
      */
@@ -431,7 +431,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets currency
      *
-     * @return \Swagger\Client\Model\Currency
+     * @return \Delta/Voip\Model\Currency
      */
     public function getCurrency()
     {
@@ -441,7 +441,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets currency
      *
-     * @param \Swagger\Client\Model\Currency $currency currency
+     * @param \Delta/Voip\Model\Currency $currency currency
      *
      * @return $this
      */
@@ -455,7 +455,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets voicemail_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getVoicemailNotificationTemplate()
     {
@@ -465,7 +465,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets voicemail_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $voicemail_notification_template voicemail_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $voicemail_notification_template voicemail_notification_template
      *
      * @return $this
      */
@@ -479,7 +479,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets fax_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getFaxNotificationTemplate()
     {
@@ -489,7 +489,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets fax_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $fax_notification_template fax_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $fax_notification_template fax_notification_template
      *
      * @return $this
      */
@@ -503,7 +503,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getInvoiceNotificationTemplate()
     {
@@ -513,7 +513,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $invoice_notification_template invoice_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $invoice_notification_template invoice_notification_template
      *
      * @return $this
      */
@@ -527,7 +527,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets call_csv_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getCallCsvNotificationTemplate()
     {
@@ -537,7 +537,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets call_csv_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $call_csv_notification_template call_csv_notification_template
      *
      * @return $this
      */
@@ -551,7 +551,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets max_daily_usage_notification_template
      *
-     * @return \Swagger\Client\Model\NotificationTemplate
+     * @return \Delta/Voip\Model\NotificationTemplate
      */
     public function getMaxDailyUsageNotificationTemplate()
     {
@@ -561,7 +561,7 @@ class BrandDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets max_daily_usage_notification_template
      *
-     * @param \Swagger\Client\Model\NotificationTemplate $max_daily_usage_notification_template max_daily_usage_notification_template
+     * @param \Delta/Voip\Model\NotificationTemplate $max_daily_usage_notification_template max_daily_usage_notification_template
      *
      * @return $this
      */

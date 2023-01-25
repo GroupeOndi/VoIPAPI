@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DestinationRateGroupCollection Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -59,8 +59,8 @@ class DestinationRateGroupCollection implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'status' => 'string',
         'id' => 'int',
-        'name' => '\Swagger\Client\Model\DestinationRateGroupName',
-        'file' => '\Swagger\Client\Model\DestinationRateGroupFile',
+        'name' => '\Delta/Voip\Model\DestinationRateGroupName',
+        'file' => '\Delta/Voip\Model\DestinationRateGroupFile',
         'currency' => 'int'
     ];
 
@@ -323,7 +323,7 @@ class DestinationRateGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Gets name
      *
-     * @return \Swagger\Client\Model\DestinationRateGroupName
+     * @return \Delta/Voip\Model\DestinationRateGroupName
      */
     public function getName()
     {
@@ -333,7 +333,7 @@ class DestinationRateGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Sets name
      *
-     * @param \Swagger\Client\Model\DestinationRateGroupName $name name
+     * @param \Delta/Voip\Model\DestinationRateGroupName $name name
      *
      * @return $this
      */
@@ -347,7 +347,7 @@ class DestinationRateGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Gets file
      *
-     * @return \Swagger\Client\Model\DestinationRateGroupFile
+     * @return \Delta/Voip\Model\DestinationRateGroupFile
      */
     public function getFile()
     {
@@ -357,7 +357,7 @@ class DestinationRateGroupCollection implements ModelInterface, ArrayAccess
     /**
      * Sets file
      *
-     * @param \Swagger\Client\Model\DestinationRateGroupFile $file file
+     * @param \Delta/Voip\Model\DestinationRateGroupFile $file file
      *
      * @return $this
      */

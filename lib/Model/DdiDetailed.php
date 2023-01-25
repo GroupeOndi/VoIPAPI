@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DdiDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,9 +60,9 @@ class DdiDetailed implements ModelInterface, ArrayAccess
         'ddi' => 'string',
         'ddie164' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'ddi_provider' => '\Swagger\Client\Model\DdiProvider',
-        'country' => '\Swagger\Client\Model\Country'
+        'company' => '\Delta/Voip\Model\Company',
+        'ddi_provider' => '\Delta/Voip\Model\DdiProvider',
+        'country' => '\Delta/Voip\Model\Country'
     ];
 
     /**
@@ -331,7 +331,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -341,7 +341,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -355,7 +355,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi_provider
      *
-     * @return \Swagger\Client\Model\DdiProvider
+     * @return \Delta/Voip\Model\DdiProvider
      */
     public function getDdiProvider()
     {
@@ -365,7 +365,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi_provider
      *
-     * @param \Swagger\Client\Model\DdiProvider $ddi_provider ddi_provider
+     * @param \Delta/Voip\Model\DdiProvider $ddi_provider ddi_provider
      *
      * @return $this
      */
@@ -379,7 +379,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets country
      *
-     * @return \Swagger\Client\Model\Country
+     * @return \Delta/Voip\Model\Country
      */
     public function getCountry()
     {
@@ -389,7 +389,7 @@ class DdiDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets country
      *
-     * @param \Swagger\Client\Model\Country $country country
+     * @param \Delta/Voip\Model\Country $country country
      *
      * @return $this
      */

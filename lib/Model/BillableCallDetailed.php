@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * BillableCallDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -72,13 +72,13 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
         'endpoint_name' => 'string',
         'direction' => 'string',
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'carrier' => '\Swagger\Client\Model\Carrier',
-        'destination' => '\Swagger\Client\Model\Destination',
-        'rating_plan_group' => '\Swagger\Client\Model\RatingPlanGroup',
-        'invoice' => '\Swagger\Client\Model\Invoice',
-        'ddi' => '\Swagger\Client\Model\Ddi',
-        'ddi_provider' => '\Swagger\Client\Model\DdiProvider'
+        'company' => '\Delta/Voip\Model\Company',
+        'carrier' => '\Delta/Voip\Model\Carrier',
+        'destination' => '\Delta/Voip\Model\Destination',
+        'rating_plan_group' => '\Delta/Voip\Model\RatingPlanGroup',
+        'invoice' => '\Delta/Voip\Model\Invoice',
+        'ddi' => '\Delta/Voip\Model\Ddi',
+        'ddi_provider' => '\Delta/Voip\Model\DdiProvider'
     ];
 
     /**
@@ -839,7 +839,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -849,7 +849,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -863,7 +863,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets carrier
      *
-     * @return \Swagger\Client\Model\Carrier
+     * @return \Delta/Voip\Model\Carrier
      */
     public function getCarrier()
     {
@@ -873,7 +873,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets carrier
      *
-     * @param \Swagger\Client\Model\Carrier $carrier carrier
+     * @param \Delta/Voip\Model\Carrier $carrier carrier
      *
      * @return $this
      */
@@ -887,7 +887,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets destination
      *
-     * @return \Swagger\Client\Model\Destination
+     * @return \Delta/Voip\Model\Destination
      */
     public function getDestination()
     {
@@ -897,7 +897,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets destination
      *
-     * @param \Swagger\Client\Model\Destination $destination destination
+     * @param \Delta/Voip\Model\Destination $destination destination
      *
      * @return $this
      */
@@ -911,7 +911,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets rating_plan_group
      *
-     * @return \Swagger\Client\Model\RatingPlanGroup
+     * @return \Delta/Voip\Model\RatingPlanGroup
      */
     public function getRatingPlanGroup()
     {
@@ -921,7 +921,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets rating_plan_group
      *
-     * @param \Swagger\Client\Model\RatingPlanGroup $rating_plan_group rating_plan_group
+     * @param \Delta/Voip\Model\RatingPlanGroup $rating_plan_group rating_plan_group
      *
      * @return $this
      */
@@ -935,7 +935,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets invoice
      *
-     * @return \Swagger\Client\Model\Invoice
+     * @return \Delta/Voip\Model\Invoice
      */
     public function getInvoice()
     {
@@ -945,7 +945,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets invoice
      *
-     * @param \Swagger\Client\Model\Invoice $invoice invoice
+     * @param \Delta/Voip\Model\Invoice $invoice invoice
      *
      * @return $this
      */
@@ -959,7 +959,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi
      *
-     * @return \Swagger\Client\Model\Ddi
+     * @return \Delta/Voip\Model\Ddi
      */
     public function getDdi()
     {
@@ -969,7 +969,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi
      *
-     * @param \Swagger\Client\Model\Ddi $ddi ddi
+     * @param \Delta/Voip\Model\Ddi $ddi ddi
      *
      * @return $this
      */
@@ -983,7 +983,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi_provider
      *
-     * @return \Swagger\Client\Model\DdiProvider
+     * @return \Delta/Voip\Model\DdiProvider
      */
     public function getDdiProvider()
     {
@@ -993,7 +993,7 @@ class BillableCallDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi_provider
      *
-     * @param \Swagger\Client\Model\DdiProvider $ddi_provider ddi_provider
+     * @param \Delta/Voip\Model\DdiProvider $ddi_provider ddi_provider
      *
      * @return $this
      */

@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * FeaturesRelCompanyDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -58,8 +58,8 @@ class FeaturesRelCompanyDetailed implements ModelInterface, ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'company' => '\Swagger\Client\Model\Company',
-        'feature' => '\Swagger\Client\Model\Feature'
+        'company' => '\Delta/Voip\Model\Company',
+        'feature' => '\Delta/Voip\Model\Feature'
     ];
 
     /**
@@ -249,7 +249,7 @@ class FeaturesRelCompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets company
      *
-     * @return \Swagger\Client\Model\Company
+     * @return \Delta/Voip\Model\Company
      */
     public function getCompany()
     {
@@ -259,7 +259,7 @@ class FeaturesRelCompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets company
      *
-     * @param \Swagger\Client\Model\Company $company company
+     * @param \Delta/Voip\Model\Company $company company
      *
      * @return $this
      */
@@ -273,7 +273,7 @@ class FeaturesRelCompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets feature
      *
-     * @return \Swagger\Client\Model\Feature
+     * @return \Delta/Voip\Model\Feature
      */
     public function getFeature()
     {
@@ -283,7 +283,7 @@ class FeaturesRelCompanyDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets feature
      *
-     * @param \Swagger\Client\Model\Feature $feature feature
+     * @param \Delta/Voip\Model\Feature $feature feature
      *
      * @return $this
      */

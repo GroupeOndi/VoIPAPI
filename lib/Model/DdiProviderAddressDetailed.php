@@ -5,7 +5,7 @@
  * PHP version 5
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -27,16 +27,16 @@
  * Do not edit the class manually.
  */
 
-namespace Swagger\Client\Model;
+namespace Delta/Voip\Model;
 
 use \ArrayAccess;
-use \Swagger\Client\ObjectSerializer;
+use \Delta/Voip\ObjectSerializer;
 
 /**
  * DdiProviderAddressDetailed Class Doc Comment
  *
  * @category Class
- * @package  Swagger\Client
+ * @package  Delta/Voip
  * @author   Swagger Codegen team
  * @link     https://github.com/swagger-api/swagger-codegen
  */
@@ -60,7 +60,7 @@ class DdiProviderAddressDetailed implements ModelInterface, ArrayAccess
         'ip' => 'string',
         'description' => 'string',
         'id' => 'int',
-        'ddi_provider' => '\Swagger\Client\Model\DdiProvider'
+        'ddi_provider' => '\Delta/Voip\Model\DdiProvider'
     ];
 
     /**
@@ -316,7 +316,7 @@ class DdiProviderAddressDetailed implements ModelInterface, ArrayAccess
     /**
      * Gets ddi_provider
      *
-     * @return \Swagger\Client\Model\DdiProvider
+     * @return \Delta/Voip\Model\DdiProvider
      */
     public function getDdiProvider()
     {
@@ -326,7 +326,7 @@ class DdiProviderAddressDetailed implements ModelInterface, ArrayAccess
     /**
      * Sets ddi_provider
      *
-     * @param \Swagger\Client\Model\DdiProvider $ddi_provider ddi_provider
+     * @param \Delta/Voip\Model\DdiProvider $ddi_provider ddi_provider
      *
      * @return $this
      */

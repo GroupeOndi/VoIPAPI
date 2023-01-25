@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **description** | **string** |  | [optional] 
 **last_time_banned** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **id** | **int** |  | [optional] 
-**company** | [**\Swagger\Client\Model\Company**](Company.md) |  | [optional] 
+**company** | [**\Delta/Voip\Model\Company**](Company.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
